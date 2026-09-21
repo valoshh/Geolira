@@ -50,11 +50,13 @@ export async function generateMetadata({
   }
   const data = detailedData[country.id as keyof typeof detailedData];
   const division = data?.divisions.find((item) => item.slug === segments[2]);
-  const territory = division ?? country;
   const path = `/${segments.join("/")}/`;
+  const description = division
+    ? territoryDescription(division, country)
+    : territoryDescription(country);
   return pageMetadata(
-    `${territory.names.fr} — Atlas géographique`,
-    territoryDescription(territory, division ? country : undefined),
+    `${(division ?? country).names.fr} — Atlas géographique`,
+    description,
     path,
   );
 }
