@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import type {
-  AdministrativeDivision,
-  Country,
+  Names,
   SearchEntry,
 } from "@/types/geography";
 
@@ -32,8 +31,8 @@ export function pageMetadata(
 }
 
 export function territoryDescription(
-  territory: Country | AdministrativeDivision,
-  country?: Country,
+  territory: { names: Names },
+  country?: { names: Names },
 ) {
   const prefix = country ? `${territory.names.fr}, ${country.names.fr}` : territory.names.fr;
   return `Découvrez la capitale, les principales villes, la population, le relief, les cours d’eau et les territoires voisins de ${prefix}.`;
