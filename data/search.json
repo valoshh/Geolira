@@ -1,0 +1,5354 @@
+[
+  {
+    "id": "Q40780",
+    "name": "Acre",
+    "aliases": [
+      "Acre",
+      "Acre"
+    ],
+    "context": "État · Brésil",
+    "href": "/country/brazil/acre/",
+    "countryId": "BRA",
+    "enriched": false
+  },
+  {
+    "id": "AFG",
+    "name": "Afghanistan",
+    "aliases": [
+      "Afghanistan",
+      "AF",
+      "AFG"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/afghanistan/",
+    "countryId": "AFG"
+  },
+  {
+    "id": "ZAF",
+    "name": "Afrique du Sud",
+    "aliases": [
+      "South Africa",
+      "ZA",
+      "ZAF"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/south-africa/",
+    "countryId": "ZAF"
+  },
+  {
+    "id": "Q173",
+    "name": "Alabama",
+    "aliases": [
+      "Alabama",
+      "Alabama"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/alabama/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q40885",
+    "name": "Alagoas",
+    "aliases": [
+      "Alagoas",
+      "Alagoas"
+    ],
+    "context": "État · Brésil",
+    "href": "/country/brazil/alagoas/",
+    "countryId": "BRA",
+    "enriched": false
+  },
+  {
+    "id": "ALD",
+    "name": "Åland",
+    "aliases": [
+      "Åland",
+      "AX",
+      "ALD"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/aland/",
+    "countryId": "ALD"
+  },
+  {
+    "id": "Q797",
+    "name": "Alaska",
+    "aliases": [
+      "Alaska",
+      "Alaska"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/alaska/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "ALB",
+    "name": "Albanie",
+    "aliases": [
+      "Albania",
+      "AL",
+      "ALB"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/albania/",
+    "countryId": "ALB"
+  },
+  {
+    "id": "Q24861",
+    "name": "Albany",
+    "aliases": [
+      "Albany"
+    ],
+    "context": "Ville · État de New York · États-Unis",
+    "href": "/city/united-states/new-york/albany/",
+    "countryId": "USA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "DZA",
+    "name": "Algérie",
+    "aliases": [
+      "Algeria",
+      "DZ",
+      "DZA"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/algeria/",
+    "countryId": "DZA"
+  },
+  {
+    "id": "DEU",
+    "name": "Allemagne",
+    "aliases": [
+      "Germany",
+      "DE",
+      "DEU"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/germany/",
+    "countryId": "DEU"
+  },
+  {
+    "id": "Q40130",
+    "name": "Amapá",
+    "aliases": [
+      "Amapá",
+      "Amapá"
+    ],
+    "context": "État · Brésil",
+    "href": "/country/brazil/amapa/",
+    "countryId": "BRA",
+    "enriched": false
+  },
+  {
+    "id": "Q40040",
+    "name": "Amazonas",
+    "aliases": [
+      "Amazonas",
+      "Amazonas"
+    ],
+    "context": "État · Brésil",
+    "href": "/country/brazil/amazonas/",
+    "countryId": "BRA",
+    "enriched": true
+  },
+  {
+    "id": "AND",
+    "name": "Andorre",
+    "aliases": [
+      "Andorra",
+      "AD",
+      "AND"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/andorra/",
+    "countryId": "AND"
+  },
+  {
+    "id": "AGO",
+    "name": "Angola",
+    "aliases": [
+      "Angola",
+      "AO",
+      "AGO"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/angola/",
+    "countryId": "AGO"
+  },
+  {
+    "id": "AIA",
+    "name": "Anguilla",
+    "aliases": [
+      "Anguilla",
+      "AI",
+      "AIA"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/anguilla/",
+    "countryId": "AIA"
+  },
+  {
+    "id": "ATA",
+    "name": "Antarctique",
+    "aliases": [
+      "Antarctica",
+      "AQ",
+      "ATA"
+    ],
+    "context": "Pays · Antarctique",
+    "href": "/country/antarctica/",
+    "countryId": "ATA"
+  },
+  {
+    "id": "ATG",
+    "name": "Antigua-et-Barbuda",
+    "aliases": [
+      "Antigua and Barbuda",
+      "AG",
+      "ATG"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/antigua-and-barbuda/",
+    "countryId": "ATG"
+  },
+  {
+    "id": "SAU",
+    "name": "Arabie saoudite",
+    "aliases": [
+      "Saudi Arabia",
+      "SA",
+      "SAU"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/saudi-arabia/",
+    "countryId": "SAU"
+  },
+  {
+    "id": "ARG",
+    "name": "Argentine",
+    "aliases": [
+      "Argentina",
+      "AR",
+      "ARG"
+    ],
+    "context": "Pays · Amérique du Sud",
+    "href": "/country/argentina/",
+    "countryId": "ARG"
+  },
+  {
+    "id": "Q816",
+    "name": "Arizona",
+    "aliases": [
+      "Arizona",
+      "Arizona"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/arizona/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q1612",
+    "name": "Arkansas",
+    "aliases": [
+      "Arkansas",
+      "Arkansas"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/arkansas/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "ARM",
+    "name": "Arménie",
+    "aliases": [
+      "Armenia",
+      "AM",
+      "ARM"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/armenia/",
+    "countryId": "ARM"
+  },
+  {
+    "id": "ABW",
+    "name": "Aruba",
+    "aliases": [
+      "Aruba",
+      "AW",
+      "ABW"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/aruba/",
+    "countryId": "ABW"
+  },
+  {
+    "id": "Q200740",
+    "name": "Asahikawa",
+    "aliases": [
+      "Asahikawa"
+    ],
+    "context": "Ville · Hokkaidō · Japon",
+    "href": "/city/japan/hokkaido/asahikawa/",
+    "countryId": "JPN",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "Q2749",
+    "name": "Augsbourg",
+    "aliases": [
+      "Augsbourg"
+    ],
+    "context": "Ville · Bavière · Allemagne",
+    "href": "/city/germany/bavaria/augsbourg/",
+    "countryId": "DEU",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "Q16559",
+    "name": "Austin",
+    "aliases": [
+      "Austin"
+    ],
+    "context": "Ville · Texas · États-Unis",
+    "href": "/city/united-states/texas/austin/",
+    "countryId": "USA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "AUS",
+    "name": "Australie",
+    "aliases": [
+      "Australia",
+      "AU",
+      "AUS"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/australia/",
+    "countryId": "AUS"
+  },
+  {
+    "id": "AUT",
+    "name": "Autriche",
+    "aliases": [
+      "Austria",
+      "AT",
+      "AUT"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/austria/",
+    "countryId": "AUT"
+  },
+  {
+    "id": "Q18338206",
+    "name": "Auvergne-Rhône-Alpes",
+    "aliases": [
+      "Auvergne-Rhône-Alpes",
+      "Auvergne-Rhône-Alpes"
+    ],
+    "context": "Région · France",
+    "href": "/country/france/auvergne-rhone-alpes/",
+    "countryId": "FRA",
+    "enriched": true
+  },
+  {
+    "id": "AZE",
+    "name": "Azerbaïdjan",
+    "aliases": [
+      "Azerbaijan",
+      "AZ",
+      "AZE"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/azerbaijan/",
+    "countryId": "AZE"
+  },
+  {
+    "id": "Q985",
+    "name": "Bade-Wurtemberg",
+    "aliases": [
+      "Baden-Württemberg",
+      "Baden-Württemberg"
+    ],
+    "context": "Land · Allemagne",
+    "href": "/country/germany/baden-wurttemberg/",
+    "countryId": "DEU",
+    "enriched": false
+  },
+  {
+    "id": "BHS",
+    "name": "Bahamas",
+    "aliases": [
+      "The Bahamas",
+      "BS",
+      "BHS"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/the-bahamas/",
+    "countryId": "BHS"
+  },
+  {
+    "id": "Q40430",
+    "name": "Bahia",
+    "aliases": [
+      "Bahia",
+      "Bahia"
+    ],
+    "context": "État · Brésil",
+    "href": "/country/brazil/bahia/",
+    "countryId": "BRA",
+    "enriched": false
+  },
+  {
+    "id": "BHR",
+    "name": "Bahreïn",
+    "aliases": [
+      "Bahrain",
+      "BH",
+      "BHR"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/bahrain/",
+    "countryId": "BHR"
+  },
+  {
+    "id": "BGD",
+    "name": "Bangladesh",
+    "aliases": [
+      "Bangladesh",
+      "BD",
+      "BGD"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/bangladesh/",
+    "countryId": "BGD"
+  },
+  {
+    "id": "BRB",
+    "name": "Barbade",
+    "aliases": [
+      "Barbados",
+      "BB",
+      "BRB"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/barbados/",
+    "countryId": "BRB"
+  },
+  {
+    "id": "Q1197",
+    "name": "Basse-Saxe",
+    "aliases": [
+      "Lower Saxony",
+      "Niedersachsen"
+    ],
+    "context": "Land · Allemagne",
+    "href": "/country/germany/lower-saxony/",
+    "countryId": "DEU",
+    "enriched": false
+  },
+  {
+    "id": "Q980",
+    "name": "Bavière",
+    "aliases": [
+      "Bavaria",
+      "Bayern"
+    ],
+    "context": "Land · Allemagne",
+    "href": "/country/germany/bavaria/",
+    "countryId": "DEU",
+    "enriched": true
+  },
+  {
+    "id": "BEL",
+    "name": "Belgique",
+    "aliases": [
+      "Belgium",
+      "BE",
+      "BEL"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/belgium/",
+    "countryId": "BEL"
+  },
+  {
+    "id": "BLZ",
+    "name": "Belize",
+    "aliases": [
+      "Belize",
+      "BZ",
+      "BLZ"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/belize/",
+    "countryId": "BLZ"
+  },
+  {
+    "id": "BEN",
+    "name": "Bénin",
+    "aliases": [
+      "Benin",
+      "BJ",
+      "BEN"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/benin/",
+    "countryId": "BEN"
+  },
+  {
+    "id": "Q64",
+    "name": "Berlin",
+    "aliases": [
+      "Berlin",
+      "Berlin"
+    ],
+    "context": "Land · Allemagne",
+    "href": "/country/germany/berlin/",
+    "countryId": "DEU",
+    "enriched": true
+  },
+  {
+    "id": "BMU",
+    "name": "Bermudes",
+    "aliases": [
+      "Bermuda",
+      "BM",
+      "BMU"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/bermuda/",
+    "countryId": "BMU"
+  },
+  {
+    "id": "BTN",
+    "name": "Bhoutan",
+    "aliases": [
+      "Bhutan",
+      "BT",
+      "BTN"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/bhutan/",
+    "countryId": "BTN"
+  },
+  {
+    "id": "BLR",
+    "name": "Biélorussie",
+    "aliases": [
+      "Belarus",
+      "BY",
+      "BLR"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/belarus/",
+    "countryId": "BLR"
+  },
+  {
+    "id": "MMR",
+    "name": "Birmanie",
+    "aliases": [
+      "Myanmar",
+      "MM",
+      "MMR"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/myanmar/",
+    "countryId": "MMR"
+  },
+  {
+    "id": "BOL",
+    "name": "Bolivie",
+    "aliases": [
+      "Bolivia",
+      "BO",
+      "BOL"
+    ],
+    "context": "Pays · Amérique du Sud",
+    "href": "/country/bolivia/",
+    "countryId": "BOL"
+  },
+  {
+    "id": "BIH",
+    "name": "Bosnie-Herzégovine",
+    "aliases": [
+      "Bosnia and Herzegovina",
+      "BA",
+      "BIH"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/bosnia-and-herzegovina/",
+    "countryId": "BIH"
+  },
+  {
+    "id": "BWA",
+    "name": "Botswana",
+    "aliases": [
+      "Botswana",
+      "BW",
+      "BWA"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/botswana/",
+    "countryId": "BWA"
+  },
+  {
+    "id": "Q172455",
+    "name": "Boulogne-Billancourt",
+    "aliases": [
+      "Boulogne-Billancourt"
+    ],
+    "context": "Ville · Île-de-France · France",
+    "href": "/city/france/ile-de-france/boulogne-billancourt/",
+    "countryId": "FRA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "Q18578267",
+    "name": "Bourgogne-Franche-Comté",
+    "aliases": [
+      "Bourgogne-Franche-Comté",
+      "Bourgogne-Franche-Comté"
+    ],
+    "context": "Région · France",
+    "href": "/country/france/bourgogne-franche-comte/",
+    "countryId": "FRA",
+    "enriched": false
+  },
+  {
+    "id": "Q1208",
+    "name": "Brandebourg",
+    "aliases": [
+      "Brandenburg",
+      "Brandenburg"
+    ],
+    "context": "Land · Allemagne",
+    "href": "/country/germany/brandenburg/",
+    "countryId": "DEU",
+    "enriched": false
+  },
+  {
+    "id": "Q1209",
+    "name": "Brême",
+    "aliases": [
+      "Free Hanseatic Bremen",
+      "Bremen"
+    ],
+    "context": "Land · Allemagne",
+    "href": "/country/germany/free-hanseatic-bremen/",
+    "countryId": "DEU",
+    "enriched": false
+  },
+  {
+    "id": "BRA",
+    "name": "Brésil",
+    "aliases": [
+      "Brazil",
+      "BR",
+      "BRA"
+    ],
+    "context": "Pays · Amérique du Sud",
+    "href": "/country/brazil/",
+    "countryId": "BRA"
+  },
+  {
+    "id": "Q12130",
+    "name": "Bretagne",
+    "aliases": [
+      "Bretagne",
+      "Bretagne"
+    ],
+    "context": "Région · France",
+    "href": "/country/france/bretagne/",
+    "countryId": "FRA",
+    "enriched": false
+  },
+  {
+    "id": "BRN",
+    "name": "Brunei",
+    "aliases": [
+      "Brunei",
+      "BN",
+      "BRN"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/brunei/",
+    "countryId": "BRN"
+  },
+  {
+    "id": "Q40435",
+    "name": "Buffalo",
+    "aliases": [
+      "Buffalo"
+    ],
+    "context": "Ville · État de New York · États-Unis",
+    "href": "/city/united-states/new-york/buffalo/",
+    "countryId": "USA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "BGR",
+    "name": "Bulgarie",
+    "aliases": [
+      "Bulgaria",
+      "BG",
+      "BGR"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/bulgaria/",
+    "countryId": "BGR"
+  },
+  {
+    "id": "BFA",
+    "name": "Burkina Faso",
+    "aliases": [
+      "Burkina Faso",
+      "BF",
+      "BFA"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/burkina-faso/",
+    "countryId": "BFA"
+  },
+  {
+    "id": "BDI",
+    "name": "Burundi",
+    "aliases": [
+      "Burundi",
+      "BI",
+      "BDI"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/burundi/",
+    "countryId": "BDI"
+  },
+  {
+    "id": "Q99",
+    "name": "Californie",
+    "aliases": [
+      "California",
+      "California"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/california/",
+    "countryId": "USA",
+    "enriched": true
+  },
+  {
+    "id": "KHM",
+    "name": "Cambodge",
+    "aliases": [
+      "Cambodia",
+      "KH",
+      "KHM"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/cambodia/",
+    "countryId": "KHM"
+  },
+  {
+    "id": "CMR",
+    "name": "Cameroun",
+    "aliases": [
+      "Cameroon",
+      "CM",
+      "CMR"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/cameroon/",
+    "countryId": "CMR"
+  },
+  {
+    "id": "Q171617",
+    "name": "Campinas",
+    "aliases": [
+      "Campinas"
+    ],
+    "context": "Ville · São Paulo · Brésil",
+    "href": "/city/brazil/sao-paulo/campinas/",
+    "countryId": "BRA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "CAN",
+    "name": "Canada",
+    "aliases": [
+      "Canada",
+      "CA",
+      "CAN"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/canada/",
+    "countryId": "CAN"
+  },
+  {
+    "id": "CPV",
+    "name": "Cap-Vert",
+    "aliases": [
+      "Cape Verde",
+      "CV",
+      "CPV"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/cape-verde/",
+    "countryId": "CPV"
+  },
+  {
+    "id": "Q1454",
+    "name": "Caroline du Nord",
+    "aliases": [
+      "North Carolina",
+      "North Carolina"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/north-carolina/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q1456",
+    "name": "Caroline du Sud",
+    "aliases": [
+      "South Carolina",
+      "South Carolina"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/south-carolina/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q40123",
+    "name": "Ceará",
+    "aliases": [
+      "Ceará",
+      "Ceará"
+    ],
+    "context": "État · Brésil",
+    "href": "/country/brazil/ceara/",
+    "countryId": "BRA",
+    "enriched": false
+  },
+  {
+    "id": "Q13947",
+    "name": "Centre-Val de Loire",
+    "aliases": [
+      "Centre-Val de Loire",
+      "Centre-Val de Loire"
+    ],
+    "context": "Région · France",
+    "href": "/country/france/centre-val-de-loire/",
+    "countryId": "FRA",
+    "enriched": false
+  },
+  {
+    "id": "Q80011",
+    "name": "Chiba",
+    "aliases": [
+      "Chiba Prefecture",
+      "Chiba"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/chiba-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "CHL",
+    "name": "Chili",
+    "aliases": [
+      "Chile",
+      "CL",
+      "CHL"
+    ],
+    "context": "Pays · Amérique du Sud",
+    "href": "/country/chile/",
+    "countryId": "CHL"
+  },
+  {
+    "id": "CYP",
+    "name": "Chypre",
+    "aliases": [
+      "Cyprus",
+      "CY",
+      "CYP"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/cyprus/",
+    "countryId": "CYP"
+  },
+  {
+    "id": "CYN",
+    "name": "Chypre du Nord",
+    "aliases": [
+      "Turkish Republic of Northern Cyprus",
+      "-99",
+      "CYN"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/turkish-republic-of-northern-cyprus/",
+    "countryId": "CYN"
+  },
+  {
+    "id": "VAT",
+    "name": "Cité du Vatican",
+    "aliases": [
+      "Vatican City",
+      "VA",
+      "VAT"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/vatican-city/",
+    "countryId": "VAT"
+  },
+  {
+    "id": "Q42168",
+    "name": "Clermont-Ferrand",
+    "aliases": [
+      "Clermont-Ferrand"
+    ],
+    "context": "Ville · Auvergne-Rhône-Alpes · France",
+    "href": "/city/france/auvergne-rhone-alpes/clermont-ferrand/",
+    "countryId": "FRA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "Q365",
+    "name": "Cologne",
+    "aliases": [
+      "Cologne"
+    ],
+    "context": "Ville · Rhénanie-du-Nord-Westphalie · Allemagne",
+    "href": "/city/germany/north-rhine-westphalia/cologne/",
+    "countryId": "DEU",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "COL",
+    "name": "Colombie",
+    "aliases": [
+      "Colombia",
+      "CO",
+      "COL"
+    ],
+    "context": "Pays · Amérique du Sud",
+    "href": "/country/colombia/",
+    "countryId": "COL"
+  },
+  {
+    "id": "Q1261",
+    "name": "Colorado",
+    "aliases": [
+      "Colorado",
+      "Colorado"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/colorado/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "COM",
+    "name": "Comores",
+    "aliases": [
+      "Comoros",
+      "KM",
+      "COM"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/comoros/",
+    "countryId": "COM"
+  },
+  {
+    "id": "Q779",
+    "name": "Connecticut",
+    "aliases": [
+      "Connecticut",
+      "Connecticut"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/connecticut/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "PRK",
+    "name": "Corée du Nord",
+    "aliases": [
+      "North Korea",
+      "KP",
+      "PRK"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/north-korea/",
+    "countryId": "PRK"
+  },
+  {
+    "id": "KOR",
+    "name": "Corée du Sud",
+    "aliases": [
+      "South Korea",
+      "KR",
+      "KOR"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/south-korea/",
+    "countryId": "KOR"
+  },
+  {
+    "id": "Q14112",
+    "name": "Corse",
+    "aliases": [
+      "Corse",
+      "Corse"
+    ],
+    "context": "Région · France",
+    "href": "/country/france/corse/",
+    "countryId": "FRA",
+    "enriched": false
+  },
+  {
+    "id": "CRI",
+    "name": "Costa Rica",
+    "aliases": [
+      "Costa Rica",
+      "CR",
+      "CRI"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/costa-rica/",
+    "countryId": "CRI"
+  },
+  {
+    "id": "CIV",
+    "name": "Côte d'Ivoire",
+    "aliases": [
+      "Ivory Coast",
+      "CI",
+      "CIV"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/ivory-coast/",
+    "countryId": "CIV"
+  },
+  {
+    "id": "HRV",
+    "name": "Croatie",
+    "aliases": [
+      "Croatia",
+      "HR",
+      "HRV"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/croatia/",
+    "countryId": "HRV"
+  },
+  {
+    "id": "CUB",
+    "name": "Cuba",
+    "aliases": [
+      "Cuba",
+      "CU",
+      "CUB"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/cuba/",
+    "countryId": "CUB"
+  },
+  {
+    "id": "CUW",
+    "name": "Curaçao",
+    "aliases": [
+      "Curaçao",
+      "CW",
+      "CUW"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/curacao/",
+    "countryId": "CUW"
+  },
+  {
+    "id": "Q1207",
+    "name": "Dakota du Nord",
+    "aliases": [
+      "North Dakota",
+      "North Dakota"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/north-dakota/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q1211",
+    "name": "Dakota du Sud",
+    "aliases": [
+      "South Dakota",
+      "South Dakota"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/south-dakota/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q16557",
+    "name": "Dallas",
+    "aliases": [
+      "Dallas"
+    ],
+    "context": "Ville · Texas · États-Unis",
+    "href": "/city/united-states/texas/dallas/",
+    "countryId": "USA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "DNK",
+    "name": "Danemark",
+    "aliases": [
+      "Denmark",
+      "DK",
+      "DNK"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/denmark/",
+    "countryId": "DNK"
+  },
+  {
+    "id": "Q1393",
+    "name": "Delaware",
+    "aliases": [
+      "Delaware",
+      "Delaware"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/delaware/",
+    "countryId": "USA",
+    "enriched": true
+  },
+  {
+    "id": "DJI",
+    "name": "Djibouti",
+    "aliases": [
+      "Djibouti",
+      "DJ",
+      "DJI"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/djibouti/",
+    "countryId": "DJI"
+  },
+  {
+    "id": "DMA",
+    "name": "Dominique",
+    "aliases": [
+      "Dominica",
+      "DM",
+      "DMA"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/dominica/",
+    "countryId": "DMA"
+  },
+  {
+    "id": "Q1295",
+    "name": "Dortmund",
+    "aliases": [
+      "Dortmund"
+    ],
+    "context": "Ville · Rhénanie-du-Nord-Westphalie · Allemagne",
+    "href": "/city/germany/north-rhine-westphalia/dortmund/",
+    "countryId": "DEU",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "Q33518",
+    "name": "Dover",
+    "aliases": [
+      "Dover"
+    ],
+    "context": "Ville · Delaware · États-Unis",
+    "href": "/city/united-states/delaware/dover/",
+    "countryId": "USA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "Q1718",
+    "name": "Düsseldorf",
+    "aliases": [
+      "Düsseldorf"
+    ],
+    "context": "Ville · Rhénanie-du-Nord-Westphalie · Allemagne",
+    "href": "/city/germany/north-rhine-westphalia/dusseldorf/",
+    "countryId": "DEU",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "EGY",
+    "name": "Égypte",
+    "aliases": [
+      "Egypt",
+      "EG",
+      "EGY"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/egypt/",
+    "countryId": "EGY"
+  },
+  {
+    "id": "ARE",
+    "name": "Émirats arabes unis",
+    "aliases": [
+      "United Arab Emirates",
+      "AE",
+      "ARE"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/united-arab-emirates/",
+    "countryId": "ARE"
+  },
+  {
+    "id": "ECU",
+    "name": "Équateur",
+    "aliases": [
+      "Ecuador",
+      "EC",
+      "ECU"
+    ],
+    "context": "Pays · Amérique du Sud",
+    "href": "/country/ecuador/",
+    "countryId": "ECU"
+  },
+  {
+    "id": "ERI",
+    "name": "Érythrée",
+    "aliases": [
+      "Eritrea",
+      "ER",
+      "ERI"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/eritrea/",
+    "countryId": "ERI"
+  },
+  {
+    "id": "ESP",
+    "name": "Espagne",
+    "aliases": [
+      "Spain",
+      "ES",
+      "ESP"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/spain/",
+    "countryId": "ESP"
+  },
+  {
+    "id": "Q43233",
+    "name": "Espírito Santo",
+    "aliases": [
+      "Espírito Santo",
+      "Espírito Santo"
+    ],
+    "context": "État · Brésil",
+    "href": "/country/brazil/espirito-santo/",
+    "countryId": "BRA",
+    "enriched": false
+  },
+  {
+    "id": "EST",
+    "name": "Estonie",
+    "aliases": [
+      "Estonia",
+      "EE",
+      "EST"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/estonia/",
+    "countryId": "EST"
+  },
+  {
+    "id": "SWZ",
+    "name": "Eswatini",
+    "aliases": [
+      "Eswatini",
+      "SZ",
+      "SWZ"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/eswatini/",
+    "countryId": "SWZ"
+  },
+  {
+    "id": "Q1384",
+    "name": "État de New York",
+    "aliases": [
+      "New York",
+      "New York"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/new-york/",
+    "countryId": "USA",
+    "enriched": true
+  },
+  {
+    "id": "FSM",
+    "name": "États fédérés de Micronésie",
+    "aliases": [
+      "Federated States of Micronesia",
+      "FM",
+      "FSM"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/federated-states-of-micronesia/",
+    "countryId": "FSM"
+  },
+  {
+    "id": "USA",
+    "name": "États-Unis",
+    "aliases": [
+      "United States of America",
+      "US",
+      "USA"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/united-states/",
+    "countryId": "USA"
+  },
+  {
+    "id": "ETH",
+    "name": "Éthiopie",
+    "aliases": [
+      "Ethiopia",
+      "ET",
+      "ETH"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/ethiopia/",
+    "countryId": "ETH"
+  },
+  {
+    "id": "Q119158",
+    "name": "fédéral",
+    "aliases": [
+      "Federal",
+      "Distrito Federal"
+    ],
+    "context": "District fédéral · Brésil",
+    "href": "/country/brazil/federal/",
+    "countryId": "BRA",
+    "enriched": false
+  },
+  {
+    "id": "FJI",
+    "name": "Fidji",
+    "aliases": [
+      "Fiji",
+      "FJ",
+      "FJI"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/fiji/",
+    "countryId": "FJI"
+  },
+  {
+    "id": "FIN",
+    "name": "Finlande",
+    "aliases": [
+      "Finland",
+      "FI",
+      "FIN"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/finland/",
+    "countryId": "FIN"
+  },
+  {
+    "id": "Q812",
+    "name": "Floride",
+    "aliases": [
+      "Florida",
+      "Florida"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/florida/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "FRA",
+    "name": "France",
+    "aliases": [
+      "France",
+      "FR",
+      "FRA"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/france/",
+    "countryId": "FRA"
+  },
+  {
+    "id": "Q133879",
+    "name": "Fukui",
+    "aliases": [
+      "Fukui Prefecture",
+      "Fukui"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/fukui-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q123258",
+    "name": "Fukuoka",
+    "aliases": [
+      "Fukuoka Prefecture",
+      "Fukuoka"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/fukuoka-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q71707",
+    "name": "Fukushima",
+    "aliases": [
+      "Fukushima Prefecture",
+      "Fukushima"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/fukushima-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "GAB",
+    "name": "Gabon",
+    "aliases": [
+      "Gabon",
+      "GA",
+      "GAB"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/gabon/",
+    "countryId": "GAB"
+  },
+  {
+    "id": "GMB",
+    "name": "Gambie",
+    "aliases": [
+      "The Gambia",
+      "GM",
+      "GMB"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/the-gambia/",
+    "countryId": "GMB"
+  },
+  {
+    "id": "GEO",
+    "name": "Géorgie",
+    "aliases": [
+      "Georgia",
+      "GE",
+      "GEO"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/georgia/",
+    "countryId": "GEO"
+  },
+  {
+    "id": "Q1428",
+    "name": "Géorgie",
+    "aliases": [
+      "Georgia",
+      "Georgia"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/georgia/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "SGS",
+    "name": "Géorgie du Sud-et-les Îles Sandwich du Sud",
+    "aliases": [
+      "South Georgia and the South Sandwich Islands",
+      "GS",
+      "SGS"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/south-georgia-and-the-south-sandwich-islands/",
+    "countryId": "SGS"
+  },
+  {
+    "id": "GHA",
+    "name": "Ghana",
+    "aliases": [
+      "Ghana",
+      "GH",
+      "GHA"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/ghana/",
+    "countryId": "GHA"
+  },
+  {
+    "id": "Q131277",
+    "name": "Gifu",
+    "aliases": [
+      "Gifu Prefecture",
+      "Gifu"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/gifu-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "KAS",
+    "name": "glacier de Siachen",
+    "aliases": [
+      "Siachen Glacier",
+      "-99",
+      "KAS"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/siachen-glacier/",
+    "countryId": "KAS"
+  },
+  {
+    "id": "Q41587",
+    "name": "Goiás",
+    "aliases": [
+      "Goiás",
+      "Goiás"
+    ],
+    "context": "État · Brésil",
+    "href": "/country/brazil/goias/",
+    "countryId": "BRA",
+    "enriched": false
+  },
+  {
+    "id": "Q18677983",
+    "name": "Grand Est",
+    "aliases": [
+      "Grand Est",
+      "Grand Est"
+    ],
+    "context": "Région · France",
+    "href": "/country/france/grand-est/",
+    "countryId": "FRA",
+    "enriched": false
+  },
+  {
+    "id": "GRC",
+    "name": "Grèce",
+    "aliases": [
+      "Greece",
+      "GR",
+      "GRC"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/greece/",
+    "countryId": "GRC"
+  },
+  {
+    "id": "GRD",
+    "name": "Grenade",
+    "aliases": [
+      "Grenada",
+      "GD",
+      "GRD"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/grenada/",
+    "countryId": "GRD"
+  },
+  {
+    "id": "Q1289",
+    "name": "Grenoble",
+    "aliases": [
+      "Grenoble"
+    ],
+    "context": "Ville · Auvergne-Rhône-Alpes · France",
+    "href": "/city/france/auvergne-rhone-alpes/grenoble/",
+    "countryId": "FRA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "GRL",
+    "name": "Groenland",
+    "aliases": [
+      "Greenland",
+      "GL",
+      "GRL"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/greenland/",
+    "countryId": "GRL"
+  },
+  {
+    "id": "Q17012",
+    "name": "Guadeloupe",
+    "aliases": [
+      "Guadeloupe",
+      "Guadeloupe"
+    ],
+    "context": "Région · France",
+    "href": "/country/france/guadeloupe/",
+    "countryId": "FRA",
+    "enriched": false
+  },
+  {
+    "id": "GUM",
+    "name": "Guam",
+    "aliases": [
+      "Guam",
+      "GU",
+      "GUM"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/guam/",
+    "countryId": "GUM"
+  },
+  {
+    "id": "GTM",
+    "name": "Guatemala",
+    "aliases": [
+      "Guatemala",
+      "GT",
+      "GTM"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/guatemala/",
+    "countryId": "GTM"
+  },
+  {
+    "id": "GGY",
+    "name": "Guernesey",
+    "aliases": [
+      "Guernsey",
+      "GG",
+      "GGY"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/guernsey/",
+    "countryId": "GGY"
+  },
+  {
+    "id": "GIN",
+    "name": "Guinée",
+    "aliases": [
+      "Guinea",
+      "GN",
+      "GIN"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/guinea/",
+    "countryId": "GIN"
+  },
+  {
+    "id": "GNQ",
+    "name": "Guinée équatoriale",
+    "aliases": [
+      "Equatorial Guinea",
+      "GQ",
+      "GNQ"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/equatorial-guinea/",
+    "countryId": "GNQ"
+  },
+  {
+    "id": "GNB",
+    "name": "Guinée-Bissau",
+    "aliases": [
+      "Guinea-Bissau",
+      "GW",
+      "GNB"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/guinea-bissau/",
+    "countryId": "GNB"
+  },
+  {
+    "id": "Q129499",
+    "name": "Gunma",
+    "aliases": [
+      "Gunma Prefecture",
+      "Gunma"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/gunma-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "GUY",
+    "name": "Guyana",
+    "aliases": [
+      "Guyana",
+      "GY",
+      "GUY"
+    ],
+    "context": "Pays · Amérique du Sud",
+    "href": "/country/guyana/",
+    "countryId": "GUY"
+  },
+  {
+    "id": "Q3769",
+    "name": "Guyane",
+    "aliases": [
+      "French Guiana",
+      "Guyane française"
+    ],
+    "context": "Région · France",
+    "href": "/country/france/guyane-francaise/",
+    "countryId": "FRA",
+    "enriched": false
+  },
+  {
+    "id": "Q208863",
+    "name": "Hachiōji",
+    "aliases": [
+      "Hachiōji"
+    ],
+    "context": "Ville · Tokyo · Japon",
+    "href": "/city/japan/tokyo/hachioji/",
+    "countryId": "JPN",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "HTI",
+    "name": "Haïti",
+    "aliases": [
+      "Haiti",
+      "HT",
+      "HTI"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/haiti/",
+    "countryId": "HTI"
+  },
+  {
+    "id": "Q26418",
+    "name": "Hakodate",
+    "aliases": [
+      "Hakodate"
+    ],
+    "context": "Ville · Hokkaidō · Japon",
+    "href": "/city/japan/hokkaido/hakodate/",
+    "countryId": "JPN",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "Q1055",
+    "name": "Hambourg",
+    "aliases": [
+      "Hamburg",
+      "Hamburg"
+    ],
+    "context": "Land · Allemagne",
+    "href": "/country/germany/hamburg/",
+    "countryId": "DEU",
+    "enriched": false
+  },
+  {
+    "id": "Q18677767",
+    "name": "Hauts-de-France",
+    "aliases": [
+      "Hauts-de-France",
+      "Hauts-de-France"
+    ],
+    "context": "Région · France",
+    "href": "/country/france/hauts-de-france/",
+    "countryId": "FRA",
+    "enriched": false
+  },
+  {
+    "id": "Q782",
+    "name": "Hawaï",
+    "aliases": [
+      "Hawaii",
+      "Hawaii"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/hawaii/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q1199",
+    "name": "Hesse",
+    "aliases": [
+      "Hesse",
+      "Hessen"
+    ],
+    "context": "Land · Allemagne",
+    "href": "/country/germany/hesse/",
+    "countryId": "DEU",
+    "enriched": false
+  },
+  {
+    "id": "Q243863",
+    "name": "Higashiōsaka",
+    "aliases": [
+      "Higashiōsaka"
+    ],
+    "context": "Ville · Préfecture d'Osaka · Japon",
+    "href": "/city/japan/osaka/higashiosaka/",
+    "countryId": "JPN",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "Q1037393",
+    "name": "Hokkaidō",
+    "aliases": [
+      "Hokkaidō",
+      "Hokkaidō"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/hokkaido/",
+    "countryId": "JPN",
+    "enriched": true
+  },
+  {
+    "id": "HND",
+    "name": "Honduras",
+    "aliases": [
+      "Honduras",
+      "HN",
+      "HND"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/honduras/",
+    "countryId": "HND"
+  },
+  {
+    "id": "HKG",
+    "name": "Hong Kong",
+    "aliases": [
+      "Hong Kong",
+      "HK",
+      "HKG"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/hong-kong/",
+    "countryId": "HKG"
+  },
+  {
+    "id": "HUN",
+    "name": "Hongrie",
+    "aliases": [
+      "Hungary",
+      "HU",
+      "HUN"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/hungary/",
+    "countryId": "HUN"
+  },
+  {
+    "id": "Q16555",
+    "name": "Houston",
+    "aliases": [
+      "Houston"
+    ],
+    "context": "Ville · Texas · États-Unis",
+    "href": "/city/united-states/texas/houston/",
+    "countryId": "USA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "Q130290",
+    "name": "Hyōgo",
+    "aliases": [
+      "Hyōgo Prefecture",
+      "Hyōgo"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/hyogo-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q1221",
+    "name": "Idaho",
+    "aliases": [
+      "Idaho",
+      "Idaho"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/idaho/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "IMN",
+    "name": "île de Man",
+    "aliases": [
+      "Isle of Man",
+      "IM",
+      "IMN"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/isle-of-man/",
+    "countryId": "IMN"
+  },
+  {
+    "id": "NFK",
+    "name": "Île Norfolk",
+    "aliases": [
+      "Norfolk Island",
+      "NF",
+      "NFK"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/norfolk-island/",
+    "countryId": "NFK"
+  },
+  {
+    "id": "Q13917",
+    "name": "Île-de-France",
+    "aliases": [
+      "Île-de-France",
+      "Île-de-France"
+    ],
+    "context": "Région · France",
+    "href": "/country/france/ile-de-france/",
+    "countryId": "FRA",
+    "enriched": true
+  },
+  {
+    "id": "ATC",
+    "name": "Îles Ashmore-et-Cartier",
+    "aliases": [
+      "Ashmore and Cartier Islands",
+      "AU",
+      "ATC"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/ashmore-and-cartier-islands/",
+    "countryId": "ATC"
+  },
+  {
+    "id": "CYM",
+    "name": "îles Caïmans",
+    "aliases": [
+      "Cayman Islands",
+      "KY",
+      "CYM"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/cayman-islands/",
+    "countryId": "CYM"
+  },
+  {
+    "id": "COK",
+    "name": "Îles Cook",
+    "aliases": [
+      "Cook Islands",
+      "CK",
+      "COK"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/cook-islands/",
+    "countryId": "COK"
+  },
+  {
+    "id": "FRO",
+    "name": "îles Féroé",
+    "aliases": [
+      "Faroe Islands",
+      "FO",
+      "FRO"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/faroe-islands/",
+    "countryId": "FRO"
+  },
+  {
+    "id": "HMD",
+    "name": "îles Heard-et-MacDonald",
+    "aliases": [
+      "Heard Island and McDonald Islands",
+      "HM",
+      "HMD"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/heard-island-and-mcdonald-islands/",
+    "countryId": "HMD"
+  },
+  {
+    "id": "FLK",
+    "name": "îles Malouines",
+    "aliases": [
+      "Falkland Islands",
+      "FK",
+      "FLK"
+    ],
+    "context": "Pays · Amérique du Sud",
+    "href": "/country/falkland-islands/",
+    "countryId": "FLK"
+  },
+  {
+    "id": "MNP",
+    "name": "îles Mariannes du Nord",
+    "aliases": [
+      "Northern Mariana Islands",
+      "MP",
+      "MNP"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/northern-mariana-islands/",
+    "countryId": "MNP"
+  },
+  {
+    "id": "MHL",
+    "name": "Îles Marshall",
+    "aliases": [
+      "Marshall Islands",
+      "MH",
+      "MHL"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/marshall-islands/",
+    "countryId": "MHL"
+  },
+  {
+    "id": "PCN",
+    "name": "Iles Pitcairn",
+    "aliases": [
+      "Pitcairn Islands",
+      "PN",
+      "PCN"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/pitcairn-islands/",
+    "countryId": "PCN"
+  },
+  {
+    "id": "SLB",
+    "name": "Îles Salomon",
+    "aliases": [
+      "Solomon Islands",
+      "SB",
+      "SLB"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/solomon-islands/",
+    "countryId": "SLB"
+  },
+  {
+    "id": "TCA",
+    "name": "îles Turques-et-Caïques",
+    "aliases": [
+      "Turks and Caicos Islands",
+      "TC",
+      "TCA"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/turks-and-caicos-islands/",
+    "countryId": "TCA"
+  },
+  {
+    "id": "VGB",
+    "name": "îles Vierges britanniques",
+    "aliases": [
+      "British Virgin Islands",
+      "VG",
+      "VGB"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/british-virgin-islands/",
+    "countryId": "VGB"
+  },
+  {
+    "id": "VIR",
+    "name": "îles Vierges des États-Unis",
+    "aliases": [
+      "United States Virgin Islands",
+      "VI",
+      "VIR"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/united-states-virgin-islands/",
+    "countryId": "VIR"
+  },
+  {
+    "id": "Q1204",
+    "name": "Illinois",
+    "aliases": [
+      "Illinois",
+      "Illinois"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/illinois/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "IND",
+    "name": "Inde",
+    "aliases": [
+      "India",
+      "IN",
+      "IND"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/india/",
+    "countryId": "IND"
+  },
+  {
+    "id": "Q1415",
+    "name": "Indiana",
+    "aliases": [
+      "Indiana",
+      "Indiana"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/indiana/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "IDN",
+    "name": "Indonésie",
+    "aliases": [
+      "Indonesia",
+      "ID",
+      "IDN"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/indonesia/",
+    "countryId": "IDN"
+  },
+  {
+    "id": "Q1546",
+    "name": "Iowa",
+    "aliases": [
+      "Iowa",
+      "Iowa"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/iowa/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "IRQ",
+    "name": "Irak",
+    "aliases": [
+      "Iraq",
+      "IQ",
+      "IRQ"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/iraq/",
+    "countryId": "IRQ"
+  },
+  {
+    "id": "IRN",
+    "name": "Iran",
+    "aliases": [
+      "Iran",
+      "IR",
+      "IRN"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/iran/",
+    "countryId": "IRN"
+  },
+  {
+    "id": "IRL",
+    "name": "Irlande",
+    "aliases": [
+      "Ireland",
+      "IE",
+      "IRL"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/ireland/",
+    "countryId": "IRL"
+  },
+  {
+    "id": "ISL",
+    "name": "Islande",
+    "aliases": [
+      "Iceland",
+      "IS",
+      "ISL"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/iceland/",
+    "countryId": "ISL"
+  },
+  {
+    "id": "ISR",
+    "name": "Israël",
+    "aliases": [
+      "Israel",
+      "IL",
+      "ISR"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/israel/",
+    "countryId": "ISR"
+  },
+  {
+    "id": "Q1750426",
+    "name": "Itacoatiara",
+    "aliases": [
+      "Itacoatiara"
+    ],
+    "context": "Ville · Amazonas · Brésil",
+    "href": "/city/brazil/amazonas/itacoatiara/",
+    "countryId": "BRA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "ITA",
+    "name": "Italie",
+    "aliases": [
+      "Italy",
+      "IT",
+      "ITA"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/italy/",
+    "countryId": "ITA"
+  },
+  {
+    "id": "JAM",
+    "name": "Jamaïque",
+    "aliases": [
+      "Jamaica",
+      "JM",
+      "JAM"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/jamaica/",
+    "countryId": "JAM"
+  },
+  {
+    "id": "JPN",
+    "name": "Japon",
+    "aliases": [
+      "Japan",
+      "JP",
+      "JPN"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/japan/",
+    "countryId": "JPN"
+  },
+  {
+    "id": "JEY",
+    "name": "Jersey",
+    "aliases": [
+      "Jersey",
+      "JE",
+      "JEY"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/jersey/",
+    "countryId": "JEY"
+  },
+  {
+    "id": "JOR",
+    "name": "Jordanie",
+    "aliases": [
+      "Jordan",
+      "JO",
+      "JOR"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/jordan/",
+    "countryId": "JOR"
+  },
+  {
+    "id": "Q161454",
+    "name": "Kagawa",
+    "aliases": [
+      "Kagawa Prefecture",
+      "Kagawa"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/kagawa-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q15701",
+    "name": "Kagoshima",
+    "aliases": [
+      "Kagoshima Prefecture",
+      "Kagoshima"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/kagoshima-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q127513",
+    "name": "Kanagawa",
+    "aliases": [
+      "Kanagawa Prefecture",
+      "Kanagawa"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/kanagawa-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q1558",
+    "name": "Kansas",
+    "aliases": [
+      "Kansas",
+      "Kansas"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/kansas/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "KAZ",
+    "name": "Kazakhstan",
+    "aliases": [
+      "Kazakhstan",
+      "KZ",
+      "KAZ"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/kazakhstan/",
+    "countryId": "KAZ"
+  },
+  {
+    "id": "Q1603",
+    "name": "Kentucky",
+    "aliases": [
+      "Kentucky",
+      "Kentucky"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/kentucky/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "KEN",
+    "name": "Kenya",
+    "aliases": [
+      "Kenya",
+      "KE",
+      "KEN"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/kenya/",
+    "countryId": "KEN"
+  },
+  {
+    "id": "KGZ",
+    "name": "Kirghizistan",
+    "aliases": [
+      "Kyrgyzstan",
+      "KG",
+      "KGZ"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/kyrgyzstan/",
+    "countryId": "KGZ"
+  },
+  {
+    "id": "KIR",
+    "name": "Kiribati",
+    "aliases": [
+      "Kiribati",
+      "KI",
+      "KIR"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/kiribati/",
+    "countryId": "KIR"
+  },
+  {
+    "id": "Q134093",
+    "name": "Kōchi",
+    "aliases": [
+      "Kōchi Prefecture",
+      "Kōchi"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/kochi-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "KOS",
+    "name": "Kosovo",
+    "aliases": [
+      "Kosovo",
+      "XK",
+      "KOS"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/kosovo/",
+    "countryId": "KOS"
+  },
+  {
+    "id": "KWT",
+    "name": "Koweït",
+    "aliases": [
+      "Kuwait",
+      "KW",
+      "KWT"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/kuwait/",
+    "countryId": "KWT"
+  },
+  {
+    "id": "Q130308",
+    "name": "Kumamoto",
+    "aliases": [
+      "Kumamoto Prefecture",
+      "Kumamoto"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/kumamoto-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q120730",
+    "name": "Kyoto",
+    "aliases": [
+      "Kyōto Prefecture",
+      "Kyōto"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/kyoto-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q17070",
+    "name": "La Réunion",
+    "aliases": [
+      "Réunion",
+      "La Réunion"
+    ],
+    "context": "Région · France",
+    "href": "/country/france/la-reunion/",
+    "countryId": "FRA",
+    "enriched": false
+  },
+  {
+    "id": "LAO",
+    "name": "Laos",
+    "aliases": [
+      "Laos",
+      "LA",
+      "LAO"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/laos/",
+    "countryId": "LAO"
+  },
+  {
+    "id": "LSO",
+    "name": "Lesotho",
+    "aliases": [
+      "Lesotho",
+      "LS",
+      "LSO"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/lesotho/",
+    "countryId": "LSO"
+  },
+  {
+    "id": "LVA",
+    "name": "Lettonie",
+    "aliases": [
+      "Latvia",
+      "LV",
+      "LVA"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/latvia/",
+    "countryId": "LVA"
+  },
+  {
+    "id": "LBN",
+    "name": "Liban",
+    "aliases": [
+      "Lebanon",
+      "LB",
+      "LBN"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/lebanon/",
+    "countryId": "LBN"
+  },
+  {
+    "id": "LBR",
+    "name": "Liberia",
+    "aliases": [
+      "Liberia",
+      "LR",
+      "LBR"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/liberia/",
+    "countryId": "LBR"
+  },
+  {
+    "id": "LBY",
+    "name": "Libye",
+    "aliases": [
+      "Libya",
+      "LY",
+      "LBY"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/libya/",
+    "countryId": "LBY"
+  },
+  {
+    "id": "LIE",
+    "name": "Liechtenstein",
+    "aliases": [
+      "Liechtenstein",
+      "LI",
+      "LIE"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/liechtenstein/",
+    "countryId": "LIE"
+  },
+  {
+    "id": "LTU",
+    "name": "Lituanie",
+    "aliases": [
+      "Lithuania",
+      "LT",
+      "LTU"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/lithuania/",
+    "countryId": "LTU"
+  },
+  {
+    "id": "Q65",
+    "name": "Los Angeles",
+    "aliases": [
+      "Los Angeles"
+    ],
+    "context": "Ville · Californie · États-Unis",
+    "href": "/city/united-states/california/los-angeles/",
+    "countryId": "USA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "Q1588",
+    "name": "Louisiane",
+    "aliases": [
+      "Louisiana",
+      "Louisiana"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/louisiana/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "LUX",
+    "name": "Luxembourg",
+    "aliases": [
+      "Luxembourg",
+      "LU",
+      "LUX"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/luxembourg/",
+    "countryId": "LUX"
+  },
+  {
+    "id": "Q456",
+    "name": "Lyon",
+    "aliases": [
+      "Lyon"
+    ],
+    "context": "Ville · Auvergne-Rhône-Alpes · France",
+    "href": "/city/france/auvergne-rhone-alpes/lyon/",
+    "countryId": "FRA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "MAC",
+    "name": "Macao",
+    "aliases": [
+      "Macau",
+      "MO",
+      "MAC"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/macau/",
+    "countryId": "MAC"
+  },
+  {
+    "id": "MKD",
+    "name": "Macédoine du Nord",
+    "aliases": [
+      "North Macedonia",
+      "MK",
+      "MKD"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/north-macedonia/",
+    "countryId": "MKD"
+  },
+  {
+    "id": "Q210628",
+    "name": "Machida",
+    "aliases": [
+      "Machida"
+    ],
+    "context": "Ville · Tokyo · Japon",
+    "href": "/city/japan/tokyo/machida/",
+    "countryId": "JPN",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "MDG",
+    "name": "Madagascar",
+    "aliases": [
+      "Madagascar",
+      "MG",
+      "MDG"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/madagascar/",
+    "countryId": "MDG"
+  },
+  {
+    "id": "Q724",
+    "name": "Maine",
+    "aliases": [
+      "Maine",
+      "Maine"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/maine/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "MYS",
+    "name": "Malaisie",
+    "aliases": [
+      "Malaysia",
+      "MY",
+      "MYS"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/malaysia/",
+    "countryId": "MYS"
+  },
+  {
+    "id": "MWI",
+    "name": "Malawi",
+    "aliases": [
+      "Malawi",
+      "MW",
+      "MWI"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/malawi/",
+    "countryId": "MWI"
+  },
+  {
+    "id": "MDV",
+    "name": "Maldives",
+    "aliases": [
+      "Maldives",
+      "MV",
+      "MDV"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/maldives/",
+    "countryId": "MDV"
+  },
+  {
+    "id": "MLI",
+    "name": "Mali",
+    "aliases": [
+      "Mali",
+      "ML",
+      "MLI"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/mali/",
+    "countryId": "MLI"
+  },
+  {
+    "id": "MLT",
+    "name": "Malte",
+    "aliases": [
+      "Malta",
+      "MT",
+      "MLT"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/malta/",
+    "countryId": "MLT"
+  },
+  {
+    "id": "Q40236",
+    "name": "Manaus",
+    "aliases": [
+      "Manaus"
+    ],
+    "context": "Ville · Amazonas · Brésil",
+    "href": "/city/brazil/amazonas/manaus/",
+    "countryId": "BRA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "Q42362",
+    "name": "Maranhão",
+    "aliases": [
+      "Maranhão",
+      "Maranhão"
+    ],
+    "context": "État · Brésil",
+    "href": "/country/brazil/maranhao/",
+    "countryId": "BRA",
+    "enriched": false
+  },
+  {
+    "id": "MAR",
+    "name": "Maroc",
+    "aliases": [
+      "Morocco",
+      "MA",
+      "MAR"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/morocco/",
+    "countryId": "MAR"
+  },
+  {
+    "id": "Q23482",
+    "name": "Marseille",
+    "aliases": [
+      "Marseille"
+    ],
+    "context": "Ville · Provence-Alpes-Côte d'Azur · France",
+    "href": "/city/france/provence-alpes-cote-d-azur/marseille/",
+    "countryId": "FRA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "Q17054",
+    "name": "Martinique",
+    "aliases": [
+      "Martinique",
+      "Martinique"
+    ],
+    "context": "Région · France",
+    "href": "/country/france/martinique/",
+    "countryId": "FRA",
+    "enriched": false
+  },
+  {
+    "id": "Q1391",
+    "name": "Maryland",
+    "aliases": [
+      "Maryland",
+      "Maryland"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/maryland/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q771",
+    "name": "Massachusetts",
+    "aliases": [
+      "Massachusetts",
+      "Massachusetts"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/massachusetts/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q42824",
+    "name": "Mato Grosso",
+    "aliases": [
+      "Mato Grosso",
+      "Mato Grosso"
+    ],
+    "context": "État · Brésil",
+    "href": "/country/brazil/mato-grosso/",
+    "countryId": "BRA",
+    "enriched": false
+  },
+  {
+    "id": "Q43319",
+    "name": "Mato Grosso do Sul",
+    "aliases": [
+      "Mato Grosso do Sul",
+      "Mato Grosso do Sul"
+    ],
+    "context": "État · Brésil",
+    "href": "/country/brazil/mato-grosso-do-sul/",
+    "countryId": "BRA",
+    "enriched": false
+  },
+  {
+    "id": "MUS",
+    "name": "Maurice",
+    "aliases": [
+      "Mauritius",
+      "MU",
+      "MUS"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/mauritius/",
+    "countryId": "MUS"
+  },
+  {
+    "id": "MRT",
+    "name": "Mauritanie",
+    "aliases": [
+      "Mauritania",
+      "MR",
+      "MRT"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/mauritania/",
+    "countryId": "MRT"
+  },
+  {
+    "id": "Q17063",
+    "name": "Mayotte",
+    "aliases": [
+      "Mayotte",
+      "Mayotte"
+    ],
+    "context": "Région · France",
+    "href": "/country/france/mayotte/",
+    "countryId": "FRA",
+    "enriched": false
+  },
+  {
+    "id": "Q1196",
+    "name": "Mecklembourg-Poméranie-Occidentale",
+    "aliases": [
+      "Mecklenburg-Western Pomerania",
+      "Mecklenburg-Vorpommern"
+    ],
+    "context": "Land · Allemagne",
+    "href": "/country/germany/mecklenburg-western-pomerania/",
+    "countryId": "DEU",
+    "enriched": false
+  },
+  {
+    "id": "MEX",
+    "name": "Mexique",
+    "aliases": [
+      "Mexico",
+      "MX",
+      "MEX"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/mexico/",
+    "countryId": "MEX"
+  },
+  {
+    "id": "Q1166",
+    "name": "Michigan",
+    "aliases": [
+      "Michigan",
+      "Michigan"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/michigan/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q128196",
+    "name": "Mie",
+    "aliases": [
+      "Mie Prefecture",
+      "Mie"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/mie-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q39109",
+    "name": "Minas Gerais",
+    "aliases": [
+      "Minas Gerais",
+      "Minas Gerais"
+    ],
+    "context": "État · Brésil",
+    "href": "/country/brazil/minas-gerais/",
+    "countryId": "BRA",
+    "enriched": false
+  },
+  {
+    "id": "Q1527",
+    "name": "Minnesota",
+    "aliases": [
+      "Minnesota",
+      "Minnesota"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/minnesota/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q1494",
+    "name": "Mississippi",
+    "aliases": [
+      "Mississippi",
+      "Mississippi"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/mississippi/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q1581",
+    "name": "Missouri",
+    "aliases": [
+      "Missouri",
+      "Missouri"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/missouri/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q47896",
+    "name": "Miyagi",
+    "aliases": [
+      "Miyagi Prefecture",
+      "Miyagi"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/miyagi-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q130300",
+    "name": "Miyazaki",
+    "aliases": [
+      "Miyazaki Prefecture",
+      "Miyazaki"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/miyazaki-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "MDA",
+    "name": "Moldavie",
+    "aliases": [
+      "Moldova",
+      "MD",
+      "MDA"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/moldova/",
+    "countryId": "MDA"
+  },
+  {
+    "id": "MCO",
+    "name": "Monaco",
+    "aliases": [
+      "Monaco",
+      "MC",
+      "MCO"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/monaco/",
+    "countryId": "MCO"
+  },
+  {
+    "id": "MNG",
+    "name": "Mongolie",
+    "aliases": [
+      "Mongolia",
+      "MN",
+      "MNG"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/mongolia/",
+    "countryId": "MNG"
+  },
+  {
+    "id": "Q1212",
+    "name": "Montana",
+    "aliases": [
+      "Montana",
+      "Montana"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/montana/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "MNE",
+    "name": "Monténégro",
+    "aliases": [
+      "Montenegro",
+      "ME",
+      "MNE"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/montenegro/",
+    "countryId": "MNE"
+  },
+  {
+    "id": "MSR",
+    "name": "Montserrat",
+    "aliases": [
+      "Montserrat",
+      "MS",
+      "MSR"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/montserrat/",
+    "countryId": "MSR"
+  },
+  {
+    "id": "MOZ",
+    "name": "Mozambique",
+    "aliases": [
+      "Mozambique",
+      "MZ",
+      "MOZ"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/mozambique/",
+    "countryId": "MOZ"
+  },
+  {
+    "id": "Q1726",
+    "name": "Munich",
+    "aliases": [
+      "Munich"
+    ],
+    "context": "Ville · Bavière · Allemagne",
+    "href": "/city/germany/bavaria/munich/",
+    "countryId": "DEU",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "Q127877",
+    "name": "Nagano",
+    "aliases": [
+      "Nagano Prefecture",
+      "Nagano"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/nagano-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q169376",
+    "name": "Nagasaki",
+    "aliases": [
+      "Nagasaki Prefecture",
+      "Nagasaki"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/nagasaki-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "NAM",
+    "name": "Namibie",
+    "aliases": [
+      "Namibia",
+      "NA",
+      "NAM"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/namibia/",
+    "countryId": "NAM"
+  },
+  {
+    "id": "Q131287",
+    "name": "Nara",
+    "aliases": [
+      "Nara Prefecture",
+      "Nara"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/nara-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "NRU",
+    "name": "Nauru",
+    "aliases": [
+      "Nauru",
+      "NR",
+      "NRU"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/nauru/",
+    "countryId": "NRU"
+  },
+  {
+    "id": "Q1553",
+    "name": "Nebraska",
+    "aliases": [
+      "Nebraska",
+      "Nebraska"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/nebraska/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "NPL",
+    "name": "Népal",
+    "aliases": [
+      "Nepal",
+      "NP",
+      "NPL"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/nepal/",
+    "countryId": "NPL"
+  },
+  {
+    "id": "Q1227",
+    "name": "Nevada",
+    "aliases": [
+      "Nevada",
+      "Nevada"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/nevada/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q759",
+    "name": "New Hampshire",
+    "aliases": [
+      "New Hampshire",
+      "New Hampshire"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/new-hampshire/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q1408",
+    "name": "New Jersey",
+    "aliases": [
+      "New Jersey",
+      "New Jersey"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/new-jersey/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q60",
+    "name": "New York",
+    "aliases": [
+      "New York"
+    ],
+    "context": "Ville · État de New York · États-Unis",
+    "href": "/city/united-states/new-york/new-york/",
+    "countryId": "USA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "Q506586",
+    "name": "Newark",
+    "aliases": [
+      "Newark"
+    ],
+    "context": "Ville · Delaware · États-Unis",
+    "href": "/city/united-states/delaware/newark/",
+    "countryId": "USA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "NIC",
+    "name": "Nicaragua",
+    "aliases": [
+      "Nicaragua",
+      "NI",
+      "NIC"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/nicaragua/",
+    "countryId": "NIC"
+  },
+  {
+    "id": "Q33959",
+    "name": "Nice",
+    "aliases": [
+      "Nice"
+    ],
+    "context": "Ville · Provence-Alpes-Côte d'Azur · France",
+    "href": "/city/france/provence-alpes-cote-d-azur/nice/",
+    "countryId": "FRA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "NER",
+    "name": "Niger",
+    "aliases": [
+      "Niger",
+      "NE",
+      "NER"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/niger/",
+    "countryId": "NER"
+  },
+  {
+    "id": "NGA",
+    "name": "Nigeria",
+    "aliases": [
+      "Nigeria",
+      "NG",
+      "NGA"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/nigeria/",
+    "countryId": "NGA"
+  },
+  {
+    "id": "Q132705",
+    "name": "Niigata",
+    "aliases": [
+      "Niigata Prefecture",
+      "Niigata"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/niigata-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q178725",
+    "name": "Niterói",
+    "aliases": [
+      "Niterói"
+    ],
+    "context": "Ville · Rio de Janeiro · Brésil",
+    "href": "/city/brazil/rio-de-janeiro/niteroi/",
+    "countryId": "BRA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "NIU",
+    "name": "Niue",
+    "aliases": [
+      "Niue",
+      "NU",
+      "NIU"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/niue/",
+    "countryId": "NIU"
+  },
+  {
+    "id": "Q18677875",
+    "name": "Normandie",
+    "aliases": [
+      "Normandie",
+      "Normandie"
+    ],
+    "context": "Région · France",
+    "href": "/country/france/normandie/",
+    "countryId": "FRA",
+    "enriched": false
+  },
+  {
+    "id": "NOR",
+    "name": "Norvège",
+    "aliases": [
+      "Norway",
+      "NO",
+      "NOR"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/norway/",
+    "countryId": "NOR"
+  },
+  {
+    "id": "Q1522",
+    "name": "Nouveau-Mexique",
+    "aliases": [
+      "New Mexico",
+      "New Mexico"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/new-mexico/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q18678082",
+    "name": "Nouvelle-Aquitaine",
+    "aliases": [
+      "Nouvelle-Aquitaine",
+      "Nouvelle-Aquitaine"
+    ],
+    "context": "Région · France",
+    "href": "/country/france/nouvelle-aquitaine/",
+    "countryId": "FRA",
+    "enriched": false
+  },
+  {
+    "id": "NCL",
+    "name": "Nouvelle-Calédonie",
+    "aliases": [
+      "New Caledonia",
+      "NC",
+      "NCL"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/new-caledonia/",
+    "countryId": "NCL"
+  },
+  {
+    "id": "NZL",
+    "name": "Nouvelle-Zélande",
+    "aliases": [
+      "New Zealand",
+      "NZ",
+      "NZL"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/new-zealand/",
+    "countryId": "NZL"
+  },
+  {
+    "id": "Q2090",
+    "name": "Nuremberg",
+    "aliases": [
+      "Nuremberg"
+    ],
+    "context": "Ville · Bavière · Allemagne",
+    "href": "/city/germany/bavaria/nuremberg/",
+    "countryId": "DEU",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "Q18678265",
+    "name": "Occitanie",
+    "aliases": [
+      "Occitanie",
+      "Occitanie"
+    ],
+    "context": "Région · France",
+    "href": "/country/france/occitanie/",
+    "countryId": "FRA",
+    "enriched": false
+  },
+  {
+    "id": "Q1397",
+    "name": "Ohio",
+    "aliases": [
+      "Ohio",
+      "Ohio"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/ohio/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q1649",
+    "name": "Oklahoma",
+    "aliases": [
+      "Oklahoma",
+      "Oklahoma"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/oklahoma/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "OMN",
+    "name": "Oman",
+    "aliases": [
+      "Oman",
+      "OM",
+      "OMN"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/oman/",
+    "countryId": "OMN"
+  },
+  {
+    "id": "Q824",
+    "name": "Oregon",
+    "aliases": [
+      "Oregon",
+      "Oregon"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/oregon/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q35765",
+    "name": "Osaka",
+    "aliases": [
+      "Osaka"
+    ],
+    "context": "Ville · Préfecture d'Osaka · Japon",
+    "href": "/city/japan/osaka/osaka/",
+    "countryId": "JPN",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "UGA",
+    "name": "Ouganda",
+    "aliases": [
+      "Uganda",
+      "UG",
+      "UGA"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/uganda/",
+    "countryId": "UGA"
+  },
+  {
+    "id": "UZB",
+    "name": "Ouzbékistan",
+    "aliases": [
+      "Uzbekistan",
+      "UZ",
+      "UZB"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/uzbekistan/",
+    "countryId": "UZB"
+  },
+  {
+    "id": "PAK",
+    "name": "Pakistan",
+    "aliases": [
+      "Pakistan",
+      "PK",
+      "PAK"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/pakistan/",
+    "countryId": "PAK"
+  },
+  {
+    "id": "PLW",
+    "name": "Palaos",
+    "aliases": [
+      "Palau",
+      "PW",
+      "PLW"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/palau/",
+    "countryId": "PLW"
+  },
+  {
+    "id": "PSX",
+    "name": "Palestine",
+    "aliases": [
+      "Palestine",
+      "PS",
+      "PSX"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/palestine/",
+    "countryId": "PSX"
+  },
+  {
+    "id": "PAN",
+    "name": "Panama",
+    "aliases": [
+      "Panama",
+      "PA",
+      "PAN"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/panama/",
+    "countryId": "PAN"
+  },
+  {
+    "id": "PNG",
+    "name": "Papouasie-Nouvelle-Guinée",
+    "aliases": [
+      "Papua New Guinea",
+      "PG",
+      "PNG"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/papua-new-guinea/",
+    "countryId": "PNG"
+  },
+  {
+    "id": "Q39517",
+    "name": "Pará",
+    "aliases": [
+      "Pará",
+      "Pará"
+    ],
+    "context": "État · Brésil",
+    "href": "/country/brazil/para/",
+    "countryId": "BRA",
+    "enriched": false
+  },
+  {
+    "id": "PRY",
+    "name": "Paraguay",
+    "aliases": [
+      "Paraguay",
+      "PY",
+      "PRY"
+    ],
+    "context": "Pays · Amérique du Sud",
+    "href": "/country/paraguay/",
+    "countryId": "PRY"
+  },
+  {
+    "id": "Q38088",
+    "name": "Paraíba",
+    "aliases": [
+      "Paraíba",
+      "Paraíba"
+    ],
+    "context": "État · Brésil",
+    "href": "/country/brazil/paraiba/",
+    "countryId": "BRA",
+    "enriched": false
+  },
+  {
+    "id": "Q15499",
+    "name": "Paraná",
+    "aliases": [
+      "Paraná",
+      "Paraná"
+    ],
+    "context": "État · Brésil",
+    "href": "/country/brazil/parana/",
+    "countryId": "BRA",
+    "enriched": false
+  },
+  {
+    "id": "Q926713",
+    "name": "Parintins",
+    "aliases": [
+      "Parintins"
+    ],
+    "context": "Ville · Amazonas · Brésil",
+    "href": "/city/brazil/amazonas/parintins/",
+    "countryId": "BRA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "Q90",
+    "name": "Paris",
+    "aliases": [
+      "Paris"
+    ],
+    "context": "Ville · Île-de-France · France",
+    "href": "/city/france/ile-de-france/paris/",
+    "countryId": "FRA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "Q16994",
+    "name": "Pays de la Loire",
+    "aliases": [
+      "Pays de la Loire",
+      "Pays de la Loire"
+    ],
+    "context": "Région · France",
+    "href": "/country/france/pays-de-la-loire/",
+    "countryId": "FRA",
+    "enriched": false
+  },
+  {
+    "id": "NLD",
+    "name": "Pays-Bas",
+    "aliases": [
+      "Netherlands",
+      "NL",
+      "NLD"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/netherlands/",
+    "countryId": "NLD"
+  },
+  {
+    "id": "Q1400",
+    "name": "Pennsylvanie",
+    "aliases": [
+      "Pennsylvania",
+      "Pennsylvania"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/pennsylvania/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q40942",
+    "name": "Pernambouc",
+    "aliases": [
+      "Pernambuco",
+      "Pernambuco"
+    ],
+    "context": "État · Brésil",
+    "href": "/country/brazil/pernambuco/",
+    "countryId": "BRA",
+    "enriched": false
+  },
+  {
+    "id": "PER",
+    "name": "Pérou",
+    "aliases": [
+      "Peru",
+      "PE",
+      "PER"
+    ],
+    "context": "Pays · Amérique du Sud",
+    "href": "/country/peru/",
+    "countryId": "PER"
+  },
+  {
+    "id": "Q189043",
+    "name": "Petrópolis",
+    "aliases": [
+      "Petrópolis"
+    ],
+    "context": "Ville · Rio de Janeiro · Brésil",
+    "href": "/city/brazil/rio-de-janeiro/petropolis/",
+    "countryId": "BRA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "PHL",
+    "name": "Philippines",
+    "aliases": [
+      "Philippines",
+      "PH",
+      "PHL"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/philippines/",
+    "countryId": "PHL"
+  },
+  {
+    "id": "Q42722",
+    "name": "Piauí",
+    "aliases": [
+      "Piauí",
+      "Piauí"
+    ],
+    "context": "État · Brésil",
+    "href": "/country/brazil/piaui/",
+    "countryId": "BRA",
+    "enriched": false
+  },
+  {
+    "id": "POL",
+    "name": "Pologne",
+    "aliases": [
+      "Poland",
+      "PL",
+      "POL"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/poland/",
+    "countryId": "POL"
+  },
+  {
+    "id": "PYF",
+    "name": "Polynésie française",
+    "aliases": [
+      "French Polynesia",
+      "PF",
+      "PYF"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/french-polynesia/",
+    "countryId": "PYF"
+  },
+  {
+    "id": "PRI",
+    "name": "Porto Rico",
+    "aliases": [
+      "Puerto Rico",
+      "PR",
+      "PRI"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/puerto-rico/",
+    "countryId": "PRI"
+  },
+  {
+    "id": "PRT",
+    "name": "Portugal",
+    "aliases": [
+      "Portugal",
+      "PT",
+      "PRT"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/portugal/",
+    "countryId": "PRT"
+  },
+  {
+    "id": "Q80434",
+    "name": "Préfecture d'Aichi",
+    "aliases": [
+      "Aichi Prefecture",
+      "Aichi"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/aichi-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q81863",
+    "name": "Préfecture d'Akita",
+    "aliases": [
+      "Akita Prefecture",
+      "Akita"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/akita-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q71699",
+    "name": "Préfecture d'Aomori",
+    "aliases": [
+      "Aomori Prefecture",
+      "Aomori"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/aomori-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q123376",
+    "name": "Préfecture d'Ehime",
+    "aliases": [
+      "Ehime Prefecture",
+      "Ehime"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/ehime-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q617375",
+    "name": "Préfecture d'Hiroshima",
+    "aliases": [
+      "Hiroshima Prefecture",
+      "Hiroshima"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/hiroshima-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q83273",
+    "name": "Préfecture d'Ibaraki",
+    "aliases": [
+      "Ibaraki Prefecture",
+      "Ibaraki"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/ibaraki-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q131281",
+    "name": "Préfecture d'Ishikawa",
+    "aliases": [
+      "Ishikawa Prefecture",
+      "Ishikawa"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/ishikawa-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q48326",
+    "name": "Préfecture d'Iwate",
+    "aliases": [
+      "Iwate Prefecture",
+      "Iwate"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/iwate-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q133924",
+    "name": "Préfecture d'Ōita",
+    "aliases": [
+      "Ōita Prefecture",
+      "Ōita"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/oita-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q132936",
+    "name": "Préfecture d'Okayama",
+    "aliases": [
+      "Okayama Prefecture",
+      "Okayama"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/okayama-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q766445",
+    "name": "Préfecture d'Okinawa",
+    "aliases": [
+      "Okinawa Prefecture",
+      "Okinawa"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/okinawa-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q122723",
+    "name": "Préfecture d'Osaka",
+    "aliases": [
+      "Ōsaka Prefecture",
+      "Ōsaka"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/osaka/",
+    "countryId": "JPN",
+    "enriched": true
+  },
+  {
+    "id": "Q15104",
+    "name": "Provence-Alpes-Côte d'Azur",
+    "aliases": [
+      "Provence-Alpes-Côte d'Azur",
+      "Provence-Alpes-Côte d'Azur"
+    ],
+    "context": "Région · France",
+    "href": "/country/france/provence-alpes-cote-d-azur/",
+    "countryId": "FRA",
+    "enriched": true
+  },
+  {
+    "id": "QAT",
+    "name": "Qatar",
+    "aliases": [
+      "Qatar",
+      "QA",
+      "QAT"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/qatar/",
+    "countryId": "QAT"
+  },
+  {
+    "id": "CAF",
+    "name": "République centrafricaine",
+    "aliases": [
+      "Central African Republic",
+      "CF",
+      "CAF"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/central-african-republic/",
+    "countryId": "CAF"
+  },
+  {
+    "id": "COD",
+    "name": "République démocratique du Congo",
+    "aliases": [
+      "Democratic Republic of the Congo",
+      "CD",
+      "COD"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/democratic-republic-of-the-congo/",
+    "countryId": "COD"
+  },
+  {
+    "id": "DOM",
+    "name": "République dominicaine",
+    "aliases": [
+      "Dominican Republic",
+      "DO",
+      "DOM"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/dominican-republic/",
+    "countryId": "DOM"
+  },
+  {
+    "id": "COG",
+    "name": "République du Congo",
+    "aliases": [
+      "Republic of the Congo",
+      "CG",
+      "COG"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/republic-of-the-congo/",
+    "countryId": "COG"
+  },
+  {
+    "id": "CHN",
+    "name": "République populaire de Chine",
+    "aliases": [
+      "People's Republic of China",
+      "CN",
+      "CHN"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/people-s-republic-of-china/",
+    "countryId": "CHN"
+  },
+  {
+    "id": "Q1198",
+    "name": "Rhénanie-du-Nord-Westphalie",
+    "aliases": [
+      "North Rhine-Westphalia",
+      "Nordrhein-Westfalen"
+    ],
+    "context": "Land · Allemagne",
+    "href": "/country/germany/north-rhine-westphalia/",
+    "countryId": "DEU",
+    "enriched": true
+  },
+  {
+    "id": "Q1200",
+    "name": "Rhénanie-Palatinat",
+    "aliases": [
+      "Rhineland-Palatinate",
+      "Rheinland-Pfalz"
+    ],
+    "context": "Land · Allemagne",
+    "href": "/country/germany/rhineland-palatinate/",
+    "countryId": "DEU",
+    "enriched": false
+  },
+  {
+    "id": "Q1387",
+    "name": "Rhode Island",
+    "aliases": [
+      "Rhode Island",
+      "Rhode Island"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/rhode-island/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q41428",
+    "name": "Rio de Janeiro",
+    "aliases": [
+      "Rio de Janeiro",
+      "Rio de Janeiro"
+    ],
+    "context": "État · Brésil",
+    "href": "/country/brazil/rio-de-janeiro/",
+    "countryId": "BRA",
+    "enriched": true
+  },
+  {
+    "id": "Q8678",
+    "name": "Rio de Janeiro",
+    "aliases": [
+      "Rio de Janeiro"
+    ],
+    "context": "Ville · Rio de Janeiro · Brésil",
+    "href": "/city/brazil/rio-de-janeiro/rio-de-janeiro/",
+    "countryId": "BRA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "Q43255",
+    "name": "Rio Grande do Norte",
+    "aliases": [
+      "Rio Grande do Norte",
+      "Rio Grande do Norte"
+    ],
+    "context": "État · Brésil",
+    "href": "/country/brazil/rio-grande-do-norte/",
+    "countryId": "BRA",
+    "enriched": false
+  },
+  {
+    "id": "Q40030",
+    "name": "Rio Grande do Sul",
+    "aliases": [
+      "Rio Grande do Sul",
+      "Rio Grande do Sul"
+    ],
+    "context": "État · Brésil",
+    "href": "/country/brazil/rio-grande-do-sul/",
+    "countryId": "BRA",
+    "enriched": false
+  },
+  {
+    "id": "Q43235",
+    "name": "Rondônia",
+    "aliases": [
+      "Rondônia",
+      "Rondônia"
+    ],
+    "context": "État · Brésil",
+    "href": "/country/brazil/rondonia/",
+    "countryId": "BRA",
+    "enriched": false
+  },
+  {
+    "id": "Q42508",
+    "name": "Roraima",
+    "aliases": [
+      "Roraima",
+      "Roraima"
+    ],
+    "context": "État · Brésil",
+    "href": "/country/brazil/roraima/",
+    "countryId": "BRA",
+    "enriched": false
+  },
+  {
+    "id": "ROU",
+    "name": "Roumanie",
+    "aliases": [
+      "Romania",
+      "RO",
+      "ROU"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/romania/",
+    "countryId": "ROU"
+  },
+  {
+    "id": "GBR",
+    "name": "Royaume-Uni",
+    "aliases": [
+      "United Kingdom",
+      "GB",
+      "GBR"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/united-kingdom/",
+    "countryId": "GBR"
+  },
+  {
+    "id": "RUS",
+    "name": "Russie",
+    "aliases": [
+      "Russia",
+      "RU",
+      "RUS"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/russia/",
+    "countryId": "RUS"
+  },
+  {
+    "id": "RWA",
+    "name": "Rwanda",
+    "aliases": [
+      "Rwanda",
+      "RW",
+      "RWA"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/rwanda/",
+    "countryId": "RWA"
+  },
+  {
+    "id": "Q160420",
+    "name": "Saga",
+    "aliases": [
+      "Saga Prefecture",
+      "Saga"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/saga-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "SAH",
+    "name": "Sahara occidental",
+    "aliases": [
+      "Western Sahara",
+      "EH",
+      "SAH"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/western-sahara/",
+    "countryId": "SAH"
+  },
+  {
+    "id": "BLM",
+    "name": "Saint-Barthélemy",
+    "aliases": [
+      "Saint Barthélemy",
+      "BL",
+      "BLM"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/saint-barthelemy/",
+    "countryId": "BLM"
+  },
+  {
+    "id": "KNA",
+    "name": "Saint-Christophe-et-Niévès",
+    "aliases": [
+      "Saint Kitts and Nevis",
+      "KN",
+      "KNA"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/saint-kitts-and-nevis/",
+    "countryId": "KNA"
+  },
+  {
+    "id": "SMR",
+    "name": "Saint-Marin",
+    "aliases": [
+      "San Marino",
+      "SM",
+      "SMR"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/san-marino/",
+    "countryId": "SMR"
+  },
+  {
+    "id": "MAF",
+    "name": "Saint-Martin",
+    "aliases": [
+      "Saint Martin",
+      "MF",
+      "MAF"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/saint-martin/",
+    "countryId": "MAF"
+  },
+  {
+    "id": "SXM",
+    "name": "Saint-Martin",
+    "aliases": [
+      "Sint Maarten",
+      "SX",
+      "SXM"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/sint-maarten/",
+    "countryId": "SXM"
+  },
+  {
+    "id": "SPM",
+    "name": "Saint-Pierre-et-Miquelon",
+    "aliases": [
+      "Saint Pierre and Miquelon",
+      "PM",
+      "SPM"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/saint-pierre-and-miquelon/",
+    "countryId": "SPM"
+  },
+  {
+    "id": "VCT",
+    "name": "Saint-Vincent-et-les-Grenadines",
+    "aliases": [
+      "Saint Vincent and the Grenadines",
+      "VC",
+      "VCT"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/saint-vincent-and-the-grenadines/",
+    "countryId": "VCT"
+  },
+  {
+    "id": "SHN",
+    "name": "Sainte-Hélène",
+    "aliases": [
+      "Saint Helena",
+      "SH",
+      "SHN"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/saint-helena/",
+    "countryId": "SHN"
+  },
+  {
+    "id": "LCA",
+    "name": "Sainte-Lucie",
+    "aliases": [
+      "Saint Lucia",
+      "LC",
+      "LCA"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/saint-lucia/",
+    "countryId": "LCA"
+  },
+  {
+    "id": "Q128186",
+    "name": "Saitama",
+    "aliases": [
+      "Saitama Prefecture",
+      "Saitama"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/saitama-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q193428",
+    "name": "Sakai",
+    "aliases": [
+      "Sakai"
+    ],
+    "context": "Ville · Préfecture d'Osaka · Japon",
+    "href": "/city/japan/osaka/sakai/",
+    "countryId": "JPN",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "SLV",
+    "name": "Salvador",
+    "aliases": [
+      "El Salvador",
+      "SV",
+      "SLV"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/el-salvador/",
+    "countryId": "SLV"
+  },
+  {
+    "id": "WSM",
+    "name": "Samoa",
+    "aliases": [
+      "Samoa",
+      "WS",
+      "WSM"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/samoa/",
+    "countryId": "WSM"
+  },
+  {
+    "id": "ASM",
+    "name": "Samoa américaines",
+    "aliases": [
+      "American Samoa",
+      "AS",
+      "ASM"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/american-samoa/",
+    "countryId": "ASM"
+  },
+  {
+    "id": "Q62",
+    "name": "San Francisco",
+    "aliases": [
+      "San Francisco"
+    ],
+    "context": "Ville · Californie · États-Unis",
+    "href": "/city/united-states/california/san-francisco/",
+    "countryId": "USA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "Q16553",
+    "name": "San José",
+    "aliases": [
+      "San José"
+    ],
+    "context": "Ville · Californie · États-Unis",
+    "href": "/city/united-states/california/san-jose/",
+    "countryId": "USA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "Q41115",
+    "name": "Santa Catarina",
+    "aliases": [
+      "Santa Catarina",
+      "Santa Catarina"
+    ],
+    "context": "État · Brésil",
+    "href": "/country/brazil/santa-catarina/",
+    "countryId": "BRA",
+    "enriched": false
+  },
+  {
+    "id": "Q81882",
+    "name": "Santos",
+    "aliases": [
+      "Santos"
+    ],
+    "context": "Ville · São Paulo · Brésil",
+    "href": "/city/brazil/sao-paulo/santos/",
+    "countryId": "BRA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "Q175",
+    "name": "São Paulo",
+    "aliases": [
+      "São Paulo",
+      "São Paulo"
+    ],
+    "context": "État · Brésil",
+    "href": "/country/brazil/sao-paulo/",
+    "countryId": "BRA",
+    "enriched": true
+  },
+  {
+    "id": "Q174",
+    "name": "São Paulo",
+    "aliases": [
+      "São Paulo"
+    ],
+    "context": "Ville · São Paulo · Brésil",
+    "href": "/city/brazil/sao-paulo/sao-paulo/",
+    "countryId": "BRA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "STP",
+    "name": "Sao Tomé-et-Principe",
+    "aliases": [
+      "São Tomé and Príncipe",
+      "ST",
+      "STP"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/sao-tome-and-principe/",
+    "countryId": "STP"
+  },
+  {
+    "id": "Q37951",
+    "name": "Sapporo",
+    "aliases": [
+      "Sapporo"
+    ],
+    "context": "Ville · Hokkaidō · Japon",
+    "href": "/city/japan/hokkaido/sapporo/",
+    "countryId": "JPN",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "Q1201",
+    "name": "Sarre",
+    "aliases": [
+      "Saarland",
+      "Saarland"
+    ],
+    "context": "Land · Allemagne",
+    "href": "/country/germany/saarland/",
+    "countryId": "DEU",
+    "enriched": false
+  },
+  {
+    "id": "Q1202",
+    "name": "Saxe",
+    "aliases": [
+      "Saxony",
+      "Sachsen"
+    ],
+    "context": "Land · Allemagne",
+    "href": "/country/germany/saxony/",
+    "countryId": "DEU",
+    "enriched": false
+  },
+  {
+    "id": "Q1206",
+    "name": "Saxe-Anhalt",
+    "aliases": [
+      "Saxony-Anhalt",
+      "Sachsen-Anhalt"
+    ],
+    "context": "Land · Allemagne",
+    "href": "/country/germany/saxony-anhalt/",
+    "countryId": "DEU",
+    "enriched": false
+  },
+  {
+    "id": "Q1194",
+    "name": "Schleswig-Holstein",
+    "aliases": [
+      "Schleswig-Holstein",
+      "Schleswig-Holstein"
+    ],
+    "context": "Land · Allemagne",
+    "href": "/country/germany/schleswig-holstein/",
+    "countryId": "DEU",
+    "enriched": false
+  },
+  {
+    "id": "SEN",
+    "name": "Sénégal",
+    "aliases": [
+      "Senegal",
+      "SN",
+      "SEN"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/senegal/",
+    "countryId": "SEN"
+  },
+  {
+    "id": "SRB",
+    "name": "Serbie",
+    "aliases": [
+      "Serbia",
+      "RS",
+      "SRB"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/serbia/",
+    "countryId": "SRB"
+  },
+  {
+    "id": "Q43783",
+    "name": "Sergipe",
+    "aliases": [
+      "Sergipe",
+      "Sergipe"
+    ],
+    "context": "État · Brésil",
+    "href": "/country/brazil/sergipe/",
+    "countryId": "BRA",
+    "enriched": false
+  },
+  {
+    "id": "SYC",
+    "name": "Seychelles",
+    "aliases": [
+      "Seychelles",
+      "SC",
+      "SYC"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/seychelles/",
+    "countryId": "SYC"
+  },
+  {
+    "id": "Q131358",
+    "name": "Shiga",
+    "aliases": [
+      "Shiga Prefecture",
+      "Shiga"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/shiga-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q132751",
+    "name": "Shimane",
+    "aliases": [
+      "Shimane Prefecture",
+      "Shimane"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/shimane-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q131320",
+    "name": "Shizuoka",
+    "aliases": [
+      "Shizuoka Prefecture",
+      "Shizuoka"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/shizuoka-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "SLE",
+    "name": "Sierra Leone",
+    "aliases": [
+      "Sierra Leone",
+      "SL",
+      "SLE"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/sierra-leone/",
+    "countryId": "SLE"
+  },
+  {
+    "id": "SGP",
+    "name": "Singapour",
+    "aliases": [
+      "Singapore",
+      "SG",
+      "SGP"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/singapore/",
+    "countryId": "SGP"
+  },
+  {
+    "id": "SVK",
+    "name": "Slovaquie",
+    "aliases": [
+      "Slovakia",
+      "SK",
+      "SVK"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/slovakia/",
+    "countryId": "SVK"
+  },
+  {
+    "id": "SVN",
+    "name": "Slovénie",
+    "aliases": [
+      "Slovenia",
+      "SI",
+      "SVN"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/slovenia/",
+    "countryId": "SVN"
+  },
+  {
+    "id": "SOM",
+    "name": "Somalie",
+    "aliases": [
+      "Somalia",
+      "SO",
+      "SOM"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/somalia/",
+    "countryId": "SOM"
+  },
+  {
+    "id": "SOL",
+    "name": "Somaliland",
+    "aliases": [
+      "Somaliland",
+      "-99",
+      "SOL"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/somaliland/",
+    "countryId": "SOL"
+  },
+  {
+    "id": "SDN",
+    "name": "Soudan",
+    "aliases": [
+      "Sudan",
+      "SD",
+      "SDN"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/sudan/",
+    "countryId": "SDN"
+  },
+  {
+    "id": "SDS",
+    "name": "Soudan du Sud",
+    "aliases": [
+      "South Sudan",
+      "SS",
+      "SDS"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/south-sudan/",
+    "countryId": "SDS"
+  },
+  {
+    "id": "LKA",
+    "name": "Sri Lanka",
+    "aliases": [
+      "Sri Lanka",
+      "LK",
+      "LKA"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/sri-lanka/",
+    "countryId": "LKA"
+  },
+  {
+    "id": "SWE",
+    "name": "Suède",
+    "aliases": [
+      "Sweden",
+      "SE",
+      "SWE"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/sweden/",
+    "countryId": "SWE"
+  },
+  {
+    "id": "CHE",
+    "name": "Suisse",
+    "aliases": [
+      "Switzerland",
+      "CH",
+      "CHE"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/switzerland/",
+    "countryId": "CHE"
+  },
+  {
+    "id": "SUR",
+    "name": "Suriname",
+    "aliases": [
+      "Suriname",
+      "SR",
+      "SUR"
+    ],
+    "context": "Pays · Amérique du Sud",
+    "href": "/country/suriname/",
+    "countryId": "SUR"
+  },
+  {
+    "id": "SYR",
+    "name": "Syrie",
+    "aliases": [
+      "Syria",
+      "SY",
+      "SYR"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/syria/",
+    "countryId": "SYR"
+  },
+  {
+    "id": "Q269634",
+    "name": "Tachikawa",
+    "aliases": [
+      "Tachikawa"
+    ],
+    "context": "Ville · Tokyo · Japon",
+    "href": "/city/japan/tokyo/tachikawa/",
+    "countryId": "JPN",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "TJK",
+    "name": "Tadjikistan",
+    "aliases": [
+      "Tajikistan",
+      "TJ",
+      "TJK"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/tajikistan/",
+    "countryId": "TJK"
+  },
+  {
+    "id": "TWN",
+    "name": "Taïwan",
+    "aliases": [
+      "Taiwan",
+      "TW",
+      "TWN"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/taiwan/",
+    "countryId": "TWN"
+  },
+  {
+    "id": "TZA",
+    "name": "Tanzanie",
+    "aliases": [
+      "Tanzania",
+      "TZ",
+      "TZA"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/tanzania/",
+    "countryId": "TZA"
+  },
+  {
+    "id": "TCD",
+    "name": "Tchad",
+    "aliases": [
+      "Chad",
+      "TD",
+      "TCD"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/chad/",
+    "countryId": "TCD"
+  },
+  {
+    "id": "CZE",
+    "name": "Tchéquie",
+    "aliases": [
+      "Czech Republic",
+      "CZ",
+      "CZE"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/czech-republic/",
+    "countryId": "CZE"
+  },
+  {
+    "id": "Q1509",
+    "name": "Tennessee",
+    "aliases": [
+      "Tennessee",
+      "Tennessee"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/tennessee/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "ATF",
+    "name": "Terres australes et antarctiques françaises",
+    "aliases": [
+      "French Southern and Antarctic Lands",
+      "TF",
+      "ATF"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/french-southern-and-antarctic-lands/",
+    "countryId": "ATF"
+  },
+  {
+    "id": "IOT",
+    "name": "Territoire britannique de l’océan Indien",
+    "aliases": [
+      "British Indian Ocean Territory",
+      "IO",
+      "IOT"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/british-indian-ocean-territory/",
+    "countryId": "IOT"
+  },
+  {
+    "id": "IOA",
+    "name": "Territoires extérieurs australiens de l'Océan Indien",
+    "aliases": [
+      "Australian Indian Ocean Territories",
+      "AU",
+      "IOA"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/australian-indian-ocean-territories/",
+    "countryId": "IOA"
+  },
+  {
+    "id": "Q1439",
+    "name": "Texas",
+    "aliases": [
+      "Texas",
+      "Texas"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/texas/",
+    "countryId": "USA",
+    "enriched": true
+  },
+  {
+    "id": "THA",
+    "name": "Thaïlande",
+    "aliases": [
+      "Thailand",
+      "TH",
+      "THA"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/thailand/",
+    "countryId": "THA"
+  },
+  {
+    "id": "Q1205",
+    "name": "Thuringe",
+    "aliases": [
+      "Thuringia",
+      "Thüringen"
+    ],
+    "context": "Land · Allemagne",
+    "href": "/country/germany/thuringia/",
+    "countryId": "DEU",
+    "enriched": false
+  },
+  {
+    "id": "TLS",
+    "name": "Timor oriental",
+    "aliases": [
+      "East Timor",
+      "TL",
+      "TLS"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/east-timor/",
+    "countryId": "TLS"
+  },
+  {
+    "id": "Q43695",
+    "name": "Tocantins",
+    "aliases": [
+      "Tocantins",
+      "Tocantins"
+    ],
+    "context": "État · Brésil",
+    "href": "/country/brazil/tocantins/",
+    "countryId": "BRA",
+    "enriched": false
+  },
+  {
+    "id": "Q44843",
+    "name": "Tochigi",
+    "aliases": [
+      "Tochigi Prefecture",
+      "Tochigi"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/tochigi-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "TGO",
+    "name": "Togo",
+    "aliases": [
+      "Togo",
+      "TG",
+      "TGO"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/togo/",
+    "countryId": "TGO"
+  },
+  {
+    "id": "Q160734",
+    "name": "Tokushima",
+    "aliases": [
+      "Tokushima Prefecture",
+      "Tokushima"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/tokushima-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q1490",
+    "name": "Tokyo",
+    "aliases": [
+      "Tokyo",
+      "Tokyo"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/tokyo/",
+    "countryId": "JPN",
+    "enriched": true
+  },
+  {
+    "id": "TON",
+    "name": "Tonga",
+    "aliases": [
+      "Tonga",
+      "TO",
+      "TON"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/tonga/",
+    "countryId": "TON"
+  },
+  {
+    "id": "Q133935",
+    "name": "Tottori",
+    "aliases": [
+      "Tottori Prefecture",
+      "Tottori"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/tottori-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q44160",
+    "name": "Toulon",
+    "aliases": [
+      "Toulon"
+    ],
+    "context": "Ville · Provence-Alpes-Côte d'Azur · France",
+    "href": "/city/france/provence-alpes-cote-d-azur/toulon/",
+    "countryId": "FRA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "Q132929",
+    "name": "Toyama",
+    "aliases": [
+      "Toyama Prefecture",
+      "Toyama"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/toyama-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "TTO",
+    "name": "Trinité-et-Tobago",
+    "aliases": [
+      "Trinidad and Tobago",
+      "TT",
+      "TTO"
+    ],
+    "context": "Pays · Amérique du Nord",
+    "href": "/country/trinidad-and-tobago/",
+    "countryId": "TTO"
+  },
+  {
+    "id": "TUN",
+    "name": "Tunisie",
+    "aliases": [
+      "Tunisia",
+      "TN",
+      "TUN"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/tunisia/",
+    "countryId": "TUN"
+  },
+  {
+    "id": "TKM",
+    "name": "Turkménistan",
+    "aliases": [
+      "Turkmenistan",
+      "TM",
+      "TKM"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/turkmenistan/",
+    "countryId": "TKM"
+  },
+  {
+    "id": "TUR",
+    "name": "Turquie",
+    "aliases": [
+      "Turkey",
+      "TR",
+      "TUR"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/turkey/",
+    "countryId": "TUR"
+  },
+  {
+    "id": "TUV",
+    "name": "Tuvalu",
+    "aliases": [
+      "Tuvalu",
+      "TV",
+      "TUV"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/tuvalu/",
+    "countryId": "TUV"
+  },
+  {
+    "id": "UKR",
+    "name": "Ukraine",
+    "aliases": [
+      "Ukraine",
+      "UA",
+      "UKR"
+    ],
+    "context": "Pays · Europe",
+    "href": "/country/ukraine/",
+    "countryId": "UKR"
+  },
+  {
+    "id": "URY",
+    "name": "Uruguay",
+    "aliases": [
+      "Uruguay",
+      "UY",
+      "URY"
+    ],
+    "context": "Pays · Amérique du Sud",
+    "href": "/country/uruguay/",
+    "countryId": "URY"
+  },
+  {
+    "id": "Q829",
+    "name": "Utah",
+    "aliases": [
+      "Utah",
+      "Utah"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/utah/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "VUT",
+    "name": "Vanuatu",
+    "aliases": [
+      "Vanuatu",
+      "VU",
+      "VUT"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/vanuatu/",
+    "countryId": "VUT"
+  },
+  {
+    "id": "VEN",
+    "name": "Venezuela",
+    "aliases": [
+      "Venezuela",
+      "VE",
+      "VEN"
+    ],
+    "context": "Pays · Amérique du Sud",
+    "href": "/country/venezuela/",
+    "countryId": "VEN"
+  },
+  {
+    "id": "Q16551",
+    "name": "Vermont",
+    "aliases": [
+      "Vermont",
+      "Vermont"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/vermont/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q621",
+    "name": "Versailles",
+    "aliases": [
+      "Versailles"
+    ],
+    "context": "Ville · Île-de-France · France",
+    "href": "/city/france/ile-de-france/versailles/",
+    "countryId": "FRA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "VNM",
+    "name": "Viêt Nam",
+    "aliases": [
+      "Vietnam",
+      "VN",
+      "VNM"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/vietnam/",
+    "countryId": "VNM"
+  },
+  {
+    "id": "Q1370",
+    "name": "Virginie",
+    "aliases": [
+      "Virginia",
+      "Virginia"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/virginia/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q1371",
+    "name": "Virginie-Occidentale",
+    "aliases": [
+      "West Virginia",
+      "West Virginia"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/west-virginia/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q131314",
+    "name": "Wakayama",
+    "aliases": [
+      "Wakayama Prefecture",
+      "Wakayama"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/wakayama-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "WLF",
+    "name": "Wallis-et-Futuna",
+    "aliases": [
+      "Wallis and Futuna",
+      "WF",
+      "WLF"
+    ],
+    "context": "Pays · Océanie",
+    "href": "/country/wallis-and-futuna/",
+    "countryId": "WLF"
+  },
+  {
+    "id": "Q1223",
+    "name": "Washington",
+    "aliases": [
+      "Washington",
+      "Washington"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/washington/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q61",
+    "name": "Washington D.C.",
+    "aliases": [
+      "Washington",
+      "District of Columbia"
+    ],
+    "context": "District fédéral · États-Unis",
+    "href": "/country/united-states/district-of-columbia/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q174224",
+    "name": "Wilmington",
+    "aliases": [
+      "Wilmington"
+    ],
+    "context": "Ville · Delaware · États-Unis",
+    "href": "/city/united-states/delaware/wilmington/",
+    "countryId": "USA",
+    "kind": "city",
+    "enriched": true
+  },
+  {
+    "id": "Q1537",
+    "name": "Wisconsin",
+    "aliases": [
+      "Wisconsin",
+      "Wisconsin"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/wisconsin/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q1214",
+    "name": "Wyoming",
+    "aliases": [
+      "Wyoming",
+      "Wyoming"
+    ],
+    "context": "État · États-Unis",
+    "href": "/country/united-states/wyoming/",
+    "countryId": "USA",
+    "enriched": false
+  },
+  {
+    "id": "Q125863",
+    "name": "Yamagata",
+    "aliases": [
+      "Yamagata Prefecture",
+      "Yamagata"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/yamagata-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q127264",
+    "name": "Yamaguchi",
+    "aliases": [
+      "Yamaguchi Prefecture",
+      "Yamaguchi"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/yamaguchi-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "Q132720",
+    "name": "Yamanashi",
+    "aliases": [
+      "Yamanashi Prefecture",
+      "Yamanashi"
+    ],
+    "context": "Préfecture · Japon",
+    "href": "/country/japan/yamanashi-prefecture/",
+    "countryId": "JPN",
+    "enriched": false
+  },
+  {
+    "id": "YEM",
+    "name": "Yémen",
+    "aliases": [
+      "Yemen",
+      "YE",
+      "YEM"
+    ],
+    "context": "Pays · Asie",
+    "href": "/country/yemen/",
+    "countryId": "YEM"
+  },
+  {
+    "id": "ZMB",
+    "name": "Zambie",
+    "aliases": [
+      "Zambia",
+      "ZM",
+      "ZMB"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/zambia/",
+    "countryId": "ZMB"
+  },
+  {
+    "id": "ZWE",
+    "name": "Zimbabwe",
+    "aliases": [
+      "Zimbabwe",
+      "ZW",
+      "ZWE"
+    ],
+    "context": "Pays · Afrique",
+    "href": "/country/zimbabwe/",
+    "countryId": "ZWE"
+  }
+]
