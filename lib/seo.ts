@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
-import type { Country, SearchEntry, Territory } from "@/types/geography";
+import type {
+  AdministrativeDivision,
+  Country,
+  SearchEntry,
+} from "@/types/geography";
 
 export const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/+$/, "") ||
@@ -27,7 +31,10 @@ export function pageMetadata(
   };
 }
 
-export function territoryDescription(territory: Territory, country?: Country) {
+export function territoryDescription(
+  territory: Country | AdministrativeDivision,
+  country?: Country,
+) {
   const prefix = country ? `${territory.names.fr}, ${country.names.fr}` : territory.names.fr;
   return `Découvrez la capitale, les principales villes, la population, le relief, les cours d’eau et les territoires voisins de ${prefix}.`;
 }
