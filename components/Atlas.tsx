@@ -1,5 +1,5 @@
 "use client";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
@@ -138,29 +138,24 @@ export default function Atlas({
       cancelled = true;
     };
   }, [country?.id, country?.pilot, retry]);
-  const navigate = useCallback(
-    (href: string) => {
-      router.push(href, { scroll: false });
-      setCollapsed(false);
-      setTab("overview");
-      setDirectory(false);
-      if (window.innerWidth <= 700)
-        window.scrollTo({ top: 0, behavior: "instant" });
-    },
-    [router],
-  );
-  const select = useCallback(
-    (id: string, kind: "country" | "division") => {
-      if (kind === "country") {
-        const c = countries.find((c) => c.id === id);
-        if (c) navigate(territoryHref(c));
-      } else {
-        const d = data?.divisions.find((d) => d.id === id);
-        if (d && country) navigate(territoryHref(country, d));
-      }
-    },
-    [countries, country, data, navigate],
-  );
+  function navigate(href: string) {
+    router.push(href, { scroll: false });
+    setCollapsed(false);
+    setTab("overview");
+    setDirectory(false);
+    if (window.innerWidth <= 700)
+      window.scrollTo({ top: 0, behavior: "instant" });
+  }
+  function select(id: string, kind: "country" | "division") {
+    if (kind === "country") {
+      const selectedCountry = countries.find((item) => item.id === id);
+      if (selectedCountry) navigate(territoryHref(selectedCountry));
+    } else {
+      const selectedDivision = data?.divisions.find((item) => item.id === id);
+      if (selectedDivision && country)
+        navigate(territoryHref(country, selectedDivision));
+    }
+  }
   const cities = useMemo(
     () =>
       division
@@ -183,7 +178,7 @@ export default function Atlas({
   if (segments[0] === "city" && country && data && segments[3]) {
     const city = data.cities.find((item) => normalize(item.name) === normalize(segments[3].replaceAll("-", " ")));
     const cityDivision = city ? data.divisions.find((item) => item.cityIds?.includes(city.id)) : undefined;
-    return city ? <City city={city} country={country} data={data} division={cityDivision} /> : null;
+    return city ? <City city={city} country={country} division={cityDivision} /> : null;
   }
   async function share() {
     try {

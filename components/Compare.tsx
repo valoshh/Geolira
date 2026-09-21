@@ -8,7 +8,7 @@ export default function Compare() {
   const [leftId, setLeftId] = useState("Q1393");
   const [rightId, setRightId] = useState("Q1387");
   useEffect(() => { loadJson<CountryData>("/data/USA.json").then(setData); }, []);
-  const divisions = data?.divisions ?? [];
+  const divisions = useMemo(() => data?.divisions ?? [], [data]);
   const left = useMemo(() => divisions.find((d) => d.id === leftId), [divisions, leftId]);
   const right = useMemo(() => divisions.find((d) => d.id === rightId), [divisions, rightId]);
   const rows: [string, (d: AdministrativeDivision) => string][] = [
