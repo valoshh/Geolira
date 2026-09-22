@@ -1,0 +1,28 @@
+Country: Canada (CAN)
+ADM1 subdivisions: 13
+Status: complete
+Coverage score: 0.981
+
+Coverage
+Geometry: 13/13
+Capital: 13/13
+Population: 13/13
+Area: 13/13
+Main cities: 12/13
+Neighbors: 13/13
+Highest point: 13/13
+Hydrography: 12/13
+
+Errors: 0
+Warnings: 9
+
+Warning details
+- Colombie-Britannique: voisins Wikidata hors ADM1 importé ignorés (Q1212, Q797, Q1223, Q1221).
+- Alberta: voisins Wikidata hors ADM1 importé ignorés (Q1212).
+- Saskatchewan: voisins Wikidata hors ADM1 importé ignorés (Q1207, Q1212).
+- Manitoba: voisins Wikidata hors ADM1 importé ignorés (Q1207, Q1527).
+- Ontario: voisins Wikidata hors ADM1 importé ignorés (Q1384, Q1400, Q1397, Q1166, Q1537, Q1527).
+- Québec: voisins Wikidata hors ADM1 importé ignorés (Q759, Q724, Q1384, Q16551).
+- Nouveau-Brunswick: voisins Wikidata hors ADM1 importé ignorés (Q724).
+- Yukon: voisins Wikidata hors ADM1 importé ignorés (Q797).
+- Nunavut: voisins Wikidata hors ADM1 importé ignorés (Q223).

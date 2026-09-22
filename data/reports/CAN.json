@@ -1,0 +1,30 @@
+{
+  "country": "Canada",
+  "iso3": "CAN",
+  "generatedAt": "2026-09-22T15:12:29.897Z",
+  "adm1Count": 13,
+  "status": "complete",
+  "coverage": 0.981,
+  "coverageCounts": {
+    "geometry": 13,
+    "capital": 13,
+    "population": 13,
+    "area": 13,
+    "mainCities": 12,
+    "neighbors": 13,
+    "highestPoint": 13,
+    "hydrography": 12
+  },
+  "errors": [],
+  "warnings": [
+    "Colombie-Britannique: voisins Wikidata hors ADM1 importé ignorés (Q1212, Q797, Q1223, Q1221).",
+    "Alberta: voisins Wikidata hors ADM1 importé ignorés (Q1212).",
+    "Saskatchewan: voisins Wikidata hors ADM1 importé ignorés (Q1207, Q1212).",
+    "Manitoba: voisins Wikidata hors ADM1 importé ignorés (Q1207, Q1527).",
+    "Ontario: voisins Wikidata hors ADM1 importé ignorés (Q1384, Q1400, Q1397, Q1166, Q1537, Q1527).",
+    "Québec: voisins Wikidata hors ADM1 importé ignorés (Q759, Q724, Q1384, Q16551).",
+    "Nouveau-Brunswick: voisins Wikidata hors ADM1 importé ignorés (Q724).",
+    "Yukon: voisins Wikidata hors ADM1 importé ignorés (Q797).",
+    "Nunavut: voisins Wikidata hors ADM1 importé ignorés (Q223)."
+  ]
+}

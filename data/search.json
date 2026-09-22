@@ -6988,5 +6988,668 @@
     "countryId": "ESP",
     "enriched": true,
     "kind": "city"
+  },
+  {
+    "id": "Q1951",
+    "name": "Alberta",
+    "aliases": [
+      "Alberta",
+      "Alberta",
+      "Q1951"
+    ],
+    "context": "Province · Canada",
+    "href": "/country/canada/alberta/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1973",
+    "name": "Colombie-Britannique",
+    "aliases": [
+      "British Columbia",
+      "Columbia Britannica",
+      "Q1973"
+    ],
+    "context": "Province · Canada",
+    "href": "/country/canada/british-columbia/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1978",
+    "name": "Île-du-Prince-Édouard",
+    "aliases": [
+      "Prince Edward Island",
+      "Isola del Principe Edoardo",
+      "Q1978"
+    ],
+    "context": "Province · Canada",
+    "href": "/country/canada/prince-edward-island/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1948",
+    "name": "Manitoba",
+    "aliases": [
+      "Manitoba",
+      "Manitoba",
+      "Q1948"
+    ],
+    "context": "Province · Canada",
+    "href": "/country/canada/manitoba/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1965",
+    "name": "Nouveau-Brunswick",
+    "aliases": [
+      "New Brunswick",
+      "Nuovo Brunswick",
+      "Q1965"
+    ],
+    "context": "Province · Canada",
+    "href": "/country/canada/new-brunswick/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1952",
+    "name": "Nouvelle-Écosse",
+    "aliases": [
+      "Nova Scotia",
+      "Nuova Scozia",
+      "Q1952"
+    ],
+    "context": "Province · Canada",
+    "href": "/country/canada/nova-scotia/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q2023",
+    "name": "Nunavut",
+    "aliases": [
+      "Nunavut",
+      "Nunavut",
+      "Q2023"
+    ],
+    "context": "Territory · Canada",
+    "href": "/country/canada/nunavut/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1904",
+    "name": "Ontario",
+    "aliases": [
+      "Ontario",
+      "Ontario",
+      "Q1904"
+    ],
+    "context": "Province · Canada",
+    "href": "/country/canada/ontario/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q176",
+    "name": "Québec",
+    "aliases": [
+      "Quebec",
+      "Québec",
+      "Q176"
+    ],
+    "context": "Province · Canada",
+    "href": "/country/canada/quebec/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1989",
+    "name": "Saskatchewan",
+    "aliases": [
+      "Saskatchewan",
+      "Saskatchewan",
+      "Q1989"
+    ],
+    "context": "Province · Canada",
+    "href": "/country/canada/saskatchewan/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q2003",
+    "name": "Terre-Neuve-et-Labrador",
+    "aliases": [
+      "Newfoundland and Labrador",
+      "Terranova e Labrador",
+      "Q2003"
+    ],
+    "context": "Province · Canada",
+    "href": "/country/canada/newfoundland-and-labrador/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q2007",
+    "name": "Territoires du Nord-Ouest",
+    "aliases": [
+      "Northwest Territories",
+      "Territori del Nord-Ovest",
+      "Q2007"
+    ],
+    "context": "Territory · Canada",
+    "href": "/country/canada/northwest-territories/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q2009",
+    "name": "Yukon",
+    "aliases": [
+      "Yukon",
+      "Yukon",
+      "Q2009"
+    ],
+    "context": "Territory · Canada",
+    "href": "/country/canada/yukon/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q271730",
+    "name": "Abbotsford",
+    "aliases": [
+      "Abbotsford",
+      "Abbotsford"
+    ],
+    "context": "Ville · Colombie-Britannique, Canada",
+    "href": "/city/canada/british-columbia/abbotsford/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q643346",
+    "name": "Arviat",
+    "aliases": [
+      "Arviat",
+      "Arviat"
+    ],
+    "context": "Ville · Nunavut, Canada",
+    "href": "/city/canada/nunavut/arviat/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q61432",
+    "name": "Brandon",
+    "aliases": [
+      "Brandon",
+      "Brandon"
+    ],
+    "context": "Ville · Manitoba, Canada",
+    "href": "/city/canada/manitoba/brandon/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q36312",
+    "name": "Calgary",
+    "aliases": [
+      "Calgary",
+      "Calgary"
+    ],
+    "context": "Ville · Alberta, Canada",
+    "href": "/city/canada/alberta/calgary/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q2127",
+    "name": "Charlottetown",
+    "aliases": [
+      "Charlottetown",
+      "Charlottetown"
+    ],
+    "context": "Ville · Île-du-Prince-Édouard, Canada",
+    "href": "/city/canada/prince-edward-island/charlottetown/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q991363",
+    "name": "Corner Brook",
+    "aliases": [
+      "Corner Brook",
+      "Corner Brook"
+    ],
+    "context": "Ville · Terre-Neuve-et-Labrador, Canada",
+    "href": "/city/canada/newfoundland-and-labrador/corner-brook/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q372324",
+    "name": "Dawson City",
+    "aliases": [
+      "Dawson City",
+      "Dawson City"
+    ],
+    "context": "Ville · Yukon, Canada",
+    "href": "/city/canada/yukon/dawson-city/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q2096",
+    "name": "Edmonton",
+    "aliases": [
+      "Edmonton",
+      "Edmonton"
+    ],
+    "context": "Ville · Alberta, Canada",
+    "href": "/city/canada/alberta/edmonton/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q2138",
+    "name": "Fredericton",
+    "aliases": [
+      "Fredericton",
+      "Fredericton"
+    ],
+    "context": "Ville · Nouveau-Brunswick, Canada",
+    "href": "/city/canada/new-brunswick/fredericton/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q2141",
+    "name": "Halifax",
+    "aliases": [
+      "Halifax",
+      "Halifax"
+    ],
+    "context": "Ville · Nouvelle-Écosse, Canada",
+    "href": "/city/canada/nova-scotia/halifax/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q133116",
+    "name": "Hamilton",
+    "aliases": [
+      "Hamilton",
+      "Hamilton"
+    ],
+    "context": "Ville · Ontario, Canada",
+    "href": "/city/canada/ontario/hamilton/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1013062",
+    "name": "Hay River",
+    "aliases": [
+      "Hay River",
+      "Hay River"
+    ],
+    "context": "Ville · Territoires du Nord-Ouest, Canada",
+    "href": "/city/canada/northwest-territories/hay-river/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q338686",
+    "name": "Inuvik",
+    "aliases": [
+      "Inuvik",
+      "Inuvik"
+    ],
+    "context": "Ville · Territoires du Nord-Ouest, Canada",
+    "href": "/city/canada/northwest-territories/inuvik/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q2030",
+    "name": "Iqaluit",
+    "aliases": [
+      "Iqaluit",
+      "Iqaluit"
+    ],
+    "context": "Ville · Nunavut, Canada",
+    "href": "/city/canada/nunavut/iqaluit/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q767147",
+    "name": "Labrador City",
+    "aliases": [
+      "Labrador City",
+      "Labrador City"
+    ],
+    "context": "Ville · Terre-Neuve-et-Labrador, Canada",
+    "href": "/city/canada/newfoundland-and-labrador/labrador-city/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q457334",
+    "name": "Moncton",
+    "aliases": [
+      "Moncton",
+      "Moncton"
+    ],
+    "context": "Ville · Nouveau-Brunswick, Canada",
+    "href": "/city/canada/new-brunswick/moncton/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q340",
+    "name": "Montréal",
+    "aliases": [
+      "Montreal",
+      "Montréal"
+    ],
+    "context": "Ville · Québec, Canada",
+    "href": "/city/canada/quebec/montreal/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q286048",
+    "name": "New Glasgow",
+    "aliases": [
+      "New Glasgow",
+      "New Glasgow"
+    ],
+    "context": "Ville · Nouvelle-Écosse, Canada",
+    "href": "/city/canada/nova-scotia/new-glasgow/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1930",
+    "name": "Ottawa",
+    "aliases": [
+      "Ottawa",
+      "Ottawa"
+    ],
+    "context": "Ville · Ontario, Canada",
+    "href": "/city/canada/ontario/ottawa/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q671431",
+    "name": "Prince Albert",
+    "aliases": [
+      "Prince Albert",
+      "Prince Albert"
+    ],
+    "context": "Ville · Saskatchewan, Canada",
+    "href": "/city/canada/saskatchewan/prince-albert/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q2145",
+    "name": "Québec",
+    "aliases": [
+      "Quebec City",
+      "Québec"
+    ],
+    "context": "Ville · Québec, Canada",
+    "href": "/city/canada/quebec/quebec/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1021766",
+    "name": "Rankin Inlet",
+    "aliases": [
+      "Rankin Inlet",
+      "Rankin Inlet"
+    ],
+    "context": "Ville · Nunavut, Canada",
+    "href": "/city/canada/nunavut/rankin-inlet/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q23025",
+    "name": "Red Deer",
+    "aliases": [
+      "Red Deer",
+      "Red Deer"
+    ],
+    "context": "Ville · Alberta, Canada",
+    "href": "/city/canada/alberta/red-deer/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q2123",
+    "name": "Regina",
+    "aliases": [
+      "Regina",
+      "Regina"
+    ],
+    "context": "Ville · Saskatchewan, Canada",
+    "href": "/city/canada/saskatchewan/regina/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q203403",
+    "name": "Saint-Jean",
+    "aliases": [
+      "Saint John",
+      "Saint John"
+    ],
+    "context": "Ville · Nouveau-Brunswick, Canada",
+    "href": "/city/canada/new-brunswick/saint-john/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q2082",
+    "name": "Saint-Jean de Terre-Neuve",
+    "aliases": [
+      "St. John's",
+      "St. John's"
+    ],
+    "context": "Ville · Terre-Neuve-et-Labrador, Canada",
+    "href": "/city/canada/newfoundland-and-labrador/st-john-s/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q10566",
+    "name": "Saskatoon",
+    "aliases": [
+      "Saskatoon",
+      "Saskatoon"
+    ],
+    "context": "Ville · Saskatchewan, Canada",
+    "href": "/city/canada/saskatchewan/saskatoon/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q139473",
+    "name": "Sherbrooke",
+    "aliases": [
+      "Sherbrooke",
+      "Sherbrooke"
+    ],
+    "context": "Ville · Québec, Canada",
+    "href": "/city/canada/quebec/sherbrooke/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q932261",
+    "name": "Sydney",
+    "aliases": [
+      "Sydney",
+      "Sydney"
+    ],
+    "context": "Ville · Nouvelle-Écosse, Canada",
+    "href": "/city/canada/nova-scotia/sydney/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q991295",
+    "name": "Thompson",
+    "aliases": [
+      "Thompson",
+      "Thompson"
+    ],
+    "context": "Ville · Manitoba, Canada",
+    "href": "/city/canada/manitoba/thompson/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q172",
+    "name": "Toronto",
+    "aliases": [
+      "Toronto",
+      "Toronto"
+    ],
+    "context": "Ville · Ontario, Canada",
+    "href": "/city/canada/ontario/toronto/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q24639",
+    "name": "Vancouver",
+    "aliases": [
+      "Vancouver",
+      "Vancouver"
+    ],
+    "context": "Ville · Colombie-Britannique, Canada",
+    "href": "/city/canada/british-columbia/vancouver/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q2132",
+    "name": "Victoria",
+    "aliases": [
+      "Victoria",
+      "Victoria"
+    ],
+    "context": "Ville · Colombie-Britannique, Canada",
+    "href": "/city/canada/british-columbia/victoria/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1025947",
+    "name": "Watson Lake",
+    "aliases": [
+      "Watson Lake",
+      "Watson Lake"
+    ],
+    "context": "Ville · Yukon, Canada",
+    "href": "/city/canada/yukon/watson-lake/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q2058",
+    "name": "Whitehorse",
+    "aliases": [
+      "Whitehorse",
+      "Whitehorse"
+    ],
+    "context": "Ville · Yukon, Canada",
+    "href": "/city/canada/yukon/whitehorse/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q2135",
+    "name": "Winnipeg",
+    "aliases": [
+      "Winnipeg",
+      "Winnipeg"
+    ],
+    "context": "Ville · Manitoba, Canada",
+    "href": "/city/canada/manitoba/winnipeg/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q2061",
+    "name": "Yellowknife",
+    "aliases": [
+      "Yellowknife",
+      "Yellowknife"
+    ],
+    "context": "Ville · Territoires du Nord-Ouest, Canada",
+    "href": "/city/canada/northwest-territories/yellowknife/",
+    "countryId": "CAN",
+    "enriched": true,
+    "kind": "city"
   }
 ]
