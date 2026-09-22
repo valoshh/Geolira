@@ -3,6 +3,8 @@ import countries from "@/data/countries.json";
 import search from "@/data/search.json";
 import { siteUrl } from "@/lib/seo";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries = [
     { url: `${siteUrl}/`, priority: 1 },
