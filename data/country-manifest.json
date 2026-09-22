@@ -1,0 +1,1212 @@
+{
+  "AFG": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "ZAF": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "ALD": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "ALB": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "DZA": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "DEU": {
+    "status": "partial",
+    "adm1Count": 16,
+    "coverage": 0.828
+  },
+  "AND": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "AGO": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "AIA": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "ATA": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "ATG": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "SAU": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "ARG": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "ARM": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "ABW": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "AUS": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "AUT": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "AZE": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "BHS": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "BHR": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "BGD": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "BRB": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "BEL": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "BLZ": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "BEN": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "BMU": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "BTN": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "BLR": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "MMR": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "BOL": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "BIH": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "BWA": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "BRA": {
+    "status": "partial",
+    "adm1Count": 27,
+    "coverage": 0.731
+  },
+  "BRN": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "BGR": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "BFA": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "BDI": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "KHM": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "CMR": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "CAN": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "CPV": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "CHL": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "CYP": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "CYN": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "VAT": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "COL": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "COM": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "PRK": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "KOR": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "CRI": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "CIV": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "HRV": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "CUB": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "CUW": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "DNK": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "DJI": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "DMA": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "EGY": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "ARE": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "ECU": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "ERI": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "ESP": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "EST": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "SWZ": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "FSM": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "USA": {
+    "status": "partial",
+    "adm1Count": 51,
+    "coverage": 0.87
+  },
+  "ETH": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "FJI": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "FIN": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "FRA": {
+    "status": "partial",
+    "adm1Count": 18,
+    "coverage": 0.813
+  },
+  "GAB": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "GMB": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "GEO": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "SGS": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "GHA": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "KAS": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "GRC": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "GRD": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "GRL": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "GUM": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "GTM": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "GGY": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "GIN": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "GNQ": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "GNB": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "GUY": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "HTI": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "HND": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "HKG": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "HUN": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "IMN": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "NFK": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "ATC": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "CYM": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "COK": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "FRO": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "HMD": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "FLK": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "MNP": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "MHL": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "PCN": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "SLB": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "TCA": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "VGB": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "VIR": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "IND": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "IDN": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "IRQ": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "IRN": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "IRL": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "ISL": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "ISR": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "ITA": {
+    "status": "partial",
+    "adm1Count": 20,
+    "coverage": 0.813
+  },
+  "JAM": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "JPN": {
+    "status": "partial",
+    "adm1Count": 47,
+    "coverage": 0.83
+  },
+  "JEY": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "JOR": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "KAZ": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "KEN": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "KGZ": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "KIR": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "KOS": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "KWT": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "LAO": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "LSO": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "LVA": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "LBN": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "LBR": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "LBY": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "LIE": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "LTU": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "LUX": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "MAC": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "MKD": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "MDG": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "MYS": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "MWI": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "MDV": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "MLI": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "MLT": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "MAR": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "MUS": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "MRT": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "MEX": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "MDA": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "MCO": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "MNG": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "MNE": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "MSR": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "MOZ": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "NAM": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "NRU": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "NPL": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "NIC": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "NER": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "NGA": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "NIU": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "NOR": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "NCL": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "NZL": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "OMN": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "UGA": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "UZB": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "PAK": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "PLW": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "PSX": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "PAN": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "PNG": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "PRY": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "NLD": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "PER": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "PHL": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "POL": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "PYF": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "PRI": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "PRT": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "QAT": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "CAF": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "COD": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "DOM": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "COG": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "CHN": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "ROU": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "GBR": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "RUS": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "RWA": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "SAH": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "BLM": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "KNA": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "SMR": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "MAF": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "SXM": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "SPM": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "VCT": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "SHN": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "LCA": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "SLV": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "WSM": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "ASM": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "STP": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "SEN": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "SRB": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "SYC": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "SLE": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "SGP": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "SVK": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "SVN": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "SOM": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "SOL": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "SDN": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "SDS": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "LKA": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "SWE": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "CHE": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "SUR": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "SYR": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "TJK": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "TWN": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "TZA": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "TCD": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "CZE": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "ATF": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "IOT": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "IOA": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "THA": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "TLS": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "TGO": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "TON": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "TTO": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "TUN": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "TKM": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "TUR": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "TUV": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "UKR": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "URY": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "VUT": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "VEN": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "VNM": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "WLF": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "YEM": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "ZMB": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  },
+  "ZWE": {
+    "status": "missing",
+    "adm1Count": 0,
+    "coverage": 0
+  }
+}

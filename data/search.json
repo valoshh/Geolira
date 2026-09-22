@@ -5350,5 +5350,857 @@
     "context": "Pays · Afrique",
     "href": "/country/zimbabwe/",
     "countryId": "ZWE"
+  },
+  {
+    "id": "Q1284",
+    "name": "Abruzzes",
+    "aliases": [
+      "Abruzzo",
+      "Abruzzo",
+      "Q1284"
+    ],
+    "context": "Région · Italie",
+    "href": "/country/italy/abruzzo/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1452",
+    "name": "Basilicate",
+    "aliases": [
+      "Basilicata",
+      "Basilicata",
+      "Q1452"
+    ],
+    "context": "Région · Italie",
+    "href": "/country/italy/basilicata/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1458",
+    "name": "Calabre",
+    "aliases": [
+      "Calabria",
+      "Calabria",
+      "Q1458"
+    ],
+    "context": "Région · Italie",
+    "href": "/country/italy/calabria/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1438",
+    "name": "Campanie",
+    "aliases": [
+      "Campania",
+      "Campania",
+      "Q1438"
+    ],
+    "context": "Région · Italie",
+    "href": "/country/italy/campania/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1263",
+    "name": "Émilie-Romagne",
+    "aliases": [
+      "Emilia-Romagna",
+      "Emilia-Romagna",
+      "Q1263"
+    ],
+    "context": "Région · Italie",
+    "href": "/country/italy/emilia-romagna/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1250",
+    "name": "Frioul-Vénétie Julienne",
+    "aliases": [
+      "Friuli Venezia Giulia",
+      "Friuli-Venezia Giulia",
+      "Q1250"
+    ],
+    "context": "Région · Italie",
+    "href": "/country/italy/friuli-venezia-giulia/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1282",
+    "name": "Latium",
+    "aliases": [
+      "Lazio",
+      "Lazio",
+      "Q1282"
+    ],
+    "context": "Région · Italie",
+    "href": "/country/italy/lazio/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1256",
+    "name": "Ligurie",
+    "aliases": [
+      "Liguria",
+      "Liguria",
+      "Q1256"
+    ],
+    "context": "Région · Italie",
+    "href": "/country/italy/liguria/",
+    "countryId": "ITA",
+    "enriched": false,
+    "kind": "division"
+  },
+  {
+    "id": "Q1210",
+    "name": "Lombardie",
+    "aliases": [
+      "Lombardy",
+      "Lombardia",
+      "Q1210"
+    ],
+    "context": "Région · Italie",
+    "href": "/country/italy/lombardy/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1279",
+    "name": "Marches",
+    "aliases": [
+      "Marche",
+      "Marche",
+      "Q1279"
+    ],
+    "context": "Région · Italie",
+    "href": "/country/italy/marche/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1443",
+    "name": "Molise",
+    "aliases": [
+      "Molise",
+      "Molise",
+      "Q1443"
+    ],
+    "context": "Région · Italie",
+    "href": "/country/italy/molise/",
+    "countryId": "ITA",
+    "enriched": false,
+    "kind": "division"
+  },
+  {
+    "id": "Q1280",
+    "name": "Ombrie",
+    "aliases": [
+      "Umbria",
+      "Umbria",
+      "Q1280"
+    ],
+    "context": "Région · Italie",
+    "href": "/country/italy/umbria/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1216",
+    "name": "Piémont",
+    "aliases": [
+      "Piedmont",
+      "Piemonte",
+      "Q1216"
+    ],
+    "context": "Région · Italie",
+    "href": "/country/italy/piedmont/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1447",
+    "name": "Pouilles",
+    "aliases": [
+      "Apulia",
+      "Puglia",
+      "Q1447"
+    ],
+    "context": "Région · Italie",
+    "href": "/country/italy/apulia/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1462",
+    "name": "Sardaigne",
+    "aliases": [
+      "Sardinia",
+      "Sardegna",
+      "Q1462"
+    ],
+    "context": "Région · Italie",
+    "href": "/country/italy/sardinia/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1460",
+    "name": "Sicile",
+    "aliases": [
+      "Sicily",
+      "Sicilia",
+      "Q1460"
+    ],
+    "context": "Région · Italie",
+    "href": "/country/italy/sicily/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1273",
+    "name": "Toscane",
+    "aliases": [
+      "Tuscany",
+      "Toscana",
+      "Q1273"
+    ],
+    "context": "Région · Italie",
+    "href": "/country/italy/tuscany/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1237",
+    "name": "Trentin-Haut-Adige",
+    "aliases": [
+      "Trentino-South Tyrol",
+      "Trentino-Alto Adige",
+      "Q1237"
+    ],
+    "context": "Région · Italie",
+    "href": "/country/italy/trentino-south-tyrol/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1222",
+    "name": "Vallée d'Aoste",
+    "aliases": [
+      "Aosta Valley",
+      "Valle d'Aosta",
+      "Q1222"
+    ],
+    "context": "Région · Italie",
+    "href": "/country/italy/aosta-valley/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1243",
+    "name": "Vénétie",
+    "aliases": [
+      "Veneto",
+      "Veneto",
+      "Q1243"
+    ],
+    "context": "Région · Italie",
+    "href": "/country/italy/veneto/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q3415",
+    "name": "Ancône",
+    "aliases": [
+      "Ancona",
+      "Ancona"
+    ],
+    "context": "Ville · Marches, Italie",
+    "href": "/city/italy/marche/ancona/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q3367",
+    "name": "Aoste",
+    "aliases": [
+      "Aosta",
+      "Aosta"
+    ],
+    "context": "Ville · Vallée d'Aoste, Italie",
+    "href": "/city/italy/aosta-valley/aosta/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q6122",
+    "name": "Asti",
+    "aliases": [
+      "Asti",
+      "Asti"
+    ],
+    "context": "Ville · Piémont, Italie",
+    "href": "/city/italy/piedmont/asti/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q3519",
+    "name": "Bari",
+    "aliases": [
+      "Bari",
+      "Bari"
+    ],
+    "context": "Ville · Pouilles, Italie",
+    "href": "/city/italy/apulia/bari/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q628",
+    "name": "Bergame",
+    "aliases": [
+      "Bergamo",
+      "Bergamo"
+    ],
+    "context": "Ville · Lombardie, Italie",
+    "href": "/city/italy/lombardy/bergamo/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1891",
+    "name": "Bologne",
+    "aliases": [
+      "Bologna",
+      "Bologna"
+    ],
+    "context": "Ville · Émilie-Romagne, Italie",
+    "href": "/city/italy/emilia-romagna/bologna/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q6526",
+    "name": "Bolzano",
+    "aliases": [
+      "Bolzano",
+      "Bolzano"
+    ],
+    "context": "Ville · Trentin-Haut-Adige, Italie",
+    "href": "/city/italy/trentino-south-tyrol/bolzano/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1897",
+    "name": "Cagliari",
+    "aliases": [
+      "Cagliari",
+      "Cagliari"
+    ],
+    "context": "Ville · Sardaigne, Italie",
+    "href": "/city/italy/sardinia/cagliari/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q3497",
+    "name": "Campobasso",
+    "aliases": [
+      "Campobasso",
+      "Campobasso"
+    ],
+    "context": "Ville · Molise, Italie",
+    "href": "/city/italy/molise/campobasso/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1906",
+    "name": "Caserte",
+    "aliases": [
+      "Caserta",
+      "Caserta"
+    ],
+    "context": "Ville · Campanie, Italie",
+    "href": "/city/italy/campania/caserta/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1903",
+    "name": "Catane",
+    "aliases": [
+      "Catania",
+      "Catania"
+    ],
+    "context": "Ville · Sicile, Italie",
+    "href": "/city/italy/sicily/catania/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q3883",
+    "name": "Catanzaro",
+    "aliases": [
+      "Catanzaro",
+      "Catanzaro"
+    ],
+    "context": "Ville · Calabre, Italie",
+    "href": "/city/italy/calabria/catanzaro/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q242533",
+    "name": "Civitavecchia",
+    "aliases": [
+      "Civitavecchia",
+      "Civitavecchia"
+    ],
+    "context": "Ville · Latium, Italie",
+    "href": "/city/italy/lazio/civitavecchia/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1308",
+    "name": "Côme",
+    "aliases": [
+      "Como",
+      "Como"
+    ],
+    "context": "Ville · Lombardie, Italie",
+    "href": "/city/italy/lombardy/como/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q6681",
+    "name": "Crotone",
+    "aliases": [
+      "Crotone",
+      "Crotone"
+    ],
+    "context": "Ville · Calabre, Italie",
+    "href": "/city/italy/calabria/crotone/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q2044",
+    "name": "Florence",
+    "aliases": [
+      "Florence",
+      "Florence"
+    ],
+    "context": "Ville · Toscane, Italie",
+    "href": "/city/italy/tuscany/florence/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1449",
+    "name": "Gênes",
+    "aliases": [
+      "Genoa",
+      "Genoa"
+    ],
+    "context": "Ville · Ligurie, Italie",
+    "href": "/city/italy/liguria/genoa/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q3476",
+    "name": "L'Aquila",
+    "aliases": [
+      "L’Aquila",
+      "L'Aquila"
+    ],
+    "context": "Ville · Abruzzes, Italie",
+    "href": "/city/italy/abruzzo/l-aquila/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q13386",
+    "name": "Lecce",
+    "aliases": [
+      "Lecce",
+      "Lecce"
+    ],
+    "context": "Ville · Pouilles, Italie",
+    "href": "/city/italy/apulia/lecce/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q6761",
+    "name": "Livourne",
+    "aliases": [
+      "Livorno",
+      "Livorno"
+    ],
+    "context": "Ville · Toscane, Italie",
+    "href": "/city/italy/tuscany/livorno/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q13666",
+    "name": "Messine",
+    "aliases": [
+      "Messina",
+      "Messina"
+    ],
+    "context": "Ville · Sicile, Italie",
+    "href": "/city/italy/sicily/messina/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q490",
+    "name": "Milan",
+    "aliases": [
+      "Milan",
+      "Milano"
+    ],
+    "context": "Ville · Lombardie, Italie",
+    "href": "/city/italy/lombardy/milano/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q279",
+    "name": "Modène",
+    "aliases": [
+      "Modena",
+      "Modena"
+    ],
+    "context": "Ville · Émilie-Romagne, Italie",
+    "href": "/city/italy/emilia-romagna/modena/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q2634",
+    "name": "Naples",
+    "aliases": [
+      "Naples",
+      "Napoli"
+    ],
+    "context": "Ville · Campanie, Italie",
+    "href": "/city/italy/campania/napoli/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q6046",
+    "name": "Novare",
+    "aliases": [
+      "Novara",
+      "Novara"
+    ],
+    "context": "Ville · Piémont, Italie",
+    "href": "/city/italy/piedmont/novara/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q13630",
+    "name": "Olbia",
+    "aliases": [
+      "Olbia",
+      "Olbia"
+    ],
+    "context": "Ville · Sardaigne, Italie",
+    "href": "/city/italy/sardinia/olbia/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q2656",
+    "name": "Palerme",
+    "aliases": [
+      "Palermo",
+      "Palermo"
+    ],
+    "context": "Ville · Sicile, Italie",
+    "href": "/city/italy/sicily/palermo/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q2683",
+    "name": "Parme",
+    "aliases": [
+      "Parma",
+      "Parma"
+    ],
+    "context": "Ville · Émilie-Romagne, Italie",
+    "href": "/city/italy/emilia-romagna/parma/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q3437",
+    "name": "Pérouse",
+    "aliases": [
+      "Perugia",
+      "Perugia"
+    ],
+    "context": "Ville · Ombrie, Italie",
+    "href": "/city/italy/umbria/perugia/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q2704",
+    "name": "Pescara",
+    "aliases": [
+      "Pescara",
+      "Pescara"
+    ],
+    "context": "Ville · Abruzzes, Italie",
+    "href": "/city/italy/abruzzo/pescara/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q13375",
+    "name": "Pise",
+    "aliases": [
+      "Pisa",
+      "Pisa"
+    ],
+    "context": "Ville · Toscane, Italie",
+    "href": "/city/italy/tuscany/pisa/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q3543",
+    "name": "Potenza",
+    "aliases": [
+      "Potenza",
+      "Potenza"
+    ],
+    "context": "Ville · Basilicate, Italie",
+    "href": "/city/italy/basilicata/potenza/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q8471",
+    "name": "Reggio de Calabre",
+    "aliases": [
+      "Reggio Calabria",
+      "Reggio di Calabria"
+    ],
+    "context": "Ville · Calabre, Italie",
+    "href": "/city/italy/calabria/reggio-di-calabria/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q220",
+    "name": "Rome",
+    "aliases": [
+      "Rome",
+      "Rome"
+    ],
+    "context": "Ville · Latium, Italie",
+    "href": "/city/italy/lazio/rome/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1083",
+    "name": "Salerne",
+    "aliases": [
+      "Salerno",
+      "Salerno"
+    ],
+    "context": "Ville · Campanie, Italie",
+    "href": "/city/italy/campania/salerno/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q13629",
+    "name": "Sassari",
+    "aliases": [
+      "Sassari",
+      "Sassari"
+    ],
+    "context": "Ville · Sardaigne, Italie",
+    "href": "/city/italy/sardinia/sassari/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q13498",
+    "name": "Tarente",
+    "aliases": [
+      "Taranto",
+      "Taranto"
+    ],
+    "context": "Ville · Pouilles, Italie",
+    "href": "/city/italy/apulia/taranto/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q3376",
+    "name": "Trente",
+    "aliases": [
+      "Trento",
+      "Trento"
+    ],
+    "context": "Ville · Trentin-Haut-Adige, Italie",
+    "href": "/city/italy/trentino-south-tyrol/trento/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q5475",
+    "name": "Trévise",
+    "aliases": [
+      "Treviso",
+      "Treviso"
+    ],
+    "context": "Ville · Vénétie, Italie",
+    "href": "/city/italy/veneto/treviso/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q546",
+    "name": "Trieste",
+    "aliases": [
+      "Trieste",
+      "Trieste"
+    ],
+    "context": "Ville · Frioul-Vénétie Julienne, Italie",
+    "href": "/city/italy/friuli-venezia-giulia/trieste/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q495",
+    "name": "Turin",
+    "aliases": [
+      "Turin",
+      "Turin"
+    ],
+    "context": "Ville · Piémont, Italie",
+    "href": "/city/italy/piedmont/turin/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q2790",
+    "name": "Udine",
+    "aliases": [
+      "Udine",
+      "Udine"
+    ],
+    "context": "Ville · Frioul-Vénétie Julienne, Italie",
+    "href": "/city/italy/friuli-venezia-giulia/udine/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q641",
+    "name": "Venise",
+    "aliases": [
+      "Venice",
+      "Venice"
+    ],
+    "context": "Ville · Vénétie, Italie",
+    "href": "/city/italy/veneto/venice/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q2028",
+    "name": "Vérone",
+    "aliases": [
+      "Verona",
+      "Verona"
+    ],
+    "context": "Ville · Vénétie, Italie",
+    "href": "/city/italy/veneto/verona/",
+    "countryId": "ITA",
+    "enriched": true,
+    "kind": "city"
   }
 ]

@@ -5,6 +5,12 @@ import { createHash } from "node:crypto";
 const cache = ".data-cache";
 await fs.mkdir(cache, { recursive: true });
 await fs.mkdir("public/data", { recursive: true });
+let previousCountries = [];
+let previousSearch = [];
+try {
+  previousCountries = JSON.parse(await fs.readFile("data/countries.json", "utf8"));
+  previousSearch = JSON.parse(await fs.readFile("data/search.json", "utf8"));
+} catch {}
 const date = new Date().toISOString().slice(0, 10);
 async function json(url, filename) {
   const file = path.join(cache, filename);
@@ -410,7 +416,18 @@ const countries = world.features
       sources: [sourceNE, ...(pilot ? facts(pilot.qid).sources : [])],
     };
   })
+  .map((country) => {
+    const previous = previousCountries.find(
+      (item) => item.id === country.id && item.pilot && !pilots[item.id],
+    );
+    return previous ?? country;
+  })
   .sort((a, b) => a.names.fr.localeCompare(b.names.fr, "fr"));
+const preservedCountryIds = new Set(
+  countries
+    .filter((country) => country.pilot && !pilots[country.id])
+    .map((country) => country.id),
+);
 const countryQ = new Map(
   world.features.map((f) => [f.properties.WIKIDATAID, f.properties.ADM0_A3]),
 );
@@ -586,6 +603,13 @@ for (const [iso, ff] of Object.entries(features)) {
     "missing populations",
   );
 }
+search.push(
+  ...previousSearch.filter(
+    (entry) =>
+      preservedCountryIds.has(entry.countryId) &&
+      entry.href.split("/").filter(Boolean).length > 2,
+  ),
+);
 await fs.writeFile("data/countries.json", JSON.stringify(countries));
 await fs.writeFile("data/search.json", JSON.stringify(search));
 await fs.writeFile("public/geo/world.json", JSON.stringify(worldGeo));

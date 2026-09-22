@@ -1,6 +1,6 @@
 export type SourceInfo = {
   provider: string;
-  url: string;
+  url?: string;
   retrievedAt?: string;
   year?: string;
   license?: string;
@@ -13,10 +13,7 @@ export type PopulationValue = {
   source?: SourceInfo;
 };
 export type CityRole =
-  | "national-capital"
-  | "regional-capital"
-  | "largest-city"
-  | "major-city";
+  "national-capital" | "regional-capital" | "largest-city" | "major-city";
 export type City = {
   id: string;
   name: string;
@@ -40,6 +37,7 @@ export type Territory = {
   capital?: string;
   population?: number;
   populationYear?: string;
+  populationValue?: PopulationValue;
   areaKm2?: number;
   highestPoint?: { name: string; elevationMeters?: number };
   mountainRange?: string;

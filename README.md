@@ -47,8 +47,8 @@ Le build génère un site statique dans `out/`, avec une page HTML pour chaque t
 ## Parcours
 
 - Carte mondiale : survol, sélection, zoom et déplacement.
-- Pays pilotes : France (18 régions, outre-mer compris), États-Unis (50 États et Washington D.C.), Allemagne (16 Länder), Japon (47 préfectures), Brésil (26 États et district fédéral).
-- Fiches essentielles pour les 159 subdivisions ; 16 fiches enrichies.
+- Pays détaillés : France (18 régions, outre-mer compris), États-Unis (50 États et Washington D.C.), Allemagne (16 Länder), Japon (47 préfectures), Brésil (26 États et district fédéral) et Italie (20 régions).
+- Fiches essentielles pour les 179 subdivisions, enrichies progressivement selon la couverture des sources.
 - Recherche avec noms français et anglais, accents facultatifs et navigation au clavier.
 - Fil d’Ariane, voisins cliquables, retour au monde, lien partageable et historique du navigateur.
 - Mobile : carte en haut, fiche défilante en dessous. Panneau repliable.
@@ -71,11 +71,13 @@ Exemples : `/country/united-states/delaware/`, `/country/germany/bavaria/`, `/co
 - `public/data/{ISO3}.json` : fiches chargées à la sélection du pays.
 - `lib/geography.ts` : recherche normalisée, URLs et cache partagé avec éviction des erreurs.
 - `lib/quiz.ts` : génération déterministe de questions depuis les données géographiques.
-- `scripts/import-data.mjs` : import reproductible avec cache et requêtes groupées.
+- `scripts/import-data.mjs` : import historique des cinq premiers pays.
+- `scripts/import-country/` : pipeline modulaire par code ISO3, validation, rapport et mise à jour automatique des catalogues.
+- `data/country-manifest.json` : état et score de couverture calculé de chaque pays.
 - `app/sitemap.ts` et `app/robots.ts` : référencement des routes publiques.
 - `vercel.json` : sortie statique et headers de cache/sécurité.
 
-Ajouter un pays pilote consiste à fournir son fichier de géométrie, ses fiches et ses entrées dans les catalogues. Les composants ne contiennent pas de faits géographiques chiffrés.
+Ajouter un pays détaillé passe par la commande d’import ISO3. La pipeline produit sa géométrie, ses fiches, ses entrées de recherche et son manifeste ; les composants ne contiennent pas de faits géographiques chiffrés.
 
 Les villes suivent le modèle `City` et peuvent porter plusieurs rôles (`regional-capital`,
 `largest-city`, etc.). Une relation transversale future peut être représentée par
@@ -94,13 +96,63 @@ La vue initiale des États-Unis privilégie les États contigus et celle de la F
 
 Les données démographiques sont des instantanés sourcés, pas des estimations en temps réel. Les chiffres de différents territoires peuvent avoir des millésimes différents. Une donnée manquante est explicitement signalée. Berlin étant une ville-État, une seule ville figure dans sa fiche.
 
-Pour rafraîchir les données :
+## Ajouter ou rafraîchir un pays
+
+L’import standard ne demande que le code ISO3 :
+
+```bash
+npm run data:country -- ITA
+npm run data:country -- ESP
+npm run data:country -- CAN
+```
+
+La commande identifie le pays dans le catalogue Natural Earth, prépare ses ADM1,
+récupère les faits disponibles dans Wikidata, sélectionne les villes et cours
+d’eau Natural Earth, valide toutes les relations puis met à jour automatiquement :
+
+- `public/data/{ISO3}.json` et `public/geo/{ISO3}.json` ;
+- `data/countries.json` et `data/search.json` ;
+- `data/country-manifest.json` ;
+- `data/reports/{ISO3}.json` et `data/reports/{ISO3}.txt`.
+
+Toujours contrôler un nouvel import avant publication :
+
+```bash
+npm run data:country -- ITA --dry-run
+```
+
+Ce mode récupère, normalise, valide et génère le rapport, mais ne modifie aucun
+fichier de production. Ses rapports sont placés dans `.data-cache/reports/`.
+Après revue, relancer sans `--dry-run`, examiner le diff puis exécuter les tests.
+
+Le cache local `.data-cache/` évite les téléchargements et requêtes identiques.
+Pour demander explicitement des données fraîches :
+
+```bash
+npm run data:country -- ITA --refresh
+```
+
+Le rapport distingue les erreurs bloquantes des warnings. Une erreur empêche
+toute écriture de production. Un warning conserve la donnée vérifiable, signale
+une absence ou explique un choix de source ; il doit être relu et résolu par un
+correctif de normalisation quand il révèle une ambiguïté réelle. Les valeurs
+manquantes ne sont jamais inventées.
+
+Le statut du manifeste est calculé à partir de la couverture : `missing`,
+`geometry-only`, `basic`, `partial` ou `complete`. Le score prend en compte la
+géométrie, les capitales, populations, superficies, villes principales,
+voisins, points culminants et l’hydrographie.
+
+L’import historique reste disponible pour régénérer les cinq pays initiaux :
 
 ```bash
 npm run data:import
 ```
 
-Le cache local `.data-cache/` évite les téléchargements répétés. Le supprimer sélectivement pour rafraîchir une source. Vérifier les tests et examiner les changements de données avant publication.
+Pour l’Italie, la version courante de geoBoundaries annonce cinq unités ADM1,
+ce qui ne correspond pas aux vingt régions. La pipeline rejette explicitement
+ce candidat et fusionne les provinces Natural Earth par code régional ; ce
+choix est visible dans le rapport au lieu d’être corrigé silencieusement.
 
 ## Vérification avant publication
 

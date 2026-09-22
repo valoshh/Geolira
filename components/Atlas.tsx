@@ -24,7 +24,13 @@ import Search from "./Search";
 import Learn from "./Learn";
 import Compare from "./Compare";
 import City from "./City";
-import { flag, formatNumber, loadJson, normalize, territoryHref } from "@/lib/geography";
+import {
+  flag,
+  formatNumber,
+  loadJson,
+  normalize,
+  territoryHref,
+} from "@/lib/geography";
 import type {
   AdministrativeDivision,
   Country,
@@ -176,9 +182,16 @@ export default function Atlas({
     return usa ? <Learn country={usa} /> : null;
   }
   if (segments[0] === "city" && country && data && segments[3]) {
-    const city = data.cities.find((item) => normalize(item.name) === normalize(segments[3].replaceAll("-", " ")));
-    const cityDivision = city ? data.divisions.find((item) => item.cityIds?.includes(city.id)) : undefined;
-    return city ? <City city={city} country={country} division={cityDivision} /> : null;
+    const city = data.cities.find(
+      (item) =>
+        normalize(item.name) === normalize(segments[3].replaceAll("-", " ")),
+    );
+    const cityDivision = city
+      ? data.divisions.find((item) => item.cityIds?.includes(city.id))
+      : undefined;
+    return city ? (
+      <City city={city} country={country} division={cityDivision} />
+    ) : null;
   }
   async function share() {
     try {
@@ -316,10 +329,12 @@ export default function Atlas({
                 <section className="pilot-section">
                   <div className="section-title">
                     <h2>Commencer l’exploration</h2>
-                    <span>01 — 05</span>
+                    <span>
+                      01 — {pilots.length.toString().padStart(2, "0")}
+                    </span>
                   </div>
                   <p className="section-description">
-                    Cinq pays, toutes leurs régions.
+                    {pilots.length} pays, toutes leurs subdivisions.
                   </p>
                   <div className="pilot-list">
                     {pilots.map((c, i) => (
@@ -337,7 +352,15 @@ export default function Atlas({
                               ? "50 États + Washington D.C."
                               : c.id === "BRA"
                                 ? "26 États + district fédéral"
-                                : `${c.divisionCount} ${c.id === "FRA" ? "régions" : c.id === "DEU" ? "Länder" : "préfectures"}`}
+                                : `${c.divisionCount} ${
+                                    c.administrativeType === "Région"
+                                      ? "régions"
+                                      : c.administrativeType === "Land"
+                                        ? "Länder"
+                                        : c.administrativeType === "Préfecture"
+                                          ? "préfectures"
+                                          : "subdivisions"
+                                  }`}
                           </small>
                         </span>
                         <ArrowUpRight size={19} />

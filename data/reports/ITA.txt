@@ -1,0 +1,28 @@
+Country: Italie (ITA)
+ADM1 subdivisions: 20
+Status: partial
+Coverage score: 0.813
+
+Coverage
+Geometry: 20/20
+Capital: 20/20
+Population: 20/20
+Area: 20/20
+Main cities: 14/20
+Neighbors: 20/20
+Highest point: 4/20
+Hydrography: 12/20
+
+Errors: 0
+Warnings: 9
+
+Warning details
+- geoBoundaries annonce 5 ADM1, contre 20 unités cohérentes issues de Natural Earth; cette géométrie candidate a été écartée.
+- Vallée d'Aoste: voisins Wikidata hors ADM1 importé ignorés (Q834, Q12751, Q12745, Q15094, Q15096, Q16287, Q18338206).
+- Piémont: voisins Wikidata hors ADM1 importé ignorés (Q834, Q12724, Q15104, Q463, Q3131, Q3139, Q3125, Q12745, Q18338206).
+- Lombardie: voisins Wikidata hors ADM1 importé ignorés (Q12724, Q11925).
+- Trentin-Haut-Adige: voisins Wikidata hors ADM1 importé ignorés (Q11925, Q42880, Q43325).
+- Ligurie: voisins Wikidata hors ADM1 importé ignorés (Q15104).
+- Vénétie: voisins Wikidata hors ADM1 importé ignorés (Q42880, Q37985).
+- Frioul-Vénétie Julienne: voisins Wikidata hors ADM1 importé ignorés (Q37985, Q659845, Q858792, Q833534).
+- Pouilles: voisins Wikidata hors ADM1 importé ignorés (Q277702).
