@@ -19,7 +19,7 @@ npm run build
 ```
 
 Le projet utilise Node.js 22 pour garantir la compatibilité des outils Next.js et
-des dépendances natives. L’export de production est écrit dans `.next-build/`.
+des dépendances natives. L’export de production est écrit dans `out/`.
 Les routes profondes sont générées avec un `index.html` dans chaque répertoire ;
 elles peuvent donc être servies directement par un hébergeur statique.
 
@@ -31,13 +31,14 @@ répertoire de sortie et applique le cache longue durée aux assets immuables.
 
 1. Importer le dépôt dans Vercel.
 2. Conserver `npm run build` comme commande de build.
-3. Définir `NEXT_PUBLIC_SITE_URL` avec l’URL publique, par exemple
+3. Vérifier que **Output Directory** vaut `out` (et non `.next-build`).
+4. Définir `NEXT_PUBLIC_SITE_URL` avec l’URL publique, par exemple
    `https://atlas.example`.
-4. Déployer, puis vérifier `/`, une route pays profonde, `/sitemap.xml` et
+5. Déployer, puis vérifier `/`, une route pays profonde, `/sitemap.xml` et
    `/robots.txt`.
 
 La même commande `npm run build` peut être publiée sur Cloudflare Pages ou
-Netlify en indiquant `.next-build` comme répertoire de sortie. Le fichier
+Netlify en indiquant `out` comme répertoire de sortie. Le fichier
 `vercel.json` n’est pas requis sur ces plateformes ; leurs règles de cache
 peuvent reprendre les headers documentés dans ce fichier.
 
