@@ -6202,5 +6202,791 @@
     "countryId": "ITA",
     "enriched": true,
     "kind": "city"
+  },
+  {
+    "id": "Q5783",
+    "name": "Andalousie",
+    "aliases": [
+      "Andalusia",
+      "Andalusia",
+      "Q5783"
+    ],
+    "context": "Communauté autonome · Espagne",
+    "href": "/country/spain/andalusia/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q4040",
+    "name": "Aragon",
+    "aliases": [
+      "Aragon",
+      "Aragona",
+      "Q4040"
+    ],
+    "context": "Communauté autonome · Espagne",
+    "href": "/country/spain/aragon/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q3934",
+    "name": "Asturies",
+    "aliases": [
+      "Asturias",
+      "Asturie",
+      "Q3934"
+    ],
+    "context": "Communauté autonome · Espagne",
+    "href": "/country/spain/asturias/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q3946",
+    "name": "Cantabrie",
+    "aliases": [
+      "Cantabria",
+      "Cantabria",
+      "Q3946"
+    ],
+    "context": "Communauté autonome · Espagne",
+    "href": "/country/spain/cantabria/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q5739",
+    "name": "Castille-et-León",
+    "aliases": [
+      "Castile and León",
+      "Castiglia e León",
+      "Q5739"
+    ],
+    "context": "Communauté autonome · Espagne",
+    "href": "/country/spain/castile-and-leon/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q5748",
+    "name": "Castille-La Manche",
+    "aliases": [
+      "Castilla–La Mancha",
+      "Castiglia-La Mancia",
+      "Q5748"
+    ],
+    "context": "Communauté autonome · Espagne",
+    "href": "/country/spain/castilla-la-mancha/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q5705",
+    "name": "Catalogne",
+    "aliases": [
+      "Catalonia",
+      "Catalogna",
+      "Q5705"
+    ],
+    "context": "Communauté autonome · Espagne",
+    "href": "/country/spain/catalonia/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q5823",
+    "name": "Ceuta",
+    "aliases": [
+      "Ceuta",
+      "Ceuta",
+      "Q5823"
+    ],
+    "context": "Ville autonome · Espagne",
+    "href": "/country/spain/ceuta/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q5756",
+    "name": "communauté de Madrid",
+    "aliases": [
+      "Community of Madrid",
+      "comunità di Madrid",
+      "Q5756"
+    ],
+    "context": "Communauté autonome · Espagne",
+    "href": "/country/spain/community-of-madrid/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q5720",
+    "name": "Communauté valencienne",
+    "aliases": [
+      "Valencian Community",
+      "Comunità Valenciana",
+      "Q5720"
+    ],
+    "context": "Communauté autonome · Espagne",
+    "href": "/country/spain/valencian-community/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q5777",
+    "name": "Estrémadure",
+    "aliases": [
+      "Extremadura",
+      "Estremadura",
+      "Q5777"
+    ],
+    "context": "Communauté autonome · Espagne",
+    "href": "/country/spain/extremadura/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q3908",
+    "name": "Galice",
+    "aliases": [
+      "Galicia",
+      "Galizia",
+      "Q3908"
+    ],
+    "context": "Communauté autonome · Espagne",
+    "href": "/country/spain/galicia/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q107356467",
+    "name": "Îles Baléares",
+    "aliases": [
+      "Balearic Islands",
+      "isole Baleari",
+      "Q107356467"
+    ],
+    "context": "Communauté autonome · Espagne",
+    "href": "/country/spain/balearic-islands/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q5813",
+    "name": "îles Canaries",
+    "aliases": [
+      "Canary Islands",
+      "Isole Canarie",
+      "Q5813"
+    ],
+    "context": "Communauté autonome · Espagne",
+    "href": "/country/spain/canary-islands/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q5727",
+    "name": "La Rioja",
+    "aliases": [
+      "La Rioja",
+      "La Rioja",
+      "Q5727"
+    ],
+    "context": "Communauté autonome · Espagne",
+    "href": "/country/spain/la-rioja/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q5831",
+    "name": "Melilla",
+    "aliases": [
+      "Melilla",
+      "Melilla",
+      "Q5831"
+    ],
+    "context": "Ville autonome · Espagne",
+    "href": "/country/spain/melilla/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q4018",
+    "name": "Navarre",
+    "aliases": [
+      "Navarre",
+      "Navarra",
+      "Q4018"
+    ],
+    "context": "Communauté autonome · Espagne",
+    "href": "/country/spain/navarre/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q3995",
+    "name": "Pays basque",
+    "aliases": [
+      "Basque Country",
+      "Paesi Baschi",
+      "Q3995"
+    ],
+    "context": "Communauté autonome · Espagne",
+    "href": "/country/spain/basque-country/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q5772",
+    "name": "région de Murcie",
+    "aliases": [
+      "Region of Murcia",
+      "regione di Murcia",
+      "Q5772"
+    ],
+    "context": "Communauté autonome · Espagne",
+    "href": "/country/spain/region-of-murcia/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q15095",
+    "name": "Albacete",
+    "aliases": [
+      "Albacete",
+      "Albacete"
+    ],
+    "context": "Ville · Castille-La Manche, Espagne",
+    "href": "/city/spain/castilla-la-mancha/albacete/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q11959",
+    "name": "Alicante",
+    "aliases": [
+      "Alicante",
+      "Alicante"
+    ],
+    "context": "Ville · Communauté valencienne, Espagne",
+    "href": "/city/spain/valencian-community/alicante/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q647543",
+    "name": "Arrecife",
+    "aliases": [
+      "Arrecife",
+      "Arrecife"
+    ],
+    "context": "Ville · îles Canaries, Espagne",
+    "href": "/city/spain/canary-islands/arrecife/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q15679",
+    "name": "Badajoz",
+    "aliases": [
+      "Badajoz",
+      "Badajoz"
+    ],
+    "context": "Ville · Estrémadure, Espagne",
+    "href": "/city/spain/extremadura/badajoz/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1492",
+    "name": "Barcelone",
+    "aliases": [
+      "Barcelona",
+      "Barcelona"
+    ],
+    "context": "Ville · Catalogne, Espagne",
+    "href": "/city/spain/catalonia/barcelona/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q8692",
+    "name": "Bilbao",
+    "aliases": [
+      "Bilbao",
+      "Bilbao"
+    ],
+    "context": "Ville · Pays basque, Espagne",
+    "href": "/city/spain/basque-country/bilbao/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q9580",
+    "name": "Burgos",
+    "aliases": [
+      "Burgos",
+      "Burgos"
+    ],
+    "context": "Ville · Castille-et-León, Espagne",
+    "href": "/city/spain/castile-and-leon/burgos/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q162615",
+    "name": "Carthagène",
+    "aliases": [
+      "Cartagena",
+      "Cartagena"
+    ],
+    "context": "Ville · région de Murcie, Espagne",
+    "href": "/city/spain/region-of-murcia/cartagena/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q15092",
+    "name": "Castelló de la Plana",
+    "aliases": [
+      "Castelló de la Plana",
+      "Castello"
+    ],
+    "context": "Ville · Communauté valencienne, Espagne",
+    "href": "/city/spain/valencian-community/castello/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q5823",
+    "name": "Ceuta",
+    "aliases": [
+      "Ceuta",
+      "Ceuta"
+    ],
+    "context": "Ville · Ceuta, Espagne",
+    "href": "/city/spain/ceuta/ceuta/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q12273",
+    "name": "Gijón",
+    "aliases": [
+      "Gijón",
+      "Gijón"
+    ],
+    "context": "Ville · Asturies, Espagne",
+    "href": "/city/spain/asturias/gijon/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q8810",
+    "name": "Grenade",
+    "aliases": [
+      "Granada",
+      "Granada‎"
+    ],
+    "context": "Ville · Andalousie, Espagne",
+    "href": "/city/spain/andalusia/granada/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q11953",
+    "name": "Guadalajara",
+    "aliases": [
+      "Guadalajara",
+      "Guadalajara"
+    ],
+    "context": "Ville · Castille-La Manche, Espagne",
+    "href": "/city/spain/castilla-la-mancha/guadalajara/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q8757",
+    "name": "La Corogne",
+    "aliases": [
+      "A Coruña",
+      "La Coruña"
+    ],
+    "context": "Ville · Galice, Espagne",
+    "href": "/city/spain/galicia/la-coruna/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q11974",
+    "name": "Las Palmas de Gran Canaria",
+    "aliases": [
+      "Las Palmas de Gran Canaria",
+      "Las Palmas"
+    ],
+    "context": "Ville · îles Canaries, Espagne",
+    "href": "/city/spain/canary-islands/las-palmas/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q14325",
+    "name": "Logrogne",
+    "aliases": [
+      "Logroño",
+      "Logroño"
+    ],
+    "context": "Ville · La Rioja, Espagne",
+    "href": "/city/spain/la-rioja/logrono/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q2807",
+    "name": "Madrid",
+    "aliases": [
+      "Madrid",
+      "Madrid"
+    ],
+    "context": "Ville · communauté de Madrid, Espagne",
+    "href": "/city/spain/community-of-madrid/madrid/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q8851",
+    "name": "Malaga",
+    "aliases": [
+      "Málaga",
+      "Málaga"
+    ],
+    "context": "Ville · Andalousie, Espagne",
+    "href": "/city/spain/andalusia/malaga/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q11492",
+    "name": "Mataró",
+    "aliases": [
+      "Mataró",
+      "Mataró"
+    ],
+    "context": "Ville · Catalogne, Espagne",
+    "href": "/city/spain/catalonia/mataro/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q5831",
+    "name": "Melilla",
+    "aliases": [
+      "Melilla",
+      "Melilla"
+    ],
+    "context": "Ville · Melilla, Espagne",
+    "href": "/city/spain/melilla/melilla/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q14323",
+    "name": "Mérida",
+    "aliases": [
+      "Mérida",
+      "Mérida"
+    ],
+    "context": "Ville · Estrémadure, Espagne",
+    "href": "/city/spain/extremadura/merida/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q24019772",
+    "name": "Murcia",
+    "aliases": [
+      "Murcia City",
+      "Murcia"
+    ],
+    "context": "Ville · région de Murcie, Espagne",
+    "href": "/city/spain/region-of-murcia/murcia-city/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q12225",
+    "name": "Murcie",
+    "aliases": [
+      "Murcia",
+      "Murcia"
+    ],
+    "context": "Ville · région de Murcie, Espagne",
+    "href": "/city/spain/region-of-murcia/murcia/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q14317",
+    "name": "Oviedo",
+    "aliases": [
+      "Oviedo",
+      "Oviedo"
+    ],
+    "context": "Ville · Asturies, Espagne",
+    "href": "/city/spain/asturias/oviedo/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q21414421",
+    "name": "Oviedo",
+    "aliases": [
+      "Oviedo City",
+      "Oviedo"
+    ],
+    "context": "Ville · Asturies, Espagne",
+    "href": "/city/spain/asturias/oviedo-city/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q8826",
+    "name": "Palma de Majorque",
+    "aliases": [
+      "Palma de Mallorca",
+      "Palma"
+    ],
+    "context": "Ville · Îles Baléares, Espagne",
+    "href": "/city/spain/balearic-islands/palma/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q10282",
+    "name": "Pampelune",
+    "aliases": [
+      "Pamplona",
+      "Pamplona"
+    ],
+    "context": "Ville · Navarre, Espagne",
+    "href": "/city/spain/navarre/pamplona/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q14314",
+    "name": "Saint-Jacques-de-Compostelle",
+    "aliases": [
+      "Santiago de Compostela",
+      "Santiago di Compostela"
+    ],
+    "context": "Ville · Galice, Espagne",
+    "href": "/city/spain/galicia/santiago-de-compostela/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q10313",
+    "name": "Saint-Sébastien",
+    "aliases": [
+      "Donostia-San Sebastián",
+      "San Sebastián"
+    ],
+    "context": "Ville · Pays basque, Espagne",
+    "href": "/city/spain/basque-country/san-sebastian/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q15695",
+    "name": "Salamanque",
+    "aliases": [
+      "Salamanca",
+      "Salamanca"
+    ],
+    "context": "Ville · Castille-et-León, Espagne",
+    "href": "/city/spain/castile-and-leon/salamanca/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q14328",
+    "name": "Santa Cruz de Ténérife",
+    "aliases": [
+      "Santa Cruz de Tenerife",
+      "Santa Cruz de Tenerife"
+    ],
+    "context": "Ville · îles Canaries, Espagne",
+    "href": "/city/spain/canary-islands/santa-cruz-de-tenerife/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q12233",
+    "name": "Santander",
+    "aliases": [
+      "Santander",
+      "Santander"
+    ],
+    "context": "Ville · Cantabrie, Espagne",
+    "href": "/city/spain/cantabria/santander/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q10305",
+    "name": "Saragosse",
+    "aliases": [
+      "Zaragoza",
+      "Zaragoza"
+    ],
+    "context": "Ville · Aragon, Espagne",
+    "href": "/city/spain/aragon/zaragoza/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q8717",
+    "name": "Séville",
+    "aliases": [
+      "Seville",
+      "Seville"
+    ],
+    "context": "Ville · Andalousie, Espagne",
+    "href": "/city/spain/andalusia/seville/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q15088",
+    "name": "Tarragone",
+    "aliases": [
+      "Tarragona",
+      "Tarragona"
+    ],
+    "context": "Ville · Catalogne, Espagne",
+    "href": "/city/spain/catalonia/tarragona/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q5836",
+    "name": "Tolède",
+    "aliases": [
+      "Toledo",
+      "Toledo"
+    ],
+    "context": "Ville · Castille-La Manche, Espagne",
+    "href": "/city/spain/castilla-la-mancha/toledo/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q8818",
+    "name": "Valence",
+    "aliases": [
+      "Valencia",
+      "Valencia"
+    ],
+    "context": "Ville · Communauté valencienne, Espagne",
+    "href": "/city/spain/valencian-community/valencia/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q8356",
+    "name": "Valladolid",
+    "aliases": [
+      "Valladolid",
+      "Valladolid"
+    ],
+    "context": "Ville · Castille-et-León, Espagne",
+    "href": "/city/spain/castile-and-leon/valladolid/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q8745",
+    "name": "Vigo",
+    "aliases": [
+      "Vigo",
+      "Vigo"
+    ],
+    "context": "Ville · Galice, Espagne",
+    "href": "/city/spain/galicia/vigo/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q14318",
+    "name": "Vitoria-Gasteiz",
+    "aliases": [
+      "Vitoria-Gasteiz",
+      "Vitoria"
+    ],
+    "context": "Ville · Pays basque, Espagne",
+    "href": "/city/spain/basque-country/vitoria/",
+    "countryId": "ESP",
+    "enriched": true,
+    "kind": "city"
   }
 ]

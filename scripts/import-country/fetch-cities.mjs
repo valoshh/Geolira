@@ -25,6 +25,19 @@ export async function fetchCities(iso3, boundaries, options = {}) {
           Number(right.properties.POP_MAX ?? 0) -
           Number(left.properties.POP_MAX ?? 0),
       )
+      .filter((feature, index, features) => {
+        const name = slugify(
+          feature.properties.NAMEPAR ?? feature.properties.NAME,
+        );
+        return (
+          features.findIndex(
+            (candidate) =>
+              slugify(
+                candidate.properties.NAMEPAR ?? candidate.properties.NAME,
+              ) === name,
+          ) === index
+        );
+      })
       .slice(0, 3);
     const ids = [];
     for (const feature of selected) {

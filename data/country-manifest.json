@@ -305,9 +305,9 @@
     "coverage": 0
   },
   "ESP": {
-    "status": "missing",
-    "adm1Count": 0,
-    "coverage": 0
+    "status": "partial",
+    "adm1Count": 19,
+    "coverage": 0.895
   },
   "EST": {
     "status": "missing",

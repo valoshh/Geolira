@@ -180,6 +180,7 @@ export function normalizeCountry({
     let cityIds = [
       ...(cityData.cityIdsByBoundary.get(boundary.sourceId) ?? []),
     ];
+    let capitalName = sourcedFacts.capital;
     for (const cityId of cityIds) {
       const city = allCities.get(cityId);
       if (city) city.divisionId = id;
@@ -187,14 +188,28 @@ export function normalizeCountry({
     for (const capitalId of sourcedFacts.capitalIds ?? []) {
       let capital = allCities.get(capitalId);
       if (!capital) {
-        capital = makeCapitalCity(
+        const wikidataCapital = makeCapitalCity(
           capitalId,
           entities[capitalId],
           iso3,
           id,
           retrievedAt,
         );
-        if (capital) allCities.set(capitalId, capital);
+        capital = wikidataCapital
+          ? cityIds
+              .map((cityId) => allCities.get(cityId))
+              .find((city) => city?.slug === wikidataCapital.slug)
+          : undefined;
+        if (capital) {
+          capitalName = capital.name;
+          capital.sources = dedupeSources([
+            ...(capital.sources ?? []),
+            ...wikidataCapital.sources,
+          ]);
+        } else if (wikidataCapital) {
+          capital = wikidataCapital;
+          allCities.set(capitalId, capital);
+        }
       }
       if (capital) {
         capital.divisionId = id;
@@ -202,8 +217,8 @@ export function normalizeCountry({
           ...new Set([...(capital.roles ?? []), "regional-capital"]),
         ];
         cityIds = [
-          capitalId,
-          ...cityIds.filter((item) => item !== capitalId),
+          capital.id,
+          ...cityIds.filter((item) => item !== capital.id),
         ].slice(0, 3);
       } else {
         warnings.push(
@@ -238,8 +253,8 @@ export function normalizeCountry({
       countryId: iso3,
       names,
       administrativeLevel: 1,
-      administrativeType,
-      capital: sourcedFacts.capital,
+      administrativeType: boundary.administrativeType ?? administrativeType,
+      capital: capitalName,
       population: sourcedFacts.population,
       populationYear: sourcedFacts.populationYear,
       populationValue: sourcedFacts.population

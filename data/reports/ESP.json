@@ -1,0 +1,31 @@
+{
+  "country": "Espagne",
+  "iso3": "ESP",
+  "generatedAt": "2026-09-22T15:00:37.852Z",
+  "adm1Count": 19,
+  "status": "partial",
+  "coverage": 0.895,
+  "coverageCounts": {
+    "geometry": 19,
+    "capital": 18,
+    "population": 19,
+    "area": 19,
+    "mainCities": 11,
+    "neighbors": 19,
+    "highestPoint": 19,
+    "hydrography": 12
+  },
+  "errors": [],
+  "warnings": [
+    "Ceuta: voisins Wikidata hors ADM1 importé ignorés (Q22672360, Q19951300).",
+    "Melilla: voisins Wikidata hors ADM1 importé ignorés (Q537462, Q23048167).",
+    "Navarre: voisins Wikidata hors ADM1 importé ignorés (Q18678082, Q142).",
+    "Pays basque: voisins Wikidata hors ADM1 importé ignorés (Q18678082).",
+    "Aragon: voisins Wikidata hors ADM1 importé ignorés (Q18678082, Q18678265).",
+    "Catalogne: voisins Wikidata hors ADM1 importé ignorés (Q18678265, Q228, Q24269, Q24286, Q24282, Q2522163, Q24276).",
+    "Andalousie: voisins Wikidata hors ADM1 importé ignorés (Q1410).",
+    "Galice: voisins Wikidata hors ADM1 importé ignorés (Q27662).",
+    "Castille-et-León: voisins Wikidata hors ADM1 importé ignorés (Q27662).",
+    "Castille-et-León: capitale absente"
+  ]
+}

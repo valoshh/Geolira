@@ -20,6 +20,22 @@ export const COUNTRY_OVERRIDES = {
     administrativeType: "Région",
     boundaryGrouping: "region-code",
   },
+  ESP: {
+    administrativeType: "Communauté autonome",
+    boundaryGrouping: "region-code-and-name",
+    regionCodeOverrides: {
+      "ES.NA": "ES-NC",
+      "ES.MU": "ES-MC",
+      "ES.PM": "ES-IB",
+      "ES.LO": "ES-RI",
+      "ES.CE:Ceuta": "ES-CE",
+      "ES.CE:Melilla": "ES-ML",
+    },
+    administrativeTypeOverrides: {
+      Ceuta: "Ville autonome",
+      Melilla: "Ville autonome",
+    },
+  },
 };
 
 export const USER_AGENT =

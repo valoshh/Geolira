@@ -2,8 +2,9 @@ import { fetchJson } from "./cache.mjs";
 import { COUNTRY_OVERRIDES, SOURCES } from "./config.mjs";
 import { mergePolygonGeometries, roundGeometry } from "./geometry.mjs";
 
-function groupFeatures(features, mode) {
-  if (mode !== "region-code")
+function groupFeatures(features, override) {
+  const mode = override.boundaryGrouping;
+  if (!["region-code", "region-code-and-name"].includes(mode))
     return features.map((feature) => ({
       sourceId:
         feature.properties.wikidataid ??
@@ -25,22 +26,34 @@ function groupFeatures(features, mode) {
 
   const groups = new Map();
   for (const feature of features) {
-    const code = feature.properties.region_cod;
+    const regionCode = feature.properties.region_cod;
     const name = feature.properties.region;
-    if (!code || !name)
+    if (!regionCode || !name)
       throw new Error(
         "Natural Earth ne fournit pas region_cod/region pour toutes les unités.",
       );
-    const group = groups.get(code) ?? { code, name, features: [] };
+    const groupKey =
+      mode === "region-code-and-name" ? `${regionCode}:${name}` : regionCode;
+    const group = groups.get(groupKey) ?? {
+      code:
+        override.regionCodeOverrides?.[groupKey] ??
+        override.regionCodeOverrides?.[regionCode] ??
+        regionCode.replace(".", "-"),
+      name,
+      features: [],
+    };
     group.features.push(feature);
-    groups.set(code, group);
+    groups.set(groupKey, group);
   }
   return [...groups.values()].map((group) => ({
     sourceId: group.code,
     isoCode: group.code,
     name: group.name,
     names: { local: group.name },
-    administrativeType: "Region",
+    administrativeType:
+      override.administrativeTypeOverrides?.[group.name] ??
+      override.administrativeType ??
+      "Region",
     geometry: roundGeometry(
       mergePolygonGeometries(group.features.map((feature) => feature.geometry)),
     ),
@@ -65,7 +78,7 @@ export async function fetchBoundaries(iso3, options = {}) {
     throw new Error(`Aucune subdivision Natural Earth trouvée pour ${iso3}.`);
 
   const override = COUNTRY_OVERRIDES[iso3] ?? {};
-  const boundaries = groupFeatures(rawFeatures, override.boundaryGrouping);
+  const boundaries = groupFeatures(rawFeatures, override);
   const warnings = [];
 
   try {
