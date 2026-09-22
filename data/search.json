@@ -7651,5 +7651,1948 @@
     "countryId": "CAN",
     "enriched": true,
     "kind": "city"
+  },
+  {
+    "id": "Q35715",
+    "name": "Australie-Méridionale",
+    "aliases": [
+      "South Australia",
+      "Australia Meridionale",
+      "Q35715"
+    ],
+    "context": "État · Australie",
+    "href": "/country/australia/south-australia/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q3206",
+    "name": "Australie-Occidentale",
+    "aliases": [
+      "Western Australia",
+      "Australia Occidentale",
+      "Q3206"
+    ],
+    "context": "État · Australie",
+    "href": "/country/australia/western-australia/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q3224",
+    "name": "Nouvelle-Galles du Sud",
+    "aliases": [
+      "New South Wales",
+      "Nuovo Galles del Sud",
+      "Q3224"
+    ],
+    "context": "État · Australie",
+    "href": "/country/australia/new-south-wales/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q36074",
+    "name": "Queensland",
+    "aliases": [
+      "Queensland",
+      "Queensland",
+      "Q36074"
+    ],
+    "context": "État · Australie",
+    "href": "/country/australia/queensland/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q34366",
+    "name": "Tasmanie",
+    "aliases": [
+      "Tasmania",
+      "Tasmania",
+      "Q34366"
+    ],
+    "context": "État · Australie",
+    "href": "/country/australia/tasmania/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q15577",
+    "name": "Territoire de la baie de Jervis",
+    "aliases": [
+      "Jervis Bay Territory",
+      "Territorio della Baia di Jervis",
+      "Q15577"
+    ],
+    "context": "Territoire · Australie",
+    "href": "/country/australia/jervis-bay-territory/",
+    "countryId": "AUS",
+    "enriched": false,
+    "kind": "division"
+  },
+  {
+    "id": "Q3258",
+    "name": "Territoire de la capitale australienne",
+    "aliases": [
+      "Australian Capital Territory",
+      "Territorio della Capitale Australiana",
+      "Q3258"
+    ],
+    "context": "Territoire · Australie",
+    "href": "/country/australia/australian-capital-territory/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q3235",
+    "name": "Territoire du Nord",
+    "aliases": [
+      "Northern Territory",
+      "Territorio del Nord",
+      "Q3235"
+    ],
+    "context": "Territoire · Australie",
+    "href": "/country/australia/northern-territory/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q36687",
+    "name": "Victoria",
+    "aliases": [
+      "Victoria",
+      "Victoria",
+      "Q36687"
+    ],
+    "context": "État · Australie",
+    "href": "/country/australia/victoria/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q5112",
+    "name": "Adélaïde",
+    "aliases": [
+      "Adelaide",
+      "Adelaide"
+    ],
+    "context": "Ville · Australie-Méridionale, Australie",
+    "href": "/city/australia/south-australia/adelaide/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q17872",
+    "name": "Alice Springs",
+    "aliases": [
+      "Alice Springs",
+      "Alice Springs"
+    ],
+    "context": "Ville · Territoire du Nord, Australie",
+    "href": "/city/australia/northern-territory/alice-springs/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q34932",
+    "name": "Brisbane",
+    "aliases": [
+      "Brisbane",
+      "Brisbane"
+    ],
+    "context": "Ville · Queensland, Australie",
+    "href": "/city/australia/queensland/brisbane/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q175262",
+    "name": "Burnie",
+    "aliases": [
+      "Burnie",
+      "Burnie"
+    ],
+    "context": "Ville · Tasmanie, Australie",
+    "href": "/city/australia/tasmania/burnie/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q189133",
+    "name": "Cairns",
+    "aliases": [
+      "Cairns",
+      "Cairns"
+    ],
+    "context": "Ville · Queensland, Australie",
+    "href": "/city/australia/queensland/cairns/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q3114",
+    "name": "Canberra",
+    "aliases": [
+      "Canberra",
+      "Canberra"
+    ],
+    "context": "Ville · Territoire de la capitale australienne, Australie",
+    "href": "/city/australia/australian-capital-territory/canberra/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q3309297",
+    "name": "Cranbourne",
+    "aliases": [
+      "Cranbourne",
+      "Cranbourne"
+    ],
+    "context": "Ville · Victoria, Australie",
+    "href": "/city/australia/victoria/cranbourne/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q11568",
+    "name": "Darwin",
+    "aliases": [
+      "Darwin",
+      "Darwin"
+    ],
+    "context": "Ville · Territoire du Nord, Australie",
+    "href": "/city/australia/northern-territory/darwin/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q231765",
+    "name": "Geelong",
+    "aliases": [
+      "Geelong",
+      "Geelong"
+    ],
+    "context": "Ville · Victoria, Australie",
+    "href": "/city/australia/victoria/geelong/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q140075",
+    "name": "Gold Coast",
+    "aliases": [
+      "Gold Coast",
+      "Gold Coast"
+    ],
+    "context": "Ville · Queensland, Australie",
+    "href": "/city/australia/queensland/gold-coast/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q40191",
+    "name": "Hobart",
+    "aliases": [
+      "Hobart",
+      "Hobart"
+    ],
+    "context": "Ville · Tasmanie, Australie",
+    "href": "/city/australia/tasmania/hobart/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q329503",
+    "name": "Kalgoorlie",
+    "aliases": [
+      "Kalgoorlie",
+      "Kalgoorlie"
+    ],
+    "context": "Ville · Australie-Occidentale, Australie",
+    "href": "/city/australia/western-australia/kalgoorlie/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q17980",
+    "name": "Katherine",
+    "aliases": [
+      "Katherine",
+      "Katherine"
+    ],
+    "context": "Ville · Territoire du Nord, Australie",
+    "href": "/city/australia/northern-territory/katherine/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q339527",
+    "name": "Launceston",
+    "aliases": [
+      "Launceston",
+      "Launceston"
+    ],
+    "context": "Ville · Tasmanie, Australie",
+    "href": "/city/australia/tasmania/launceston/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q595542",
+    "name": "Mandurah",
+    "aliases": [
+      "Mandurah",
+      "Mandurah"
+    ],
+    "context": "Ville · Australie-Occidentale, Australie",
+    "href": "/city/australia/western-australia/mandurah/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q3141",
+    "name": "Melbourne",
+    "aliases": [
+      "Melbourne",
+      "Melbourne"
+    ],
+    "context": "Ville · Victoria, Australie",
+    "href": "/city/australia/victoria/melbourne/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q327348",
+    "name": "Mount Gambier",
+    "aliases": [
+      "Mount Gambier",
+      "Mount Gambier"
+    ],
+    "context": "Ville · Australie-Méridionale, Australie",
+    "href": "/city/australia/south-australia/mount-gambier/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q57278",
+    "name": "Newcastle",
+    "aliases": [
+      "Newcastle",
+      "Newcastle"
+    ],
+    "context": "Ville · Nouvelle-Galles du Sud, Australie",
+    "href": "/city/australia/new-south-wales/newcastle/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q3183",
+    "name": "Perth",
+    "aliases": [
+      "Perth",
+      "Perth"
+    ],
+    "context": "Ville · Australie-Occidentale, Australie",
+    "href": "/city/australia/western-australia/perth/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q606385",
+    "name": "Queanbeyan",
+    "aliases": [
+      "Queanbeyan",
+      "Queanbeyan"
+    ],
+    "context": "Ville · Territoire de la capitale australienne, Australie",
+    "href": "/city/australia/australian-capital-territory/queanbeyan/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q3130",
+    "name": "Sydney",
+    "aliases": [
+      "Sydney",
+      "Sydney"
+    ],
+    "context": "Ville · Nouvelle-Galles du Sud, Australie",
+    "href": "/city/australia/new-south-wales/sydney/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q706029",
+    "name": "Whyalla",
+    "aliases": [
+      "Whyalla",
+      "Whyalla"
+    ],
+    "context": "Ville · Australie-Méridionale, Australie",
+    "href": "/city/australia/south-australia/whyalla/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q187861",
+    "name": "Wollongong",
+    "aliases": [
+      "Wollongong",
+      "Wollongong"
+    ],
+    "context": "Ville · Nouvelle-Galles du Sud, Australie",
+    "href": "/city/australia/new-south-wales/wollongong/",
+    "countryId": "AUS",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1159",
+    "name": "Andhra Pradesh",
+    "aliases": [
+      "Andhra Pradesh",
+      "Andhra Pradesh",
+      "Q1159"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/andhra-pradesh/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1162",
+    "name": "Arunachal Pradesh",
+    "aliases": [
+      "Arunachal Pradesh",
+      "Arunachal Pradesh",
+      "Q1162"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/arunachal-pradesh/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1164",
+    "name": "Assam",
+    "aliases": [
+      "Assam",
+      "Assam",
+      "Q1164"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/assam/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1356",
+    "name": "Bengale-Occidental",
+    "aliases": [
+      "West Bengal",
+      "Bengala Occidentale",
+      "Q1356"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/west-bengal/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1165",
+    "name": "Bihar",
+    "aliases": [
+      "Bihar",
+      "Bihar",
+      "Q1165"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/bihar/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q120971341",
+    "name": "Chandigarh",
+    "aliases": [
+      "Chandigarh",
+      "Chandigarh",
+      "Q120971341"
+    ],
+    "context": "Territoire de l’Union · Inde",
+    "href": "/country/india/chandigarh/",
+    "countryId": "IND",
+    "enriched": false,
+    "kind": "division"
+  },
+  {
+    "id": "Q1168",
+    "name": "Chhattisgarh",
+    "aliases": [
+      "Chhattisgarh",
+      "Chhattisgarh",
+      "Q1168"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/chhattisgarh/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q77997266",
+    "name": "Dadra et Nagar Haveli et Daman et Diu",
+    "aliases": [
+      "Dadra and Nagar Haveli and Daman and Diu",
+      "Dadra e Nagar Haveli e Daman e Diu",
+      "Q77997266"
+    ],
+    "context": "Territoire de l’Union · Inde",
+    "href": "/country/india/dadra-and-nagar-haveli-and-daman-and-diu/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1171",
+    "name": "Goa",
+    "aliases": [
+      "Goa",
+      "Goa",
+      "Q1171"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/goa/",
+    "countryId": "IND",
+    "enriched": false,
+    "kind": "division"
+  },
+  {
+    "id": "Q1061",
+    "name": "Gujarat",
+    "aliases": [
+      "Gujarat",
+      "Gujarat",
+      "Q1061"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/gujarat/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1174",
+    "name": "Haryana",
+    "aliases": [
+      "Haryana",
+      "Haryana",
+      "Q1174"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/haryana/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1177",
+    "name": "Himachal Pradesh",
+    "aliases": [
+      "Himachal Pradesh",
+      "Himachal Pradesh",
+      "Q1177"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/himachal-pradesh/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q40888",
+    "name": "Îles Andaman-et-Nicobar",
+    "aliases": [
+      "Andaman and Nicobar Islands",
+      "isole Andamane e Nicobare",
+      "Q40888"
+    ],
+    "context": "Territoire de l’Union · Inde",
+    "href": "/country/india/andaman-and-nicobar-islands/",
+    "countryId": "IND",
+    "enriched": false,
+    "kind": "division"
+  },
+  {
+    "id": "Q66278313",
+    "name": "Jammu-et-Cachemire",
+    "aliases": [
+      "Jammu and Kashmir",
+      "Jammu e Kashmir",
+      "Q66278313"
+    ],
+    "context": "Territoire de l’Union · Inde",
+    "href": "/country/india/jammu-and-kashmir/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1184",
+    "name": "Jharkhand",
+    "aliases": [
+      "Jharkhand",
+      "Jharkhand",
+      "Q1184"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/jharkhand/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1185",
+    "name": "Karnataka",
+    "aliases": [
+      "Karnataka",
+      "Karnataka",
+      "Q1185"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/karnataka/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1186",
+    "name": "Kerala",
+    "aliases": [
+      "Kerala",
+      "Kerala",
+      "Q1186"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/kerala/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q200667",
+    "name": "Ladakh",
+    "aliases": [
+      "Ladakh",
+      "Ladakh",
+      "Q200667"
+    ],
+    "context": "Territoire de l’Union · Inde",
+    "href": "/country/india/ladakh/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q26927",
+    "name": "Lakshadweep",
+    "aliases": [
+      "Lakshadweep",
+      "Laccadive",
+      "Q26927"
+    ],
+    "context": "Territoire de l’Union · Inde",
+    "href": "/country/india/lakshadweep/",
+    "countryId": "IND",
+    "enriched": false,
+    "kind": "division"
+  },
+  {
+    "id": "Q1188",
+    "name": "Madhya Pradesh",
+    "aliases": [
+      "Madhya Pradesh",
+      "Madhya Pradesh",
+      "Q1188"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/madhya-pradesh/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1191",
+    "name": "Maharashtra",
+    "aliases": [
+      "Maharashtra",
+      "Maharashtra",
+      "Q1191"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/maharashtra/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1193",
+    "name": "Manipur",
+    "aliases": [
+      "Manipur",
+      "Manipur",
+      "Q1193"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/manipur/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1195",
+    "name": "Meghalaya",
+    "aliases": [
+      "Meghalaya",
+      "Meghalaya",
+      "Q1195"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/meghalaya/",
+    "countryId": "IND",
+    "enriched": false,
+    "kind": "division"
+  },
+  {
+    "id": "Q1502",
+    "name": "Mizoram",
+    "aliases": [
+      "Mizoram",
+      "Mizoram",
+      "Q1502"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/mizoram/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1599",
+    "name": "Nagaland",
+    "aliases": [
+      "Nagaland",
+      "Nagaland",
+      "Q1599"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/nagaland/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q22048",
+    "name": "Odisha",
+    "aliases": [
+      "Odisha",
+      "Orissa",
+      "Q22048"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/odisha/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q22424",
+    "name": "Pendjab",
+    "aliases": [
+      "Punjab",
+      "Punjab",
+      "Q22424"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/punjab/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1437",
+    "name": "Rajasthan",
+    "aliases": [
+      "Rajasthan",
+      "Rajasthan",
+      "Q1437"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/rajasthan/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1505",
+    "name": "Sikkim",
+    "aliases": [
+      "Sikkim",
+      "Sikkim",
+      "Q1505"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/sikkim/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1445",
+    "name": "Tamil Nadu",
+    "aliases": [
+      "Tamil Nadu",
+      "Tamil Nadu",
+      "Q1445"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/tamil-nadu/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q677037",
+    "name": "Telangana",
+    "aliases": [
+      "Telangana",
+      "Telangana",
+      "Q677037"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/telangana/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q9357528",
+    "name": "territoire de la Capitale nationale de Delhi",
+    "aliases": [
+      "National Capital Territory of Delhi",
+      "territoire de la Capitale nationale de Delhi",
+      "Q9357528"
+    ],
+    "context": "Territoire de l’Union · Inde",
+    "href": "/country/india/national-capital-territory-of-delhi/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q66743",
+    "name": "Territoire de Pondichéry",
+    "aliases": [
+      "Puducherry",
+      "Pondicherry",
+      "Q66743"
+    ],
+    "context": "Territoire de l’Union · Inde",
+    "href": "/country/india/puducherry/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1363",
+    "name": "Tripura",
+    "aliases": [
+      "Tripura",
+      "Tripura",
+      "Q1363"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/tripura/",
+    "countryId": "IND",
+    "enriched": false,
+    "kind": "division"
+  },
+  {
+    "id": "Q1498",
+    "name": "Uttar Pradesh",
+    "aliases": [
+      "Uttar Pradesh",
+      "Uttar Pradesh",
+      "Q1498"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/uttar-pradesh/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q1499",
+    "name": "Uttarakhand",
+    "aliases": [
+      "Uttarakhand",
+      "Uttarakhand",
+      "Q1499"
+    ],
+    "context": "État · Inde",
+    "href": "/country/india/uttarakhand/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "division"
+  },
+  {
+    "id": "Q170454",
+    "name": "Agartala",
+    "aliases": [
+      "Agartala",
+      "Agartala"
+    ],
+    "context": "Ville · Tripura, Inde",
+    "href": "/city/india/tripura/agartala/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q42941",
+    "name": "Āgrā",
+    "aliases": [
+      "Agra",
+      "Agra"
+    ],
+    "context": "Ville · Uttar Pradesh, Inde",
+    "href": "/city/india/uttar-pradesh/agra/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1070",
+    "name": "Ahmedabad",
+    "aliases": [
+      "Ahmedabad",
+      "Ahmedabad"
+    ],
+    "context": "Ville · Gujarat, Inde",
+    "href": "/city/india/gujarat/ahmedabad/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q192379",
+    "name": "Aizawl",
+    "aliases": [
+      "Aizawl",
+      "Aizawl"
+    ],
+    "context": "Ville · Mizoram, Inde",
+    "href": "/city/india/mizoram/aizawl/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q19881964",
+    "name": "Amaravati",
+    "aliases": [
+      "Amaravati",
+      "Amaravati"
+    ],
+    "context": "Ville · Andhra Pradesh, Inde",
+    "href": "/city/india/andhra-pradesh/amaravati/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q48403",
+    "name": "Amritsar",
+    "aliases": [
+      "Amritsar",
+      "Amritsar"
+    ],
+    "context": "Ville · Pendjab, Inde",
+    "href": "/city/india/punjab/amritsar/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q202139",
+    "name": "Asansol",
+    "aliases": [
+      "Asansol",
+      "Asansol"
+    ],
+    "context": "Ville · Bengale-Occidental, Inde",
+    "href": "/city/india/west-bengal/asansol/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1355",
+    "name": "Bangalore",
+    "aliases": [
+      "Bengaluru",
+      "Bangalore"
+    ],
+    "context": "Ville · Karnataka, Inde",
+    "href": "/city/india/karnataka/bangalore/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q712644",
+    "name": "Baramulla",
+    "aliases": [
+      "Baramulla",
+      "Baramula"
+    ],
+    "context": "Ville · Jammu-et-Cachemire, Inde",
+    "href": "/city/india/jammu-and-kashmir/baramula/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q270176",
+    "name": "Belgaum",
+    "aliases": [
+      "Belgaum",
+      "Belgaum"
+    ],
+    "context": "Ville · Karnataka, Inde",
+    "href": "/city/india/karnataka/belgaum/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q760714",
+    "name": "Bhagalpur",
+    "aliases": [
+      "Bhagalpur",
+      "Bhagalpur"
+    ],
+    "context": "Ville · Bihar, Inde",
+    "href": "/city/india/bihar/bhagalpur/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q242144",
+    "name": "Bhilai",
+    "aliases": [
+      "Bhilai",
+      "Bhilai"
+    ],
+    "context": "Ville · Chhattisgarh, Inde",
+    "href": "/city/india/chhattisgarh/bhilai/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q80989",
+    "name": "Bhopal",
+    "aliases": [
+      "Bhopal",
+      "Bhopal"
+    ],
+    "context": "Ville · Madhya Pradesh, Inde",
+    "href": "/city/india/madhya-pradesh/bhopal/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q171771",
+    "name": "Bhubaneswar",
+    "aliases": [
+      "Bhubaneswar",
+      "Bhubaneswar"
+    ],
+    "context": "Ville · Odisha, Inde",
+    "href": "/city/india/odisha/bhubaneswar/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q860452",
+    "name": "Bilaspur",
+    "aliases": [
+      "Bilaspur",
+      "Bilaspur"
+    ],
+    "context": "Ville · Chhattisgarh, Inde",
+    "href": "/city/india/chhattisgarh/bilaspur/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1156",
+    "name": "Bombay",
+    "aliases": [
+      "Mumbai",
+      "Bombay"
+    ],
+    "context": "Ville · Maharashtra, Inde",
+    "href": "/city/india/maharashtra/bombay/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1348",
+    "name": "Calcutta",
+    "aliases": [
+      "Kolkata",
+      "Calcutta"
+    ],
+    "context": "Ville · Bengale-Occidental, Inde",
+    "href": "/city/india/west-bengal/calcutta/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q43433",
+    "name": "Chandigarh",
+    "aliases": [
+      "Chandigarh",
+      "Chandigarh"
+    ],
+    "context": "Ville · Haryana, Inde",
+    "href": "/city/india/haryana/chandigarh/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1352",
+    "name": "Chennai",
+    "aliases": [
+      "Chennai",
+      "Madras"
+    ],
+    "context": "Ville · Tamil Nadu, Inde",
+    "href": "/city/india/tamil-nadu/madras/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q9885",
+    "name": "Coimbatore",
+    "aliases": [
+      "Coimbatore",
+      "Coimbatore"
+    ],
+    "context": "Ville · Tamil Nadu, Inde",
+    "href": "/city/india/tamil-nadu/coimbatore/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q207324",
+    "name": "Cuttack",
+    "aliases": [
+      "Pochinki",
+      "Cuttack"
+    ],
+    "context": "Ville · Odisha, Inde",
+    "href": "/city/india/odisha/cuttack/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q463252",
+    "name": "Daman",
+    "aliases": [
+      "Daman",
+      "Daman"
+    ],
+    "context": "Ville · Dadra et Nagar Haveli et Daman et Diu, Inde",
+    "href": "/city/india/dadra-and-nagar-haveli-and-daman-and-diu/daman/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q199528",
+    "name": "Dehradun",
+    "aliases": [
+      "Dehradun",
+      "Dehra Dun"
+    ],
+    "context": "Ville · Uttarakhand, Inde",
+    "href": "/city/india/uttarakhand/dehra-dun/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1353",
+    "name": "Delhi",
+    "aliases": [
+      "Delhi",
+      "Delhi"
+    ],
+    "context": "Ville · territoire de la Capitale nationale de Delhi, Inde",
+    "href": "/city/india/national-capital-territory-of-delhi/delhi/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q244159",
+    "name": "Dhanbad",
+    "aliases": [
+      "Dhanbad",
+      "Dhanbad"
+    ],
+    "context": "Ville · Jharkhand, Inde",
+    "href": "/city/india/jharkhand/dhanbad/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1266637",
+    "name": "Dibrugarh",
+    "aliases": [
+      "Dibrugarh",
+      "Dibrugarh"
+    ],
+    "context": "Ville · Assam, Inde",
+    "href": "/city/india/assam/dibrugarh/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q271911",
+    "name": "Dispur",
+    "aliases": [
+      "Dispur",
+      "Dispur"
+    ],
+    "context": "Ville · Assam, Inde",
+    "href": "/city/india/assam/dispur/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q631849",
+    "name": "Diu",
+    "aliases": [
+      "Diu",
+      "Diu"
+    ],
+    "context": "Ville · Dadra et Nagar Haveli et Daman et Diu, Inde",
+    "href": "/city/india/dadra-and-nagar-haveli-and-daman-and-diu/diu/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q200663",
+    "name": "Faridabad",
+    "aliases": [
+      "Faridabad",
+      "Faridabad"
+    ],
+    "context": "Ville · Haryana, Inde",
+    "href": "/city/india/haryana/faridabad/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q2080796",
+    "name": "Gairsain",
+    "aliases": [
+      "Gairsain",
+      "Gairsain"
+    ],
+    "context": "Ville · Uttarakhand, Inde",
+    "href": "/city/india/uttarakhand/gairsain/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q11910",
+    "name": "Gandhinagar",
+    "aliases": [
+      "Gandhinagar",
+      "Gandhinagar"
+    ],
+    "context": "Ville · Gujarat, Inde",
+    "href": "/city/india/gujarat/gandhinagar/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q186141",
+    "name": "Gangtok",
+    "aliases": [
+      "Gangtok",
+      "Gangtok"
+    ],
+    "context": "Ville · Sikkim, Inde",
+    "href": "/city/india/sikkim/gangtok/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q251329",
+    "name": "Gaya",
+    "aliases": [
+      "Gaya",
+      "Gaya"
+    ],
+    "context": "Ville · Bihar, Inde",
+    "href": "/city/india/bihar/gaya/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q199605",
+    "name": "Guwahati",
+    "aliases": [
+      "Guwahati",
+      "Guwahati"
+    ],
+    "context": "Ville · Assam, Inde",
+    "href": "/city/india/assam/guwahati/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1772825",
+    "name": "Hisar",
+    "aliases": [
+      "Hisar",
+      "Hisar"
+    ],
+    "context": "Ville · Haryana, Inde",
+    "href": "/city/india/haryana/hisar/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q205697",
+    "name": "Howrah",
+    "aliases": [
+      "Howrah",
+      "Haora"
+    ],
+    "context": "Ville · Bengale-Occidental, Inde",
+    "href": "/city/india/west-bengal/haora/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q33412",
+    "name": "Hubli-Dharwad",
+    "aliases": [
+      "Hubli",
+      "Hubli"
+    ],
+    "context": "Ville · Karnataka, Inde",
+    "href": "/city/india/karnataka/hubli/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1361",
+    "name": "Hyderabad",
+    "aliases": [
+      "Hyderabad",
+      "Hyderabad"
+    ],
+    "context": "Ville · Telangana, Inde",
+    "href": "/city/india/telangana/hyderabad/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q208097",
+    "name": "Imphāl",
+    "aliases": [
+      "Imphal",
+      "Imphal"
+    ],
+    "context": "Ville · Manipur, Inde",
+    "href": "/city/india/manipur/imphal/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q66616",
+    "name": "Indore",
+    "aliases": [
+      "Indore",
+      "Indore"
+    ],
+    "context": "Ville · Madhya Pradesh, Inde",
+    "href": "/city/india/madhya-pradesh/indore/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q41128",
+    "name": "Itanagar",
+    "aliases": [
+      "Itanagar",
+      "Itanagar"
+    ],
+    "context": "Ville · Arunachal Pradesh, Inde",
+    "href": "/city/india/arunachal-pradesh/itanagar/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q200878",
+    "name": "Jabalpur",
+    "aliases": [
+      "Jabalpur",
+      "Jabalpur"
+    ],
+    "context": "Ville · Madhya Pradesh, Inde",
+    "href": "/city/india/madhya-pradesh/jabalpur/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q66485",
+    "name": "Jaipur",
+    "aliases": [
+      "Jaipur",
+      "Jaipur"
+    ],
+    "context": "Ville · Rajasthan, Inde",
+    "href": "/city/india/rajasthan/jaipur/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q255455",
+    "name": "Jammu",
+    "aliases": [
+      "Jammu",
+      "Jammu"
+    ],
+    "context": "Ville · Jammu-et-Cachemire, Inde",
+    "href": "/city/india/jammu-and-kashmir/jammu/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q200054",
+    "name": "Jamshedpur",
+    "aliases": [
+      "Jamshedpur",
+      "Jamshedpur"
+    ],
+    "context": "Ville · Jharkhand, Inde",
+    "href": "/city/india/jharkhand/jamshedpur/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q200019",
+    "name": "Jodhpur",
+    "aliases": [
+      "Jodhpur",
+      "Jodhpur"
+    ],
+    "context": "Ville · Rajasthan, Inde",
+    "href": "/city/india/rajasthan/jodhpur/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q66568",
+    "name": "Kanpur",
+    "aliases": [
+      "Kanpur",
+      "Kanpur"
+    ],
+    "context": "Ville · Uttar Pradesh, Inde",
+    "href": "/city/india/uttar-pradesh/kanpur/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q2088176",
+    "name": "Kargil",
+    "aliases": [
+      "Kargil",
+      "Kargil"
+    ],
+    "context": "Ville · Ladakh, Inde",
+    "href": "/city/india/ladakh/kargil/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q271287",
+    "name": "Kavaratti",
+    "aliases": [
+      "Kavaratti",
+      "Kavaratti"
+    ],
+    "context": "Ville · Lakshadweep, Inde",
+    "href": "/city/india/lakshadweep/kavaratti/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1800",
+    "name": "Kochi",
+    "aliases": [
+      "Kochi",
+      "Cochin"
+    ],
+    "context": "Ville · Kerala, Inde",
+    "href": "/city/india/kerala/cochin/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q234056",
+    "name": "Kohima",
+    "aliases": [
+      "Kohima",
+      "Kohima"
+    ],
+    "context": "Ville · Nagaland, Inde",
+    "href": "/city/india/nagaland/kohima/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q330531",
+    "name": "Kota",
+    "aliases": [
+      "Kota",
+      "Kota"
+    ],
+    "context": "Ville · Rajasthan, Inde",
+    "href": "/city/india/rajasthan/kota/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q28729",
+    "name": "Kozhikode",
+    "aliases": [
+      "Kozhikode",
+      "Calicut"
+    ],
+    "context": "Ville · Kerala, Inde",
+    "href": "/city/india/kerala/calicut/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q230818",
+    "name": "Leh",
+    "aliases": [
+      "Leh",
+      "Leh"
+    ],
+    "context": "Ville · Ladakh, Inde",
+    "href": "/city/india/ladakh/leh/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q47916",
+    "name": "Lucknow",
+    "aliases": [
+      "Lucknow",
+      "Lucknow"
+    ],
+    "context": "Ville · Uttar Pradesh, Inde",
+    "href": "/city/india/uttar-pradesh/lucknow/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q200123",
+    "name": "Ludhiana",
+    "aliases": [
+      "Ludhiana",
+      "Ludhiana"
+    ],
+    "context": "Ville · Pendjab, Inde",
+    "href": "/city/india/punjab/ludhiana/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q228405",
+    "name": "Madurai",
+    "aliases": [
+      "Madurai",
+      "Madurai"
+    ],
+    "context": "Ville · Tamil Nadu, Inde",
+    "href": "/city/india/tamil-nadu/madurai/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1513",
+    "name": "Nagpur",
+    "aliases": [
+      "Nagpur",
+      "Nagpur"
+    ],
+    "context": "Ville · Maharashtra, Inde",
+    "href": "/city/india/maharashtra/nagpur/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q987",
+    "name": "New Delhi",
+    "aliases": [
+      "New Delhi",
+      "New Delhi"
+    ],
+    "context": "Ville · territoire de la Capitale nationale de Delhi, Inde",
+    "href": "/city/india/national-capital-territory-of-delhi/new-delhi/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q41473",
+    "name": "Nizamabad",
+    "aliases": [
+      "Nizamabad",
+      "Nizamabad"
+    ],
+    "context": "Ville · Telangana, Inde",
+    "href": "/city/india/telangana/nizamabad/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q214681",
+    "name": "Panaji",
+    "aliases": [
+      "Panaji",
+      "Panaji"
+    ],
+    "context": "Ville · Goa, Inde",
+    "href": "/city/india/goa/panaji/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1647167",
+    "name": "Pathankot",
+    "aliases": [
+      "Pathankot",
+      "Pathankot"
+    ],
+    "context": "Ville · Himachal Pradesh, Inde",
+    "href": "/city/india/himachal-pradesh/pathankot/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q80484",
+    "name": "Patna",
+    "aliases": [
+      "Patna",
+      "Patna"
+    ],
+    "context": "Ville · Bihar, Inde",
+    "href": "/city/india/bihar/patna/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q639421",
+    "name": "Pondichéry",
+    "aliases": [
+      "Pondicherry",
+      "Pondicherry"
+    ],
+    "context": "Ville · Territoire de Pondichéry, Inde",
+    "href": "/city/india/puducherry/pondicherry/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q203476",
+    "name": "Port Blair",
+    "aliases": [
+      "Port Blair",
+      "Port Blair"
+    ],
+    "context": "Ville · Îles Andaman-et-Nicobar, Inde",
+    "href": "/city/india/andaman-and-nicobar-islands/port-blair/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1538",
+    "name": "Pune",
+    "aliases": [
+      "Pune",
+      "Pune"
+    ],
+    "context": "Ville · Maharashtra, Inde",
+    "href": "/city/india/maharashtra/pune/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q372773",
+    "name": "Raipur",
+    "aliases": [
+      "Raipur",
+      "Raipur"
+    ],
+    "context": "Ville · Chhattisgarh, Inde",
+    "href": "/city/india/chhattisgarh/raipur/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q174461",
+    "name": "Ranchi",
+    "aliases": [
+      "Ranchi",
+      "Ranchi"
+    ],
+    "context": "Ville · Jharkhand, Inde",
+    "href": "/city/india/jharkhand/ranchi/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q1012706",
+    "name": "Rourkela",
+    "aliases": [
+      "Rourkela",
+      "Raurkela"
+    ],
+    "context": "Ville · Odisha, Inde",
+    "href": "/city/india/odisha/raurkela/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q207752",
+    "name": "Shillong",
+    "aliases": [
+      "Shillong",
+      "Shillong"
+    ],
+    "context": "Ville · Meghalaya, Inde",
+    "href": "/city/india/meghalaya/shillong/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q83786",
+    "name": "Shimla",
+    "aliases": [
+      "Shimla",
+      "Simla"
+    ],
+    "context": "Ville · Himachal Pradesh, Inde",
+    "href": "/city/india/himachal-pradesh/simla/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q318404",
+    "name": "Silvassa",
+    "aliases": [
+      "Silvassa",
+      "Silvassa"
+    ],
+    "context": "Ville · Dadra et Nagar Haveli et Daman et Diu, Inde",
+    "href": "/city/india/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q170115",
+    "name": "Srinagar",
+    "aliases": [
+      "Srinagar",
+      "Srinagar"
+    ],
+    "context": "Ville · Jammu-et-Cachemire, Inde",
+    "href": "/city/india/jammu-and-kashmir/srinagar/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q4629",
+    "name": "Surate",
+    "aliases": [
+      "Surat",
+      "Surat"
+    ],
+    "context": "Ville · Gujarat, Inde",
+    "href": "/city/india/gujarat/surat/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q167715",
+    "name": "Thiruvananthapuram",
+    "aliases": [
+      "Thiruvananthapuram",
+      "Trivandrum"
+    ],
+    "context": "Ville · Kerala, Inde",
+    "href": "/city/india/kerala/trivandrum/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q25563103",
+    "name": "Varangal",
+    "aliases": [
+      "Warangal",
+      "Warangal"
+    ],
+    "context": "Ville · Telangana, Inde",
+    "href": "/city/india/telangana/warangal/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q200017",
+    "name": "Vijayawada",
+    "aliases": [
+      "Vijayawada",
+      "Vijayawada"
+    ],
+    "context": "Ville · Andhra Pradesh, Inde",
+    "href": "/city/india/andhra-pradesh/vijayawada/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
+  },
+  {
+    "id": "Q200016",
+    "name": "Visakhapatnam",
+    "aliases": [
+      "Visakhapatnam",
+      "Vishakhapatnam"
+    ],
+    "context": "Ville · Andhra Pradesh, Inde",
+    "href": "/city/india/andhra-pradesh/vishakhapatnam/",
+    "countryId": "IND",
+    "enriched": true,
+    "kind": "city"
   }
 ]

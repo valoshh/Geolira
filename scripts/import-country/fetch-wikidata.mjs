@@ -99,8 +99,14 @@ export async function fetchWikidata(countryQid, boundaries, options = {}) {
       isoToQid.get(boundary.isoCode) ??
       (boundary.sourceId.startsWith("Q") ? boundary.sourceId : undefined),
   );
-  const entities = await fetchEntities([countryQid, ...regionIds], options);
-  const relatedIds = [countryQid, ...regionIds].flatMap((id) =>
+  const fallbackIds = boundaries
+    .map((boundary) => boundary.wikidataFactFallback)
+    .filter(Boolean);
+  const entities = await fetchEntities(
+    [countryQid, ...regionIds, ...fallbackIds],
+    options,
+  );
+  const relatedIds = [countryQid, ...regionIds, ...fallbackIds].flatMap((id) =>
     ["P36", "P610", "P206", "P4552", "P47"].flatMap((property) =>
       entityIds(entities[id], property),
     ),
@@ -115,6 +121,11 @@ export async function fetchWikidata(countryQid, boundaries, options = {}) {
         boundary.sourceId,
         regionIds[index],
       ]),
+    ),
+    fallbackQidBySourceId: new Map(
+      boundaries
+        .filter((boundary) => boundary.wikidataFactFallback)
+        .map((boundary) => [boundary.sourceId, boundary.wikidataFactFallback]),
     ),
     warnings: isoMapping.warnings,
   };

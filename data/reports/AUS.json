@@ -1,0 +1,24 @@
+{
+  "country": "Australie",
+  "iso3": "AUS",
+  "generatedAt": "2026-09-22T15:37:44.480Z",
+  "adm1Count": 9,
+  "status": "partial",
+  "coverage": 0.917,
+  "coverageCounts": {
+    "geometry": 9,
+    "capital": 8,
+    "population": 9,
+    "area": 9,
+    "mainCities": 8,
+    "neighbors": 9,
+    "highestPoint": 7,
+    "hydrography": 7
+  },
+  "errors": [],
+  "warnings": [
+    "Territoire de la baie de Jervis: voisins Wikidata hors ADM1 importé ignorés (Q5952749, Q7593244, Q8038296, Q3505745).",
+    "Territoire de la capitale australienne: voisins Wikidata hors ADM1 importé ignorés (Q24053113, Q24053131).",
+    "Territoire de la baie de Jervis: capitale absente"
+  ]
+}

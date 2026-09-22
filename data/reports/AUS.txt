@@ -1,0 +1,22 @@
+Country: Australie (AUS)
+ADM1 subdivisions: 9
+Status: partial
+Coverage score: 0.917
+
+Coverage
+Geometry: 9/9
+Capital: 8/9
+Population: 9/9
+Area: 9/9
+Main cities: 8/9
+Neighbors: 9/9
+Highest point: 7/9
+Hydrography: 7/9
+
+Errors: 0
+Warnings: 3
+
+Warning details
+- Territoire de la baie de Jervis: voisins Wikidata hors ADM1 importé ignorés (Q5952749, Q7593244, Q8038296, Q3505745).
+- Territoire de la capitale australienne: voisins Wikidata hors ADM1 importé ignorés (Q24053113, Q24053131).
+- Territoire de la baie de Jervis: capitale absente

@@ -1,0 +1,35 @@
+{
+  "country": "Inde",
+  "iso3": "IND",
+  "generatedAt": "2026-09-22T15:42:48.382Z",
+  "adm1Count": 36,
+  "status": "partial",
+  "coverage": 0.826,
+  "coverageCounts": {
+    "geometry": 36,
+    "capital": 36,
+    "population": 36,
+    "area": 36,
+    "mainCities": 24,
+    "neighbors": 36,
+    "highestPoint": 6,
+    "hydrography": 28
+  },
+  "errors": [],
+  "warnings": [
+    "Arunachal Pradesh: voisins Wikidata hors ADM1 importé ignorés (Q140646, Q847289).",
+    "Bengale-Occidental: voisins Wikidata hors ADM1 importé ignorés (Q379382, Q876023, Q501696).",
+    "Assam: voisins Wikidata hors ADM1 importé ignorés (Q459732, Q917).",
+    "Uttarakhand: voisins Wikidata hors ADM1 importé ignorés (Q28235, Q17269, Q25104019, Q25104017).",
+    "Manipur: voisins Wikidata hors ADM1 importé ignorés (Q46910).",
+    "Mizoram: voisins Wikidata hors ADM1 importé ignorés (Q902, Q836).",
+    "Tripura: voisins Wikidata hors ADM1 importé ignorés (Q459732, Q158087).",
+    "Meghalaya: voisins Wikidata hors ADM1 importé ignorés (Q459732).",
+    "Pendjab: voisins Wikidata hors ADM1 importé ignorés (Q4478).",
+    "Rajasthan: voisins Wikidata hors ADM1 importé ignorés (Q37211, Q4478).",
+    "Gujarat: voisins Wikidata hors ADM1 importé ignorés (Q46107, Q66710, Q37211).",
+    "Himachal Pradesh: voisins Wikidata hors ADM1 importé ignorés (Q17269).",
+    "Bihar: voisins Wikidata hors ADM1 importé ignorés (Q28576, Q28579).",
+    "Maharashtra: voisins Wikidata hors ADM1 importé ignorés (Q46107)."
+  ]
+}

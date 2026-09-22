@@ -87,6 +87,22 @@ function facts(id, entities, retrievedAt) {
   };
 }
 
+function withFallbackFacts(primary, fallback) {
+  if (!fallback) return primary;
+  return {
+    capital: primary.capital ?? fallback.capital,
+    capitalIds: primary.capitalIds?.length
+      ? primary.capitalIds
+      : fallback.capitalIds,
+    population: primary.population ?? fallback.population,
+    populationYear: primary.populationYear ?? fallback.populationYear,
+    areaKm2: primary.areaKm2 ?? fallback.areaKm2,
+    highestPoint: primary.highestPoint ?? fallback.highestPoint,
+    mountainRange: primary.mountainRange ?? fallback.mountainRange,
+    sources: dedupeSources([...primary.sources, ...fallback.sources]),
+  };
+}
+
 function dedupeSources(sources) {
   return [
     ...new Map(
@@ -167,9 +183,14 @@ export function normalizeCountry({
     const qid = wikidata.qidBySourceId.get(boundary.sourceId);
     const id = internalIdBySource.get(boundary.sourceId);
     const entity = entities[qid];
-    const sourcedFacts = qid
+    const primaryFacts = qid
       ? facts(qid, entities, retrievedAt)
       : { sources: [] };
+    const fallbackQid = wikidata.fallbackQidBySourceId.get(boundary.sourceId);
+    const sourcedFacts = withFallbackFacts(
+      primaryFacts,
+      fallbackQid ? facts(fallbackQid, entities, retrievedAt) : undefined,
+    );
     const previous =
       existingById.get(id) ?? existingByName.get(comparableName(boundary.name));
     const names = {

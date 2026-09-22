@@ -75,9 +75,9 @@
     "coverage": 0
   },
   "AUS": {
-    "status": "missing",
-    "adm1Count": 0,
-    "coverage": 0
+    "status": "partial",
+    "adm1Count": 9,
+    "coverage": 0.917
   },
   "AUT": {
     "status": "missing",
@@ -525,9 +525,9 @@
     "coverage": 0
   },
   "IND": {
-    "status": "missing",
-    "adm1Count": 0,
-    "coverage": 0
+    "status": "partial",
+    "adm1Count": 36,
+    "coverage": 0.826
   },
   "IDN": {
     "status": "missing",

@@ -36,6 +36,32 @@ export const COUNTRY_OVERRIDES = {
       Melilla: "Ville autonome",
     },
   },
+  AUS: {
+    administrativeType: "État ou territoire",
+    administrativeTypeTranslations: {
+      State: "État",
+      Territory: "Territoire",
+    },
+    boundaryMerges: {
+      "AU-NSW": "Q3224",
+      Q46650: "Q34366",
+    },
+  },
+  IND: {
+    administrativeType: "État ou territoire de l’Union",
+    administrativeTypeTranslations: {
+      State: "État",
+      "Union Territory": "Territoire de l’Union",
+    },
+    administrativeTypeOverrides: {
+      Gujarat: "État",
+      "Himachal Pradesh": "État",
+    },
+    wikidataFactFallbacks: {
+      "IN-CH": "Q43433",
+      "IN-DL": "Q1353",
+    },
+  },
 };
 
 export const USER_AGENT =

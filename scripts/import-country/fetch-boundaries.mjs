@@ -11,6 +11,8 @@ function groupFeatures(features, override) {
         feature.properties.iso_3166_2 ??
         feature.properties.adm1_code,
       isoCode: feature.properties.iso_3166_2,
+      wikidataFactFallback:
+        override.wikidataFactFallbacks?.[feature.properties.iso_3166_2],
       name:
         feature.properties.name_local ??
         feature.properties.name_en ??
@@ -20,7 +22,10 @@ function groupFeatures(features, override) {
         en: feature.properties.name_en,
         local: feature.properties.name_local ?? feature.properties.name,
       },
-      administrativeType: feature.properties.type_en,
+      administrativeType:
+        override.administrativeTypeOverrides?.[feature.properties.name] ??
+        override.administrativeTypeTranslations?.[feature.properties.type_en] ??
+        feature.properties.type_en,
       geometry: roundGeometry(feature.geometry),
     }));
 
@@ -79,6 +84,27 @@ export async function fetchBoundaries(iso3, options = {}) {
 
   const override = COUNTRY_OVERRIDES[iso3] ?? {};
   const boundaries = groupFeatures(rawFeatures, override);
+  for (const [sourceId, targetId] of Object.entries(
+    override.boundaryMerges ?? {},
+  )) {
+    const sourceIndex = boundaries.findIndex(
+      (boundary) => boundary.sourceId === sourceId,
+    );
+    const target = boundaries.find(
+      (boundary) => boundary.sourceId === targetId,
+    );
+    if (sourceIndex < 0 || !target)
+      throw new Error(
+        `${iso3}: fusion de frontière impossible (${sourceId} → ${targetId}).`,
+      );
+    target.geometry = roundGeometry(
+      mergePolygonGeometries([
+        target.geometry,
+        boundaries[sourceIndex].geometry,
+      ]),
+    );
+    boundaries.splice(sourceIndex, 1);
+  }
   const warnings = [];
 
   try {
