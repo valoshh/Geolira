@@ -57,7 +57,7 @@ export default function AtlasMap({
             {
               id: "ocean",
               type: "background",
-              paint: { "background-color": "#dceaf0" },
+              paint: { "background-color": "#cbdadd" },
             },
           ],
         },
@@ -100,19 +100,19 @@ export default function AtlasMap({
             "fill-color": [
               "case",
               ["boolean", ["feature-state", "hover"], false],
-              "#a9c7bc",
+              "#d6b9a6",
               [
                 "match",
                 ["get", "color"],
                 0,
-                "#ecede3",
+                "#d9d4c7",
                 1,
-                "#e5e8de",
+                "#d2d0c2",
                 2,
-                "#f1eee2",
+                "#e0dacd",
                 3,
-                "#e2e7db",
-                "#eaebdf",
+                "#cdd0c0",
+                "#d7d2c6",
               ],
             ],
             "fill-opacity": 1,
@@ -122,14 +122,21 @@ export default function AtlasMap({
           id: "country-lines",
           type: "line",
           source: "world",
-          paint: { "line-color": "#a5b1a7", "line-width": 0.65 },
+          paint: { "line-color": "#77776f", "line-width": 0.65 },
+        });
+        instance.addLayer({
+          id: "country-selected-fill",
+          type: "fill",
+          source: "world",
+          filter: ["==", ["get", "id"], ""],
+          paint: { "fill-color": "#c47a63", "fill-opacity": 0.58 },
         });
         instance.addLayer({
           id: "country-selected",
           type: "line",
           source: "world",
           filter: ["==", ["get", "id"], ""],
-          paint: { "line-color": "#316d5e", "line-width": 2 },
+          paint: { "line-color": "#8c3529", "line-width": 1.8 },
         });
         instance.addSource("divisions", {
           type: "geojson",
@@ -144,8 +151,8 @@ export default function AtlasMap({
             "fill-color": [
               "case",
               ["boolean", ["feature-state", "hover"], false],
-              "#abc7b0",
-              "#dae2ce",
+              "#d4aa8d",
+              "#c8ccb7",
             ],
             "fill-opacity": 0.9,
           },
@@ -155,20 +162,20 @@ export default function AtlasMap({
           type: "fill",
           source: "divisions",
           filter: ["==", ["get", "id"], ""],
-          paint: { "fill-color": "#789d7e", "fill-opacity": 0.8 },
+          paint: { "fill-color": "#bd5038", "fill-opacity": 0.76 },
         });
         instance.addLayer({
           id: "division-lines",
           type: "line",
           source: "divisions",
-          paint: { "line-color": "#7d9682", "line-width": 1 },
+          paint: { "line-color": "#6f7565", "line-width": 0.8 },
         });
         instance.addLayer({
           id: "division-selected-line",
           type: "line",
           source: "divisions",
           filter: ["==", ["get", "id"], ""],
-          paint: { "line-color": "#235e4f", "line-width": 2.2 },
+          paint: { "line-color": "#7f2d24", "line-width": 2 },
         });
         let hovered: { source: string; id: string | number } | undefined;
         instance.on("mousemove", (e) => {
@@ -222,11 +229,9 @@ export default function AtlasMap({
     const source = instance.getSource("divisions") as GeoJSONSource | undefined;
     if (!source || !instance.getLayer("country-selected")) return;
     source.setData(EMPTY);
-    instance.setFilter("country-selected", [
-      "==",
-      ["get", "id"],
-      country?.id ?? "",
-    ]);
+    for (const layer of ["country-selected-fill", "country-selected"])
+      if (instance.getLayer(layer))
+        instance.setFilter(layer, ["==", ["get", "id"], country?.id ?? ""]);
     if (!country?.pilot) return;
     setLoading(true);
     loadJson<FeatureCollection>(`/geo/${country.id}.json`)

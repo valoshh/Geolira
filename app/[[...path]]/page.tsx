@@ -32,28 +32,28 @@ export async function generateMetadata({
   if (!country) {
     if (segments[0] === "learn")
       return pageMetadata(
-        "Apprendre la géographie — Atlas",
-        "Révisez les territoires et capitales avec le mode apprentissage de l’Atlas.",
+        "Apprendre la géographie — Geolira",
+        "Révisez les territoires et capitales avec Geolira.",
         "/learn/",
       );
     if (segments[0] === "compare")
       return pageMetadata(
-        "Comparer des territoires — Atlas",
+        "Comparer des territoires — Geolira",
         "Comparez les données géographiques de deux subdivisions.",
         "/compare/",
       );
     return pageMetadata(
-      "Atlas — Explorer le monde",
-      "Un atlas géographique interactif pour explorer le monde.",
+      "Geolira — Atlas du monde",
+      "Un atlas géographique interactif et éditorial pour explorer le monde.",
     );
   }
   const path = `/${segments.join("/")}/`;
   const entry = search.find((item) => item.href === path);
   const description = entry
-    ? `Découvrez ${entry.name}, ${entry.context.toLowerCase()}, dans l’Atlas géographique.`
+    ? `Découvrez ${entry.name}, ${entry.context.toLowerCase()}, dans Geolira.`
     : territoryDescription(country);
   return pageMetadata(
-    `${entry?.name ?? country.names.fr} — Atlas géographique`,
+    `${entry?.name ?? country.names.fr} — Geolira`,
     description,
     path,
   );

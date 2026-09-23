@@ -1,8 +1,5 @@
 import type { Metadata } from "next";
-import type {
-  Names,
-  SearchEntry,
-} from "@/types/geography";
+import type { Names, SearchEntry } from "@/types/geography";
 
 export const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/+$/, "") ||
@@ -22,7 +19,7 @@ export function pageMetadata(
       type: "website",
       locale: "fr_FR",
       url: canonical,
-      siteName: "Atlas géographique",
+      siteName: "Geolira",
       title,
       description,
     },
@@ -34,14 +31,16 @@ export function territoryDescription(
   territory: { names: Names },
   country?: { names: Names },
 ) {
-  const prefix = country ? `${territory.names.fr}, ${country.names.fr}` : territory.names.fr;
+  const prefix = country
+    ? `${territory.names.fr}, ${country.names.fr}`
+    : territory.names.fr;
   return `Découvrez la capitale, les principales villes, la population, le relief, les cours d’eau et les territoires voisins de ${prefix}.`;
 }
 
 export function searchEntryMetadata(entry: SearchEntry) {
   return pageMetadata(
-    `${entry.name} — Atlas géographique`,
-    `Explorez la fiche géographique de ${entry.name} dans l’Atlas géographique.`,
+    `${entry.name} — Geolira`,
+    `Explorez la fiche géographique de ${entry.name} dans Geolira.`,
     entry.href,
   );
 }

@@ -97,10 +97,7 @@ export default function Search({
                 <MapPin size={17} />
                 <span>
                   <strong>{r.name}</strong>
-                  <small>
-                    {r.kind === "city" ? "Ville · " : ""}
-                    {r.context}
-                  </small>
+                  <small>{r.context}</small>
                 </span>
                 <ArrowUpRight size={17} />
               </button>
