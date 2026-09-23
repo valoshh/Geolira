@@ -74,7 +74,10 @@ export default function Atlas({
   const [retry, setRetry] = useState(0);
   const [copied, setCopied] = useState(false);
   const [directory, setDirectory] = useState(false);
-  const data = loaded?.id === country?.id ? loaded.data : undefined;
+  let data: CountryData | undefined;
+  if (loaded !== null && loaded.id === country?.id) {
+    data = loaded.data;
+  }
   const division = data?.divisions.find((item) => item.slug === segments[2]);
   const territory = division ?? country;
   const pending = Boolean(country?.pilot && !data && !dataError);
