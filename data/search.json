@@ -5538,7 +5538,7 @@
     "name": "Pouilles",
     "aliases": [
       "Apulia",
-      "Puglia",
+      "Apulia",
       "Q1447"
     ],
     "context": "Région · Italie",
@@ -5566,7 +5566,7 @@
     "name": "Sicile",
     "aliases": [
       "Sicily",
-      "Sicilia",
+      "Sicily",
       "Q1460"
     ],
     "context": "Région · Italie",
@@ -6208,7 +6208,7 @@
     "name": "Andalousie",
     "aliases": [
       "Andalusia",
-      "Andalusia",
+      "Andalucía",
       "Q5783"
     ],
     "context": "Communauté autonome · Espagne",
@@ -6222,7 +6222,7 @@
     "name": "Aragon",
     "aliases": [
       "Aragon",
-      "Aragona",
+      "Aragón",
       "Q4040"
     ],
     "context": "Communauté autonome · Espagne",
@@ -6236,7 +6236,7 @@
     "name": "Asturies",
     "aliases": [
       "Asturias",
-      "Asturie",
+      "Asturias",
       "Q3934"
     ],
     "context": "Communauté autonome · Espagne",
@@ -6264,7 +6264,7 @@
     "name": "Castille-et-León",
     "aliases": [
       "Castile and León",
-      "Castiglia e León",
+      "Castilla y León",
       "Q5739"
     ],
     "context": "Communauté autonome · Espagne",
@@ -6278,7 +6278,7 @@
     "name": "Castille-La Manche",
     "aliases": [
       "Castilla–La Mancha",
-      "Castiglia-La Mancia",
+      "Castilla-La Mancha",
       "Q5748"
     ],
     "context": "Communauté autonome · Espagne",
@@ -6292,7 +6292,7 @@
     "name": "Catalogne",
     "aliases": [
       "Catalonia",
-      "Catalogna",
+      "Cataluña",
       "Q5705"
     ],
     "context": "Communauté autonome · Espagne",
@@ -6320,7 +6320,7 @@
     "name": "communauté de Madrid",
     "aliases": [
       "Community of Madrid",
-      "comunità di Madrid",
+      "Madrid",
       "Q5756"
     ],
     "context": "Communauté autonome · Espagne",
@@ -6334,7 +6334,7 @@
     "name": "Communauté valencienne",
     "aliases": [
       "Valencian Community",
-      "Comunità Valenciana",
+      "Valenciana",
       "Q5720"
     ],
     "context": "Communauté autonome · Espagne",
@@ -6348,7 +6348,7 @@
     "name": "Estrémadure",
     "aliases": [
       "Extremadura",
-      "Estremadura",
+      "Extremadura",
       "Q5777"
     ],
     "context": "Communauté autonome · Espagne",
@@ -6362,7 +6362,7 @@
     "name": "Galice",
     "aliases": [
       "Galicia",
-      "Galizia",
+      "Galicia",
       "Q3908"
     ],
     "context": "Communauté autonome · Espagne",
@@ -6376,7 +6376,7 @@
     "name": "Îles Baléares",
     "aliases": [
       "Balearic Islands",
-      "isole Baleari",
+      "Islas Baleares",
       "Q107356467"
     ],
     "context": "Communauté autonome · Espagne",
@@ -6390,7 +6390,7 @@
     "name": "îles Canaries",
     "aliases": [
       "Canary Islands",
-      "Isole Canarie",
+      "Canary Is.",
       "Q5813"
     ],
     "context": "Communauté autonome · Espagne",
@@ -6432,7 +6432,7 @@
     "name": "Navarre",
     "aliases": [
       "Navarre",
-      "Navarra",
+      "Foral de Navarra",
       "Q4018"
     ],
     "context": "Communauté autonome · Espagne",
@@ -6446,7 +6446,7 @@
     "name": "Pays basque",
     "aliases": [
       "Basque Country",
-      "Paesi Baschi",
+      "País Vasco",
       "Q3995"
     ],
     "context": "Communauté autonome · Espagne",
@@ -6460,7 +6460,7 @@
     "name": "région de Murcie",
     "aliases": [
       "Region of Murcia",
-      "regione di Murcia",
+      "Murcia",
       "Q5772"
     ],
     "context": "Communauté autonome · Espagne",
@@ -6746,8 +6746,7 @@
     "id": "Q24019772",
     "name": "Murcia",
     "aliases": [
-      "Murcia City",
-      "Murcia"
+      "Murcia City"
     ],
     "context": "Ville · région de Murcie, Espagne",
     "href": "/city/spain/region-of-murcia/murcia-city/",
@@ -6785,8 +6784,7 @@
     "id": "Q21414421",
     "name": "Oviedo",
     "aliases": [
-      "Oviedo City",
-      "Oviedo"
+      "Oviedo City"
     ],
     "context": "Ville · Asturies, Espagne",
     "href": "/city/spain/asturias/oviedo-city/",
@@ -6824,8 +6822,7 @@
     "id": "Q14314",
     "name": "Saint-Jacques-de-Compostelle",
     "aliases": [
-      "Santiago de Compostela",
-      "Santiago di Compostela"
+      "Santiago de Compostela"
     ],
     "context": "Ville · Galice, Espagne",
     "href": "/city/spain/galicia/santiago-de-compostela/",
@@ -7008,7 +7005,7 @@
     "name": "Colombie-Britannique",
     "aliases": [
       "British Columbia",
-      "Columbia Britannica",
+      "British Columbia",
       "Q1973"
     ],
     "context": "Province · Canada",
@@ -7022,7 +7019,7 @@
     "name": "Île-du-Prince-Édouard",
     "aliases": [
       "Prince Edward Island",
-      "Isola del Principe Edoardo",
+      "Prince Edward Island",
       "Q1978"
     ],
     "context": "Province · Canada",
@@ -7050,7 +7047,7 @@
     "name": "Nouveau-Brunswick",
     "aliases": [
       "New Brunswick",
-      "Nuovo Brunswick",
+      "New Brunswick",
       "Q1965"
     ],
     "context": "Province · Canada",
@@ -7064,7 +7061,7 @@
     "name": "Nouvelle-Écosse",
     "aliases": [
       "Nova Scotia",
-      "Nuova Scozia",
+      "Nova Scotia",
       "Q1952"
     ],
     "context": "Province · Canada",
@@ -7134,7 +7131,7 @@
     "name": "Terre-Neuve-et-Labrador",
     "aliases": [
       "Newfoundland and Labrador",
-      "Terranova e Labrador",
+      "Newfoundland and Labrador",
       "Q2003"
     ],
     "context": "Province · Canada",
@@ -7148,7 +7145,7 @@
     "name": "Territoires du Nord-Ouest",
     "aliases": [
       "Northwest Territories",
-      "Territori del Nord-Ovest",
+      "Northwest Territories",
       "Q2007"
     ],
     "context": "Territory · Canada",
@@ -7657,7 +7654,7 @@
     "name": "Australie-Méridionale",
     "aliases": [
       "South Australia",
-      "Australia Meridionale",
+      "South Australia",
       "Q35715"
     ],
     "context": "État · Australie",
@@ -7671,7 +7668,7 @@
     "name": "Australie-Occidentale",
     "aliases": [
       "Western Australia",
-      "Australia Occidentale",
+      "Western Australia",
       "Q3206"
     ],
     "context": "État · Australie",
@@ -7685,7 +7682,7 @@
     "name": "Nouvelle-Galles du Sud",
     "aliases": [
       "New South Wales",
-      "Nuovo Galles del Sud",
+      "New South Wales",
       "Q3224"
     ],
     "context": "État · Australie",
@@ -7727,7 +7724,7 @@
     "name": "Territoire de la baie de Jervis",
     "aliases": [
       "Jervis Bay Territory",
-      "Territorio della Baia di Jervis",
+      "Jervis Bay Territory",
       "Q15577"
     ],
     "context": "Territoire · Australie",
@@ -7741,7 +7738,7 @@
     "name": "Territoire de la capitale australienne",
     "aliases": [
       "Australian Capital Territory",
-      "Territorio della Capitale Australiana",
+      "Australian Capital Territory",
       "Q3258"
     ],
     "context": "Territoire · Australie",
@@ -7755,7 +7752,7 @@
     "name": "Territoire du Nord",
     "aliases": [
       "Northern Territory",
-      "Territorio del Nord",
+      "Northern Territory",
       "Q3235"
     ],
     "context": "Territoire · Australie",
@@ -8124,7 +8121,7 @@
     "name": "Bengale-Occidental",
     "aliases": [
       "West Bengal",
-      "Bengala Occidentale",
+      "West Bengal",
       "Q1356"
     ],
     "context": "État · Inde",
@@ -8180,7 +8177,7 @@
     "name": "Dadra et Nagar Haveli et Daman et Diu",
     "aliases": [
       "Dadra and Nagar Haveli and Daman and Diu",
-      "Dadra e Nagar Haveli e Daman e Diu",
+      "Dadra and Nagar Haveli and Daman and Diu",
       "Q77997266"
     ],
     "context": "Territoire de l’Union · Inde",
@@ -8250,7 +8247,7 @@
     "name": "Îles Andaman-et-Nicobar",
     "aliases": [
       "Andaman and Nicobar Islands",
-      "isole Andamane e Nicobare",
+      "Andaman and Nicobar",
       "Q40888"
     ],
     "context": "Territoire de l’Union · Inde",
@@ -8264,7 +8261,7 @@
     "name": "Jammu-et-Cachemire",
     "aliases": [
       "Jammu and Kashmir",
-      "Jammu e Kashmir",
+      "Jammu and Kashmir",
       "Q66278313"
     ],
     "context": "Territoire de l’Union · Inde",
@@ -8334,7 +8331,7 @@
     "name": "Lakshadweep",
     "aliases": [
       "Lakshadweep",
-      "Laccadive",
+      "Lakshadweep",
       "Q26927"
     ],
     "context": "Territoire de l’Union · Inde",
@@ -8432,7 +8429,7 @@
     "name": "Odisha",
     "aliases": [
       "Odisha",
-      "Orissa",
+      "Odisha",
       "Q22048"
     ],
     "context": "État · Inde",
@@ -8516,7 +8513,7 @@
     "name": "territoire de la Capitale nationale de Delhi",
     "aliases": [
       "National Capital Territory of Delhi",
-      "territoire de la Capitale nationale de Delhi",
+      "Delhi",
       "Q9357528"
     ],
     "context": "Territoire de l’Union · Inde",
@@ -8530,7 +8527,7 @@
     "name": "Territoire de Pondichéry",
     "aliases": [
       "Puducherry",
-      "Pondicherry",
+      "Puducherry",
       "Q66743"
     ],
     "context": "Territoire de l’Union · Inde",
@@ -8702,7 +8699,6 @@
     "id": "Q270176",
     "name": "Belgaum",
     "aliases": [
-      "Belgaum",
       "Belgaum"
     ],
     "context": "Ville · Karnataka, Inde",
@@ -8923,7 +8919,6 @@
     "id": "Q271911",
     "name": "Dispur",
     "aliases": [
-      "Dispur",
       "Dispur"
     ],
     "context": "Ville · Assam, Inde",
@@ -8962,7 +8957,6 @@
     "id": "Q2080796",
     "name": "Gairsain",
     "aliases": [
-      "Gairsain",
       "Gairsain"
     ],
     "context": "Ville · Uttarakhand, Inde",
@@ -8975,7 +8969,6 @@
     "id": "Q11910",
     "name": "Gandhinagar",
     "aliases": [
-      "Gandhinagar",
       "Gandhinagar"
     ],
     "context": "Ville · Gujarat, Inde",
@@ -9196,7 +9189,6 @@
     "id": "Q2088176",
     "name": "Kargil",
     "aliases": [
-      "Kargil",
       "Kargil"
     ],
     "context": "Ville · Ladakh, Inde",

@@ -9,7 +9,12 @@ import {
   inferGeometryNeighbors,
   roundGeometry,
 } from "./geometry.mjs";
-import { comparableName, slugify } from "./slug.mjs";
+import {
+  allocateStableSlugs,
+  comparableName,
+  slugify,
+} from "./slug.mjs";
+import { warning } from "./warnings.mjs";
 
 function quantity(entity, property) {
   const value = claimValue(entity, property);
@@ -70,6 +75,7 @@ function facts(id, entities, retrievedAt) {
         .join(" / ") || undefined,
     capitalIds,
     ...population(entity),
+    populationSourceId: id,
     areaKm2: areaKm2(entity),
     highestPoint:
       peakId && entityLabel(peak)
@@ -96,6 +102,10 @@ function withFallbackFacts(primary, fallback) {
       : fallback.capitalIds,
     population: primary.population ?? fallback.population,
     populationYear: primary.populationYear ?? fallback.populationYear,
+    populationSourceId:
+      primary.population != null
+        ? primary.populationSourceId
+        : fallback.populationSourceId,
     areaKm2: primary.areaKm2 ?? fallback.areaKm2,
     highestPoint: primary.highestPoint ?? fallback.highestPoint,
     mountainRange: primary.mountainRange ?? fallback.mountainRange,
@@ -124,7 +134,6 @@ function makeCapitalCity(id, entity, iso3, divisionId, retrievedAt) {
     names: {
       fr: entityLabel(entity, "fr"),
       en: entityLabel(entity, "en"),
-      local: entityLabel(entity, "it"),
     },
     countryId: iso3,
     divisionId,
@@ -149,24 +158,11 @@ export function normalizeCountry({
   hydrography,
   worldFeatures,
 }) {
-  const retrievedAt = new Date().toISOString();
+  const retrievedAt = wikidata.retrievedAt;
   const warnings = [];
   const entities = wikidata.entities;
   const qidToInternalId = new Map();
   const internalIdBySource = new Map();
-
-  for (const boundary of boundaries) {
-    const qid = wikidata.qidBySourceId.get(boundary.sourceId);
-    const internalId = qid ?? boundary.sourceId;
-    internalIdBySource.set(boundary.sourceId, internalId);
-    if (qid) qidToInternalId.set(qid, internalId);
-    else
-      warnings.push(
-        `${boundary.name}: aucun identifiant Wikidata relié au code ${boundary.isoCode ?? boundary.sourceId}.`,
-      );
-  }
-
-  const geometryNeighbors = inferGeometryNeighbors(boundaries);
   const existingById = new Map(
     (existingData?.divisions ?? []).map((division) => [division.id, division]),
   );
@@ -176,6 +172,34 @@ export function normalizeCountry({
       division,
     ]),
   );
+  const stableSlugs = new Map();
+
+  for (const boundary of boundaries) {
+    const qid = wikidata.qidBySourceId.get(boundary.sourceId);
+    const previous =
+      existingById.get(qid ?? boundary.sourceId) ??
+      existingByName.get(comparableName(boundary.name));
+    const internalId = previous?.id ?? qid ?? boundary.sourceId;
+    internalIdBySource.set(boundary.sourceId, internalId);
+    if (qid) qidToInternalId.set(qid, internalId);
+    else
+      warnings.push(
+        warning(
+          "WARN_MISSING_WIKIDATA_ID",
+          `${boundary.name}: aucun identifiant Wikidata relié au code ${boundary.isoCode ?? boundary.sourceId}.`,
+        ),
+      );
+    if (previous?.slug) stableSlugs.set(internalId, previous.slug);
+    if (previous?.id && qid && previous.id !== qid)
+      warnings.push(
+        warning(
+          "WARN_ID_STABILITY_OVERRIDE",
+          `${boundary.name}: l’ID public ${previous.id} est conservé malgré le nouveau lien Wikidata ${qid}.`,
+        ),
+      );
+  }
+
+  const geometryNeighbors = inferGeometryNeighbors(boundaries);
   const allCities = new Map(
     cityData.cities.map((city) => [city.id, { ...city }]),
   );
@@ -187,6 +211,13 @@ export function normalizeCountry({
       ? facts(qid, entities, retrievedAt)
       : { sources: [] };
     const fallbackQid = wikidata.fallbackQidBySourceId.get(boundary.sourceId);
+    if (fallbackQid)
+      warnings.push(
+        warning(
+          "WARN_SOURCE_FALLBACK",
+          `${boundary.name}: ${fallbackQid} complète les faits absents de ${qid}.`,
+        ),
+      );
     const sourcedFacts = withFallbackFacts(
       primaryFacts,
       fallbackQid ? facts(fallbackQid, entities, retrievedAt) : undefined,
@@ -196,7 +227,7 @@ export function normalizeCountry({
     const names = {
       fr: entityLabel(entity, "fr") ?? boundary.names.fr ?? boundary.name,
       en: entityLabel(entity, "en") ?? boundary.names.en ?? boundary.name,
-      local: entityLabel(entity, "it") ?? boundary.names.local ?? boundary.name,
+      local: boundary.names.local ?? boundary.name,
     };
     let cityIds = [
       ...(cityData.cityIdsByBoundary.get(boundary.sourceId) ?? []),
@@ -243,7 +274,10 @@ export function normalizeCountry({
         ].slice(0, 3);
       } else {
         warnings.push(
-          `${names.fr}: capitale ${capitalId} sans coordonnées exploitables.`,
+          warning(
+            "WARN_CAPITAL_COORDINATES",
+            `${names.fr}: capitale ${capitalId} sans coordonnées exploitables.`,
+          ),
         );
       }
     }
@@ -254,7 +288,10 @@ export function normalizeCountry({
     );
     if (unknownWikidataNeighbors.length)
       warnings.push(
-        `${names.fr}: voisins Wikidata hors ADM1 importé ignorés (${unknownWikidataNeighbors.join(", ")}).`,
+        warning(
+          "WARN_EXTERNAL_NEIGHBOR",
+          `${names.fr}: voisins Wikidata hors ADM1 importé ignorés (${unknownWikidataNeighbors.join(", ")}).`,
+        ),
       );
     const neighborIds = new Set(
       [...(geometryNeighbors.get(boundary.sourceId) ?? [])].map((sourceId) =>
@@ -282,7 +319,10 @@ export function normalizeCountry({
         ? {
             value: sourcedFacts.population,
             year: Number(sourcedFacts.populationYear) || undefined,
-            source: wikidataSource(qid, retrievedAt),
+            source: wikidataSource(
+              sourcedFacts.populationSourceId,
+              retrievedAt,
+            ),
           }
         : undefined,
       areaKm2: sourcedFacts.areaKm2,
@@ -300,6 +340,22 @@ export function normalizeCountry({
       sources: dedupeSources([boundarySource, ...sourcedFacts.sources]),
     };
   });
+  const generatedSlugs = new Map(
+    divisions.map((division) => [division.id, division.slug]),
+  );
+  allocateStableSlugs(divisions, stableSlugs);
+  for (const division of divisions) {
+    if (
+      !stableSlugs.has(division.id) &&
+      division.slug !== generatedSlugs.get(division.id)
+    )
+      warnings.push(
+        warning(
+          "WARN_SLUG_COLLISION",
+          `${division.names.fr}: collision du slug ${generatedSlugs.get(division.id)} résolue en ${division.slug}.`,
+        ),
+      );
+  }
 
   const validCityIds = new Set(
     divisions.flatMap((division) => division.cityIds),

@@ -14,15 +14,22 @@ Highest point: 13/13
 Hydrography: 12/13
 
 Errors: 0
-Warnings: 9
+Warnings: 11
+
+Warning summary
+- WARN_EXTERNAL_NEIGHBOR: 9 (external-relation)
+- WARN_LOW_CITY_COVERAGE: 1 (missing-data)
+- WARN_LOW_HYDROGRAPHY_COVERAGE: 1 (missing-data)
 
 Warning details
-- Colombie-Britannique: voisins Wikidata hors ADM1 importé ignorés (Q1212, Q797, Q1223, Q1221).
-- Alberta: voisins Wikidata hors ADM1 importé ignorés (Q1212).
-- Saskatchewan: voisins Wikidata hors ADM1 importé ignorés (Q1207, Q1212).
-- Manitoba: voisins Wikidata hors ADM1 importé ignorés (Q1207, Q1527).
-- Ontario: voisins Wikidata hors ADM1 importé ignorés (Q1384, Q1400, Q1397, Q1166, Q1537, Q1527).
-- Québec: voisins Wikidata hors ADM1 importé ignorés (Q759, Q724, Q1384, Q16551).
-- Nouveau-Brunswick: voisins Wikidata hors ADM1 importé ignorés (Q724).
-- Yukon: voisins Wikidata hors ADM1 importé ignorés (Q797).
-- Nunavut: voisins Wikidata hors ADM1 importé ignorés (Q223).
+- [WARN_EXTERNAL_NEIGHBOR] Colombie-Britannique: voisins Wikidata hors ADM1 importé ignorés (Q1212, Q797, Q1223, Q1221).
+- [WARN_EXTERNAL_NEIGHBOR] Alberta: voisins Wikidata hors ADM1 importé ignorés (Q1212).
+- [WARN_EXTERNAL_NEIGHBOR] Saskatchewan: voisins Wikidata hors ADM1 importé ignorés (Q1207, Q1212).
+- [WARN_EXTERNAL_NEIGHBOR] Manitoba: voisins Wikidata hors ADM1 importé ignorés (Q1207, Q1527).
+- [WARN_EXTERNAL_NEIGHBOR] Ontario: voisins Wikidata hors ADM1 importé ignorés (Q1384, Q1400, Q1397, Q1166, Q1537, Q1527).
+- [WARN_EXTERNAL_NEIGHBOR] Québec: voisins Wikidata hors ADM1 importé ignorés (Q759, Q724, Q1384, Q16551).
+- [WARN_EXTERNAL_NEIGHBOR] Nouveau-Brunswick: voisins Wikidata hors ADM1 importé ignorés (Q724).
+- [WARN_EXTERNAL_NEIGHBOR] Yukon: voisins Wikidata hors ADM1 importé ignorés (Q797).
+- [WARN_EXTERNAL_NEIGHBOR] Nunavut: voisins Wikidata hors ADM1 importé ignorés (Q223).
+- [WARN_LOW_CITY_COVERAGE] Villes principales: 12/13 ADM1 avec au moins deux villes.
+- [WARN_LOW_HYDROGRAPHY_COVERAGE] Hydrographie: 12/13 ADM1.

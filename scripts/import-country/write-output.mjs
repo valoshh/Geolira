@@ -20,10 +20,6 @@ export function updateCountries(countries, country) {
 }
 
 export function updateSearch(search, country, data) {
-  const kept = search.filter((entry) => {
-    if (entry.countryId !== country.id) return true;
-    return entry.href.split("/").filter(Boolean).length === 2;
-  });
   const divisions = new Map(
     data.divisions.map((division) => [division.id, division]),
   );
@@ -53,7 +49,31 @@ export function updateSearch(search, country, data) {
       kind: "city",
     });
   }
-  return [...kept, ...additions];
+
+  // Replace existing detail entries in place. Appending every refreshed country
+  // made the index depend on import order even when the source data was unchanged.
+  const additionsByHref = new Map(
+    additions.map((entry) => [entry.href, entry]),
+  );
+  const written = new Set();
+  const result = [];
+  for (const entry of search) {
+    const isCountryEntry =
+      entry.href.split("/").filter(Boolean).length === 2;
+    if (entry.countryId !== country.id || isCountryEntry) {
+      result.push(entry);
+      continue;
+    }
+    const replacement = additionsByHref.get(entry.href);
+    if (replacement && !written.has(entry.href)) {
+      result.push(replacement);
+      written.add(entry.href);
+    }
+  }
+  for (const addition of additions) {
+    if (!written.has(addition.href)) result.push(addition);
+  }
+  return result;
 }
 
 async function readOptionalJson(file) {

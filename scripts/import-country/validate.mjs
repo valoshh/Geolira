@@ -1,5 +1,6 @@
 import { validateGeometry } from "./geometry.mjs";
 import { comparableName } from "./slug.mjs";
+import { warning } from "./warnings.mjs";
 
 function duplicates(values) {
   const seen = new Set();
@@ -21,6 +22,7 @@ export function validateImport({ iso3, countries, data, geojson, search }) {
   const divisionIds = new Set(data.divisions.map((division) => division.id));
   const cityIds = new Set(data.cities.map((city) => city.id));
   const riverIds = new Set(data.rivers.map((river) => river.id));
+  const cityOwners = new Map();
   for (const id of duplicates(data.divisions.map((division) => division.id)))
     errors.push(`ID de subdivision dupliqué: ${id}`);
   for (const slug of duplicates(
@@ -38,6 +40,29 @@ export function validateImport({ iso3, countries, data, geojson, search }) {
   for (const slug of duplicates(countries.map((country) => country.slug)))
     errors.push(`Slug de pays dupliqué: ${slug}`);
 
+  const country = countries.find((item) => item.id === iso3);
+  if (country) {
+    const searchByHref = new Map(search.map((entry) => [entry.href, entry]));
+    for (const division of data.divisions) {
+      const href = `/country/${country.slug}/${division.slug}/`;
+      const entry = searchByHref.get(href);
+      if (!entry || entry.id !== division.id)
+        errors.push(`${division.id}: URL de recherche absente ou incohérente (${href})`);
+    }
+    const divisionsById = new Map(
+      data.divisions.map((division) => [division.id, division]),
+    );
+    for (const city of data.cities) {
+      const division = divisionsById.get(city.divisionId);
+      if (!division) continue;
+      const citySlug = city.slug ?? comparableName(city.name).replaceAll(" ", "-");
+      const href = `/city/${country.slug}/${division.slug}/${citySlug}/`;
+      const entry = searchByHref.get(href);
+      if (!entry || entry.id !== city.id)
+        errors.push(`${city.id}: URL de recherche absente ou incohérente (${href})`);
+    }
+  }
+
   for (const division of data.divisions) {
     if (division.countryId !== iso3)
       errors.push(
@@ -45,14 +70,40 @@ export function validateImport({ iso3, countries, data, geojson, search }) {
       );
     if (division.population != null && division.population < 0)
       errors.push(`${division.id}: population négative`);
+    if (
+      division.populationValue &&
+      division.populationValue.value !== division.population
+    )
+      errors.push(`${division.id}: population et populationValue incohérentes`);
+    if (
+      division.populationValue &&
+      (!division.populationValue.source?.provider ||
+        !division.populationValue.source?.url)
+    )
+      errors.push(`${division.id}: source de population absente`);
     if (division.areaKm2 != null && division.areaKm2 <= 0)
       errors.push(`${division.id}: superficie invalide`);
     if (!division.capital)
-      warnings.push(`${division.names.fr}: capitale absente`);
+      warnings.push(
+        warning(
+          "WARN_MISSING_CAPITAL",
+          `${division.names.fr}: capitale absente`,
+        ),
+      );
     if (!division.population)
-      warnings.push(`${division.names.fr}: population absente`);
+      warnings.push(
+        warning(
+          "WARN_MISSING_POPULATION",
+          `${division.names.fr}: population absente`,
+        ),
+      );
     if (!division.areaKm2)
-      warnings.push(`${division.names.fr}: superficie absente`);
+      warnings.push(
+        warning(
+          "WARN_MISSING_AREA",
+          `${division.names.fr}: superficie absente`,
+        ),
+      );
     if (!(division.sources ?? []).length)
       errors.push(`${division.id}: aucune source`);
     for (const neighbor of division.neighborIds ?? []) {
@@ -60,10 +111,18 @@ export function validateImport({ iso3, countries, data, geojson, search }) {
         errors.push(`${division.id}: relation de voisinage vers soi-même`);
       if (!divisionIds.has(neighbor))
         errors.push(`${division.id}: voisin ${neighbor} inconnu`);
+      else if (
+        !data.divisions
+          .find((candidate) => candidate.id === neighbor)
+          ?.neighborIds?.includes(division.id)
+      )
+        errors.push(`${division.id}: voisinage non réciproque avec ${neighbor}`);
     }
-    for (const city of division.cityIds ?? [])
+    for (const city of division.cityIds ?? []) {
       if (!cityIds.has(city))
         errors.push(`${division.id}: ville ${city} inconnue`);
+      else cityOwners.set(city, [...(cityOwners.get(city) ?? []), division.id]);
+    }
     for (const river of division.riverIds ?? [])
       if (!riverIds.has(river))
         errors.push(`${division.id}: cours d’eau ${river} inconnu`);
@@ -74,7 +133,10 @@ export function validateImport({ iso3, countries, data, geojson, search }) {
     );
     if (division.capital && !capitalCities.length)
       warnings.push(
-        `${division.names.fr}: capitale renseignée mais non reliée à une ville géolocalisée`,
+        warning(
+          "WARN_UNLINKED_CAPITAL",
+          `${division.names.fr}: capitale renseignée mais non reliée à une ville géolocalisée`,
+        ),
       );
   }
 
@@ -93,8 +155,18 @@ export function validateImport({ iso3, countries, data, geojson, search }) {
       errors.push(`${city.id}: longitude invalide (${city.longitude})`);
     if (city.population != null && city.population < 0)
       errors.push(`${city.id}: population négative`);
-    if (!divisionIds.has(city.divisionId))
+    if (city.divisionId && !divisionIds.has(city.divisionId))
       errors.push(`${city.id}: division ${city.divisionId} inconnue`);
+    if (!city.divisionId && !cityOwners.has(city.id))
+      errors.push(`${city.id}: ville non reliée à une subdivision`);
+    if (
+      city.divisionId &&
+      cityOwners.has(city.id) &&
+      !cityOwners.get(city.id).includes(city.divisionId)
+    )
+      errors.push(
+        `${city.id}: divisionId ${city.divisionId} incohérent avec cityIds`,
+      );
   }
   for (const river of data.rivers)
     for (const divisionId of river.divisionIds ?? [])

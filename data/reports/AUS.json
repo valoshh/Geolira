@@ -1,7 +1,7 @@
 {
   "country": "Australie",
   "iso3": "AUS",
-  "generatedAt": "2026-09-22T15:37:44.480Z",
+  "generatedAt": "2026-09-22T15:36:23.794Z",
   "adm1Count": 9,
   "status": "partial",
   "coverage": 0.917,
@@ -17,8 +17,38 @@
   },
   "errors": [],
   "warnings": [
-    "Territoire de la baie de Jervis: voisins Wikidata hors ADM1 importé ignorés (Q5952749, Q7593244, Q8038296, Q3505745).",
-    "Territoire de la capitale australienne: voisins Wikidata hors ADM1 importé ignorés (Q24053113, Q24053131).",
-    "Territoire de la baie de Jervis: capitale absente"
+    "[WARN_EXTERNAL_NEIGHBOR] Territoire de la baie de Jervis: voisins Wikidata hors ADM1 importé ignorés (Q5952749, Q7593244, Q8038296, Q3505745).",
+    "[WARN_EXTERNAL_NEIGHBOR] Territoire de la capitale australienne: voisins Wikidata hors ADM1 importé ignorés (Q24053113, Q24053131).",
+    "[WARN_MISSING_CAPITAL] Territoire de la baie de Jervis: capitale absente",
+    "[WARN_LOW_CITY_COVERAGE] Villes principales: 8/9 ADM1 avec au moins deux villes.",
+    "[WARN_LOW_RELIEF_COVERAGE] Points culminants: 7/9 ADM1.",
+    "[WARN_LOW_HYDROGRAPHY_COVERAGE] Hydrographie: 7/9 ADM1."
+  ],
+  "warningSummary": [
+    {
+      "code": "WARN_EXTERNAL_NEIGHBOR",
+      "category": "external-relation",
+      "count": 2
+    },
+    {
+      "code": "WARN_LOW_CITY_COVERAGE",
+      "category": "missing-data",
+      "count": 1
+    },
+    {
+      "code": "WARN_LOW_HYDROGRAPHY_COVERAGE",
+      "category": "missing-data",
+      "count": 1
+    },
+    {
+      "code": "WARN_LOW_RELIEF_COVERAGE",
+      "category": "missing-data",
+      "count": 1
+    },
+    {
+      "code": "WARN_MISSING_CAPITAL",
+      "category": "missing-data",
+      "count": 1
+    }
   ]
 }

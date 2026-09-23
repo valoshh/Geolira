@@ -1,4 +1,4 @@
-import { fetchJson } from "./cache.mjs";
+import { cacheRetrievedAt, fetchJson } from "./cache.mjs";
 import { SOURCES } from "./config.mjs";
 import { pointInGeometry } from "./geometry.mjs";
 import { slugify } from "./slug.mjs";
@@ -8,7 +8,7 @@ export async function fetchCities(iso3, boundaries, options = {}) {
   const candidates = places.features.filter(
     (feature) => feature.properties.ADM0_A3 === iso3,
   );
-  const retrievedAt = new Date().toISOString();
+  const retrievedAt = await cacheRetrievedAt("cities.json");
   const cities = [];
   const cityIdsByBoundary = new Map();
 

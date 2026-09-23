@@ -1,6 +1,7 @@
-import { fetchJson } from "./cache.mjs";
+import { cacheRetrievedAt, fetchJson } from "./cache.mjs";
 import { COUNTRY_OVERRIDES, SOURCES } from "./config.mjs";
 import { mergePolygonGeometries, roundGeometry } from "./geometry.mjs";
+import { warning } from "./warnings.mjs";
 
 function groupFeatures(features, override) {
   const mode = override.boundaryGrouping;
@@ -116,12 +117,18 @@ export async function fetchBoundaries(iso3, options = {}) {
     const advertised = Number(metadata.admUnitCount);
     if (Number.isFinite(advertised) && advertised !== boundaries.length) {
       warnings.push(
-        `geoBoundaries annonce ${advertised} ADM1, contre ${boundaries.length} unités cohérentes issues de Natural Earth; cette géométrie candidate a été écartée.`,
+        warning(
+          "WARN_BOUNDARY_COUNT_MISMATCH",
+          `geoBoundaries annonce ${advertised} ADM1, contre ${boundaries.length} unités cohérentes issues de Natural Earth; cette géométrie candidate a été écartée.`,
+        ),
       );
     }
   } catch (error) {
     warnings.push(
-      `Métadonnées geoBoundaries indisponibles: ${error instanceof Error ? error.message : String(error)}`,
+      warning(
+        "WARN_SOURCE_UNAVAILABLE",
+        `Métadonnées geoBoundaries indisponibles: ${error instanceof Error ? error.message : String(error)}`,
+      ),
     );
   }
 
@@ -136,7 +143,7 @@ export async function fetchBoundaries(iso3, options = {}) {
     source: {
       provider: "Natural Earth",
       url: "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/",
-      retrievedAt: new Date().toISOString(),
+      retrievedAt: await cacheRetrievedAt("adm1.json"),
       license: "Public domain",
     },
     warnings,

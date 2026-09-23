@@ -14,16 +14,24 @@ Highest point: 19/19
 Hydrography: 12/19
 
 Errors: 0
-Warnings: 10
+Warnings: 12
+
+Warning summary
+- WARN_EXTERNAL_NEIGHBOR: 9 (external-relation)
+- WARN_LOW_CITY_COVERAGE: 1 (missing-data)
+- WARN_LOW_HYDROGRAPHY_COVERAGE: 1 (missing-data)
+- WARN_MISSING_CAPITAL: 1 (missing-data)
 
 Warning details
-- Ceuta: voisins Wikidata hors ADM1 importé ignorés (Q22672360, Q19951300).
-- Melilla: voisins Wikidata hors ADM1 importé ignorés (Q537462, Q23048167).
-- Navarre: voisins Wikidata hors ADM1 importé ignorés (Q18678082, Q142).
-- Pays basque: voisins Wikidata hors ADM1 importé ignorés (Q18678082).
-- Aragon: voisins Wikidata hors ADM1 importé ignorés (Q18678082, Q18678265).
-- Catalogne: voisins Wikidata hors ADM1 importé ignorés (Q18678265, Q228, Q24269, Q24286, Q24282, Q2522163, Q24276).
-- Andalousie: voisins Wikidata hors ADM1 importé ignorés (Q1410).
-- Galice: voisins Wikidata hors ADM1 importé ignorés (Q27662).
-- Castille-et-León: voisins Wikidata hors ADM1 importé ignorés (Q27662).
-- Castille-et-León: capitale absente
+- [WARN_EXTERNAL_NEIGHBOR] Ceuta: voisins Wikidata hors ADM1 importé ignorés (Q22672360, Q19951300).
+- [WARN_EXTERNAL_NEIGHBOR] Melilla: voisins Wikidata hors ADM1 importé ignorés (Q537462, Q23048167).
+- [WARN_EXTERNAL_NEIGHBOR] Navarre: voisins Wikidata hors ADM1 importé ignorés (Q18678082, Q142).
+- [WARN_EXTERNAL_NEIGHBOR] Pays basque: voisins Wikidata hors ADM1 importé ignorés (Q18678082).
+- [WARN_EXTERNAL_NEIGHBOR] Aragon: voisins Wikidata hors ADM1 importé ignorés (Q18678082, Q18678265).
+- [WARN_EXTERNAL_NEIGHBOR] Catalogne: voisins Wikidata hors ADM1 importé ignorés (Q18678265, Q228, Q24269, Q24286, Q24282, Q2522163, Q24276).
+- [WARN_EXTERNAL_NEIGHBOR] Andalousie: voisins Wikidata hors ADM1 importé ignorés (Q1410).
+- [WARN_EXTERNAL_NEIGHBOR] Galice: voisins Wikidata hors ADM1 importé ignorés (Q27662).
+- [WARN_EXTERNAL_NEIGHBOR] Castille-et-León: voisins Wikidata hors ADM1 importé ignorés (Q27662).
+- [WARN_MISSING_CAPITAL] Castille-et-León: capitale absente
+- [WARN_LOW_CITY_COVERAGE] Villes principales: 11/19 ADM1 avec au moins deux villes.
+- [WARN_LOW_HYDROGRAPHY_COVERAGE] Hydrographie: 12/19 ADM1.

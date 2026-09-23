@@ -40,6 +40,11 @@ export async function fetchJson(url, cacheKey, { refresh = false } = {}) {
   throw lastError;
 }
 
+export async function cacheRetrievedAt(cacheKey) {
+  const stats = await fs.stat(path.join(CACHE_DIR, cacheKey));
+  return stats.mtime.toISOString();
+}
+
 export async function writeCachedReport(iso3, contents, extension) {
   const directory = path.join(CACHE_DIR, "reports");
   await fs.mkdir(directory, { recursive: true });

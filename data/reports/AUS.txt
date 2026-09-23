@@ -14,9 +14,19 @@ Highest point: 7/9
 Hydrography: 7/9
 
 Errors: 0
-Warnings: 3
+Warnings: 6
+
+Warning summary
+- WARN_EXTERNAL_NEIGHBOR: 2 (external-relation)
+- WARN_LOW_CITY_COVERAGE: 1 (missing-data)
+- WARN_LOW_HYDROGRAPHY_COVERAGE: 1 (missing-data)
+- WARN_LOW_RELIEF_COVERAGE: 1 (missing-data)
+- WARN_MISSING_CAPITAL: 1 (missing-data)
 
 Warning details
-- Territoire de la baie de Jervis: voisins Wikidata hors ADM1 importé ignorés (Q5952749, Q7593244, Q8038296, Q3505745).
-- Territoire de la capitale australienne: voisins Wikidata hors ADM1 importé ignorés (Q24053113, Q24053131).
-- Territoire de la baie de Jervis: capitale absente
+- [WARN_EXTERNAL_NEIGHBOR] Territoire de la baie de Jervis: voisins Wikidata hors ADM1 importé ignorés (Q5952749, Q7593244, Q8038296, Q3505745).
+- [WARN_EXTERNAL_NEIGHBOR] Territoire de la capitale australienne: voisins Wikidata hors ADM1 importé ignorés (Q24053113, Q24053131).
+- [WARN_MISSING_CAPITAL] Territoire de la baie de Jervis: capitale absente
+- [WARN_LOW_CITY_COVERAGE] Villes principales: 8/9 ADM1 avec au moins deux villes.
+- [WARN_LOW_RELIEF_COVERAGE] Points culminants: 7/9 ADM1.
+- [WARN_LOW_HYDROGRAPHY_COVERAGE] Hydrographie: 7/9 ADM1.

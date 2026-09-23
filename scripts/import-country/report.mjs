@@ -1,13 +1,15 @@
-const METRICS = [
-  "geometry",
-  "capital",
-  "population",
-  "area",
-  "mainCities",
-  "neighbors",
-  "highestPoint",
-  "hydrography",
-];
+import { summarizeWarnings, warning } from "./warnings.mjs";
+
+export const COVERAGE_WEIGHTS = Object.freeze({
+  geometry: 1,
+  capital: 1,
+  population: 1,
+  area: 1,
+  mainCities: 1,
+  neighbors: 1,
+  highestPoint: 1,
+  hydrography: 1,
+});
 
 export function calculateCoverage(data, geojson) {
   const geometryIds = new Set(
@@ -34,9 +36,15 @@ export function calculateCoverage(data, geojson) {
       (division) => (division.riverIds?.length ?? 0) > 0,
     ).length,
   };
+  const totalWeight = Object.values(COVERAGE_WEIGHTS).reduce(
+    (sum, weight) => sum + weight,
+    0,
+  );
   const coverage = total
-    ? METRICS.reduce((sum, metric) => sum + counts[metric] / total, 0) /
-      METRICS.length
+    ? Object.entries(COVERAGE_WEIGHTS).reduce(
+        (sum, [metric, weight]) => sum + (counts[metric] / total) * weight,
+        0,
+      ) / totalWeight
     : 0;
   return { total, counts, coverage: Math.round(coverage * 1000) / 1000 };
 }
@@ -62,16 +70,48 @@ export function createReport({
   errors,
 }) {
   const coverage = calculateCoverage(data, geojson);
+  const coverageWarnings = [];
+  if (coverage.counts.mainCities < coverage.total)
+    coverageWarnings.push(
+      warning(
+        "WARN_LOW_CITY_COVERAGE",
+        `Villes principales: ${coverage.counts.mainCities}/${coverage.total} ADM1 avec au moins deux villes.`,
+      ),
+    );
+  if (coverage.counts.highestPoint < coverage.total)
+    coverageWarnings.push(
+      warning(
+        "WARN_LOW_RELIEF_COVERAGE",
+        `Points culminants: ${coverage.counts.highestPoint}/${coverage.total} ADM1.`,
+      ),
+    );
+  if (coverage.counts.hydrography < coverage.total)
+    coverageWarnings.push(
+      warning(
+        "WARN_LOW_HYDROGRAPHY_COVERAGE",
+        `Hydrographie: ${coverage.counts.hydrography}/${coverage.total} ADM1.`,
+      ),
+    );
+  const allWarnings = [...new Set([...warnings, ...coverageWarnings])];
+  const retrievedDates = [
+    ...(country.sources ?? []),
+    ...data.divisions.flatMap((division) => division.sources ?? []),
+    ...data.cities.flatMap((city) => city.sources ?? []),
+  ]
+    .map((source) => source.retrievedAt)
+    .filter(Boolean)
+    .sort();
   return {
     country: country.names.fr,
     iso3,
-    generatedAt: new Date().toISOString(),
+    generatedAt: retrievedDates.at(-1) ?? null,
     adm1Count: data.divisions.length,
     status: coverageStatus(data, geojson),
     coverage: coverage.coverage,
     coverageCounts: coverage.counts,
     errors,
-    warnings,
+    warnings: allWarnings,
+    warningSummary: summarizeWarnings(allWarnings),
   };
 }
 
@@ -100,6 +140,15 @@ export function formatReport(report) {
     `Errors: ${report.errors.length}`,
     `Warnings: ${report.warnings.length}`,
   ];
+  if (report.warningSummary?.length) {
+    lines.push(
+      "",
+      "Warning summary",
+      ...report.warningSummary.map(
+        (item) => `- ${item.code}: ${item.count} (${item.category})`,
+      ),
+    );
+  }
   if (report.errors.length) {
     lines.push(
       "",

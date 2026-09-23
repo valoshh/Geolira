@@ -1,7 +1,7 @@
 {
   "country": "Inde",
   "iso3": "IND",
-  "generatedAt": "2026-09-22T15:42:48.382Z",
+  "generatedAt": "2026-09-22T15:41:26.468Z",
   "adm1Count": 36,
   "status": "partial",
   "coverage": 0.826,
@@ -17,19 +17,51 @@
   },
   "errors": [],
   "warnings": [
-    "Arunachal Pradesh: voisins Wikidata hors ADM1 importé ignorés (Q140646, Q847289).",
-    "Bengale-Occidental: voisins Wikidata hors ADM1 importé ignorés (Q379382, Q876023, Q501696).",
-    "Assam: voisins Wikidata hors ADM1 importé ignorés (Q459732, Q917).",
-    "Uttarakhand: voisins Wikidata hors ADM1 importé ignorés (Q28235, Q17269, Q25104019, Q25104017).",
-    "Manipur: voisins Wikidata hors ADM1 importé ignorés (Q46910).",
-    "Mizoram: voisins Wikidata hors ADM1 importé ignorés (Q902, Q836).",
-    "Tripura: voisins Wikidata hors ADM1 importé ignorés (Q459732, Q158087).",
-    "Meghalaya: voisins Wikidata hors ADM1 importé ignorés (Q459732).",
-    "Pendjab: voisins Wikidata hors ADM1 importé ignorés (Q4478).",
-    "Rajasthan: voisins Wikidata hors ADM1 importé ignorés (Q37211, Q4478).",
-    "Gujarat: voisins Wikidata hors ADM1 importé ignorés (Q46107, Q66710, Q37211).",
-    "Himachal Pradesh: voisins Wikidata hors ADM1 importé ignorés (Q17269).",
-    "Bihar: voisins Wikidata hors ADM1 importé ignorés (Q28576, Q28579).",
-    "Maharashtra: voisins Wikidata hors ADM1 importé ignorés (Q46107)."
+    "[WARN_EXTERNAL_NEIGHBOR] Arunachal Pradesh: voisins Wikidata hors ADM1 importé ignorés (Q140646, Q847289).",
+    "[WARN_EXTERNAL_NEIGHBOR] Bengale-Occidental: voisins Wikidata hors ADM1 importé ignorés (Q379382, Q876023, Q501696).",
+    "[WARN_EXTERNAL_NEIGHBOR] Assam: voisins Wikidata hors ADM1 importé ignorés (Q459732, Q917).",
+    "[WARN_EXTERNAL_NEIGHBOR] Uttarakhand: voisins Wikidata hors ADM1 importé ignorés (Q28235, Q17269, Q25104019, Q25104017).",
+    "[WARN_EXTERNAL_NEIGHBOR] Manipur: voisins Wikidata hors ADM1 importé ignorés (Q46910).",
+    "[WARN_EXTERNAL_NEIGHBOR] Mizoram: voisins Wikidata hors ADM1 importé ignorés (Q902, Q836).",
+    "[WARN_EXTERNAL_NEIGHBOR] Tripura: voisins Wikidata hors ADM1 importé ignorés (Q459732, Q158087).",
+    "[WARN_EXTERNAL_NEIGHBOR] Meghalaya: voisins Wikidata hors ADM1 importé ignorés (Q459732).",
+    "[WARN_EXTERNAL_NEIGHBOR] Pendjab: voisins Wikidata hors ADM1 importé ignorés (Q4478).",
+    "[WARN_EXTERNAL_NEIGHBOR] Rajasthan: voisins Wikidata hors ADM1 importé ignorés (Q37211, Q4478).",
+    "[WARN_EXTERNAL_NEIGHBOR] Gujarat: voisins Wikidata hors ADM1 importé ignorés (Q46107, Q66710, Q37211).",
+    "[WARN_EXTERNAL_NEIGHBOR] Himachal Pradesh: voisins Wikidata hors ADM1 importé ignorés (Q17269).",
+    "[WARN_EXTERNAL_NEIGHBOR] Bihar: voisins Wikidata hors ADM1 importé ignorés (Q28576, Q28579).",
+    "[WARN_EXTERNAL_NEIGHBOR] Maharashtra: voisins Wikidata hors ADM1 importé ignorés (Q46107).",
+    "[WARN_SOURCE_FALLBACK] Delhi: Q1353 complète les faits absents de Q9357528.",
+    "[WARN_SOURCE_FALLBACK] Chandigarh: Q43433 complète les faits absents de Q120971341.",
+    "[WARN_LOW_CITY_COVERAGE] Villes principales: 24/36 ADM1 avec au moins deux villes.",
+    "[WARN_LOW_RELIEF_COVERAGE] Points culminants: 6/36 ADM1.",
+    "[WARN_LOW_HYDROGRAPHY_COVERAGE] Hydrographie: 28/36 ADM1."
+  ],
+  "warningSummary": [
+    {
+      "code": "WARN_EXTERNAL_NEIGHBOR",
+      "category": "external-relation",
+      "count": 14
+    },
+    {
+      "code": "WARN_LOW_CITY_COVERAGE",
+      "category": "missing-data",
+      "count": 1
+    },
+    {
+      "code": "WARN_LOW_HYDROGRAPHY_COVERAGE",
+      "category": "missing-data",
+      "count": 1
+    },
+    {
+      "code": "WARN_LOW_RELIEF_COVERAGE",
+      "category": "missing-data",
+      "count": 1
+    },
+    {
+      "code": "WARN_SOURCE_FALLBACK",
+      "category": "source-ambiguity",
+      "count": 2
+    }
   ]
 }
