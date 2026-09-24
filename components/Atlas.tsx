@@ -160,7 +160,9 @@ export default function Atlas({
   }
 
   return (
-    <main className={`atlas ${country ? "territory-atlas" : "world-atlas"}`}>
+    <main
+      className={`atlas ${country ? "territory-atlas" : "world-atlas"} ${division ? "division-atlas" : ""}`}
+    >
       <header className="topbar">
         <Link
           className="brand"
@@ -420,87 +422,93 @@ export default function Atlas({
             </section>
           )}
 
-          {division && (
-            <section className="editorial-section cities-section">
-              <SectionLabel
-                number="02"
-                title="Villes"
-                note={`${cities.length} villes principales`}
-              />
-              <div className="editorial-city-list">
-                {cities.length ? (
-                  cities.map((city, index) => (
-                    <div key={city.id}>
-                      <span>{String(index + 1).padStart(2, "0")}</span>
-                      <strong>{city.name}</strong>
-                      <small>
-                        {city.roles?.includes("regional-capital")
-                          ? "Capitale régionale"
-                          : "Ville principale"}
-                      </small>
-                      <p>
-                        {city.population
-                          ? `${formatNumber(city.population)} hab.`
-                          : "Population non documentée"}
-                      </p>
-                    </div>
-                  ))
-                ) : (
-                  <p className="empty-data">
-                    Aucune donnée disponible à ce jour
-                  </p>
-                )}
-              </div>
-            </section>
-          )}
-
-          {country.pilot && (
-            <section className="editorial-section geography-section">
-              <SectionLabel
-                number="03"
-                title="Géographie"
-                note="Relief et hydrographie"
-              />
-              <div className="geography-grid">
-                <div className="geography-block relief-block">
-                  <Mountain size={20} strokeWidth={1.35} />
-                  <p className="overline">RELIEF</p>
-                  {territory?.highestPoint?.name ? (
-                    <h3>{territory.highestPoint.name}</h3>
-                  ) : (
-                    <p className="empty-data">Information non disponible</p>
-                  )}
-                  {territory?.highestPoint?.elevationMeters != null && (
-                    <strong>
-                      {formatNumber(territory.highestPoint.elevationMeters)}
-                      <small> m</small>
-                    </strong>
-                  )}
-                  {territory?.mountainRange && <p>{territory.mountainRange}</p>}
-                </div>
-                <div className="geography-block water-block">
-                  <Waves size={20} strokeWidth={1.35} />
-                  <p className="overline">HYDROGRAPHIE</p>
-                  {rivers?.length ? (
-                    <ul>
-                      {rivers.map((river) => (
-                        <li key={river.id}>{river.name}</li>
-                      ))}
-                    </ul>
+          <div
+            className={division ? "region-detail-grid" : "region-detail-flow"}
+          >
+            {division && (
+              <section className="editorial-section cities-section">
+                <SectionLabel
+                  number="02"
+                  title="Villes"
+                  note={`${cities.length} villes principales`}
+                />
+                <div className="editorial-city-list">
+                  {cities.length ? (
+                    cities.map((city, index) => (
+                      <div key={city.id}>
+                        <span>{String(index + 1).padStart(2, "0")}</span>
+                        <strong>{city.name}</strong>
+                        <small>
+                          {city.roles?.includes("regional-capital")
+                            ? "Capitale régionale"
+                            : "Ville principale"}
+                        </small>
+                        <p>
+                          {city.population
+                            ? `${formatNumber(city.population)} hab.`
+                            : "Population non documentée"}
+                        </p>
+                      </div>
+                    ))
                   ) : (
                     <p className="empty-data">
                       Aucune donnée disponible à ce jour
                     </p>
                   )}
-                  {!!territory?.lakes?.length && (
-                    <p className="lake-note">
-                      Lacs · {territory.lakes.join(", ")}
-                    </p>
-                  )}
                 </div>
-              </div>
-            </section>
-          )}
+              </section>
+            )}
+
+            {country.pilot && (
+              <section className="editorial-section geography-section">
+                <SectionLabel
+                  number="03"
+                  title="Géographie"
+                  note="Relief et hydrographie"
+                />
+                <div className="geography-grid">
+                  <div className="geography-block relief-block">
+                    <Mountain size={20} strokeWidth={1.35} />
+                    <p className="overline">RELIEF</p>
+                    {territory?.highestPoint?.name ? (
+                      <h3>{territory.highestPoint.name}</h3>
+                    ) : (
+                      <p className="empty-data">Information non disponible</p>
+                    )}
+                    {territory?.highestPoint?.elevationMeters != null && (
+                      <strong>
+                        {formatNumber(territory.highestPoint.elevationMeters)}
+                        <small> m</small>
+                      </strong>
+                    )}
+                    {territory?.mountainRange && (
+                      <p>{territory.mountainRange}</p>
+                    )}
+                  </div>
+                  <div className="geography-block water-block">
+                    <Waves size={20} strokeWidth={1.35} />
+                    <p className="overline">HYDROGRAPHIE</p>
+                    {rivers?.length ? (
+                      <ul>
+                        {rivers.map((river) => (
+                          <li key={river.id}>{river.name}</li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p className="empty-data">
+                        Aucune donnée disponible à ce jour
+                      </p>
+                    )}
+                    {!!territory?.lakes?.length && (
+                      <p className="lake-note">
+                        Lacs · {territory.lakes.join(", ")}
+                      </p>
+                    )}
+                  </div>
+                </div>
+              </section>
+            )}
+          </div>
 
           {!!neighbors?.length && (
             <section className="editorial-section neighbors-section">

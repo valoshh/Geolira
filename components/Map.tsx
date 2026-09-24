@@ -4,11 +4,43 @@ import * as maplibregl from "maplibre-gl";
 import type { GeoJSONSource, Map as MapInstance } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { Minus, Plus, LocateFixed, Compass, RotateCcw } from "lucide-react";
-import type { FeatureCollection } from "geojson";
+import type { FeatureCollection, LineString } from "geojson";
 import type { Country, AdministrativeDivision, City } from "@/types/geography";
 import { loadJson } from "@/lib/geography";
 maplibregl.setWorkerUrl("/maplibre/maplibre-gl-worker.mjs");
 const EMPTY: FeatureCollection = { type: "FeatureCollection", features: [] };
+const longitudeLines = Array.from(
+  { length: 17 },
+  (_, index) => -160 + index * 20,
+);
+const latitudeLines = Array.from({ length: 8 }, (_, index) => -60 + index * 20);
+const GRATICULE: FeatureCollection<LineString> = {
+  type: "FeatureCollection",
+  features: [
+    ...longitudeLines.map((longitude) => ({
+      type: "Feature" as const,
+      properties: { major: false },
+      geometry: {
+        type: "LineString" as const,
+        coordinates: Array.from({ length: 81 }, (_, index) => [
+          longitude,
+          -80 + index * 2,
+        ]),
+      },
+    })),
+    ...latitudeLines.map((latitude) => ({
+      type: "Feature" as const,
+      properties: { major: latitude === 0 },
+      geometry: {
+        type: "LineString" as const,
+        coordinates: Array.from({ length: 181 }, (_, index) => [
+          -180 + index * 2,
+          latitude,
+        ]),
+      },
+    })),
+  ],
+};
 export default function AtlasMap({
   countries,
   country,
@@ -96,6 +128,42 @@ export default function AtlasMap({
           promoteId: "id",
           attribution: "© Natural Earth · Domaine public",
         });
+        instance.addSource("graticule", {
+          type: "geojson",
+          data: GRATICULE,
+        });
+        instance.addLayer({
+          id: "graticule",
+          type: "line",
+          source: "graticule",
+          paint: {
+            "line-color": "#637f83",
+            "line-opacity": 0.26,
+            "line-width": 0.55,
+          },
+        });
+        instance.addLayer({
+          id: "equator",
+          type: "line",
+          source: "graticule",
+          filter: ["==", ["get", "major"], true],
+          paint: {
+            "line-color": "#4f7076",
+            "line-opacity": 0.38,
+            "line-width": 0.85,
+          },
+        });
+        instance.addLayer({
+          id: "country-shore-shadow",
+          type: "line",
+          source: "world",
+          paint: {
+            "line-color": "#526e72",
+            "line-opacity": 0.42,
+            "line-blur": 0.5,
+            "line-width": ["interpolate", ["linear"], ["zoom"], 0, 2.4, 5, 3.2],
+          },
+        });
         instance.addLayer({
           id: "countries",
           type: "fill",
@@ -129,8 +197,8 @@ export default function AtlasMap({
           source: "world",
           paint: {
             "line-color": "#eee8da",
-            "line-opacity": 0.8,
-            "line-width": ["interpolate", ["linear"], ["zoom"], 0, 1.2, 5, 2],
+            "line-opacity": 0.72,
+            "line-width": ["interpolate", ["linear"], ["zoom"], 0, 0.8, 5, 1.3],
           },
         });
         instance.addLayer({
@@ -370,7 +438,7 @@ export default function AtlasMap({
     };
   }, [ready, countries, country]);
   return (
-    <div className="map-shell">
+    <div className={`map-shell${country ? "" : " map-shell-world"}`}>
       <div
         ref={container}
         className="map-canvas"

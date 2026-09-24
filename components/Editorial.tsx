@@ -34,10 +34,15 @@ function Fact({
   return (
     <div className={`key-fact ${accent ? "key-fact-accent" : ""}`}>
       <dt>{label}</dt>
-      <dd className={value == null ? "missing" : ""}>
-        {typeof value === "number"
-          ? formatNumber(value)
-          : (value ?? "Information non disponible")}
+      <dd
+        className={value == null ? "missing" : ""}
+        aria-label={value == null ? "Information non disponible" : undefined}
+      >
+        {value == null
+          ? "—"
+          : typeof value === "number"
+            ? formatNumber(value)
+            : value}
         {value != null && unit && <small>{unit}</small>}
       </dd>
     </div>
