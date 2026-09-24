@@ -19,6 +19,7 @@ import Search from "./Search";
 import Learn from "./Learn";
 import Compare from "./Compare";
 import City from "./City";
+import TerritoryPreview from "./TerritoryPreview";
 import { KeyFacts, SectionLabel, Sources } from "./Editorial";
 import {
   flag,
@@ -74,6 +75,14 @@ export default function Atlas({
   const [retry, setRetry] = useState(0);
   const [copied, setCopied] = useState(false);
   const [directory, setDirectory] = useState(false);
+  const [preview, setPreview] = useState<{
+    country: Country;
+    division?: AdministrativeDivision;
+  } | null>(null);
+  const [previewLoaded, setPreviewLoaded] = useState<{
+    id: string;
+    data?: CountryData;
+  } | null>(null);
   let data: CountryData | undefined;
   if (loaded !== null && loaded.id === country?.id) {
     data = loaded.data;
@@ -81,6 +90,20 @@ export default function Atlas({
   const division = data?.divisions.find((item) => item.slug === segments[2]);
   const territory = division ?? country;
   const pending = Boolean(country?.pilot && !data && !dataError);
+  const previewData =
+    preview?.country.id === country?.id && data
+      ? data
+      : previewLoaded?.id === preview?.country.id
+        ? previewLoaded.data
+        : undefined;
+  const mapCountry = preview?.country ?? country;
+  const mapDivision = preview ? preview.division : division;
+  const mapData = preview ? previewData : data;
+  const mapCities = mapDivision
+    ? (mapData?.cities.filter((city) =>
+        mapDivision.cityIds?.includes(city.id),
+      ) ?? EMPTY_CITIES)
+    : EMPTY_CITIES;
 
   useEffect(() => {
     let cancelled = false;
@@ -98,20 +121,40 @@ export default function Atlas({
     };
   }, [country?.id, country?.pilot, retry]);
 
+  useEffect(() => {
+    let cancelled = false;
+    const previewCountry = preview?.country;
+    if (!previewCountry?.pilot || (previewCountry.id === country?.id && data))
+      return;
+    loadJson<CountryData>(`/data/${previewCountry.id}.json`)
+      .then((value) => {
+        if (!cancelled)
+          setPreviewLoaded({ id: previewCountry.id, data: value });
+      })
+      .catch(() => {
+        if (!cancelled) setPreviewLoaded({ id: previewCountry.id });
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [country?.id, data, preview?.country]);
+
   function navigate(href: string) {
     router.push(href);
     setDirectory(false);
+    setPreview(null);
     window.scrollTo({ top: 0, behavior: "instant" });
   }
 
   function select(id: string, kind: "country" | "division") {
     if (kind === "country") {
       const selected = countries.find((item) => item.id === id);
-      if (selected) navigate(territoryHref(selected));
+      if (selected) setPreview({ country: selected });
       return;
     }
-    const selected = data?.divisions.find((item) => item.id === id);
-    if (selected && country) navigate(territoryHref(country, selected));
+    const selected = mapData?.divisions.find((item) => item.id === id);
+    if (selected && mapCountry)
+      setPreview({ country: mapCountry, division: selected });
   }
 
   const cities = useMemo(
@@ -181,7 +224,7 @@ export default function Atlas({
         </Link>
         <Search entries={searchIndex} onNavigate={navigate} />
         <div className="header-end">
-          <span className="edition">ÉDITION 03.3.1</span>
+          <span className="edition">ÉDITION 03.3.2</span>
           <button
             className="world-button"
             aria-label="Revenir au monde"
@@ -223,10 +266,13 @@ export default function Atlas({
         <section className="world-stage" aria-label="Explorer le monde">
           <AtlasMap
             countries={countries}
-            cities={EMPTY_CITIES}
+            country={mapCountry}
+            division={mapDivision}
+            cities={mapCities}
             onSelect={select}
             onWorld={() => navigate("/")}
-            resizeKey={false}
+            resizeKey={Boolean(mapDivision)}
+            worldMode
           />
           <aside className="world-index">
             <div className="world-intro">
@@ -257,7 +303,7 @@ export default function Atlas({
               {pilots.map((item, index) => (
                 <button
                   key={item.id}
-                  onClick={() => navigate(territoryHref(item))}
+                  onClick={() => setPreview({ country: item })}
                 >
                   <span>{String(index + 1).padStart(2, "0")}</span>
                   <strong>{item.names.fr}</strong>
@@ -278,7 +324,10 @@ export default function Atlas({
                 {countries.map((item) => (
                   <button
                     key={item.id}
-                    onClick={() => navigate(territoryHref(item))}
+                    onClick={() => {
+                      setPreview({ country: item });
+                      setDirectory(false);
+                    }}
                   >
                     <span>{flag(item.iso2)}</span>
                     {item.names.fr}
@@ -306,22 +355,31 @@ export default function Atlas({
               </span>
             </div>
             <div className="territory-title-row">
-              <div>
-                <p className="overline">
-                  {division
-                    ? `${country.names.fr} · ${division.administrativeType}`
-                    : `${country.continent} · ${country.administrativeType ?? "Territoire"}`}
-                </p>
-                <h1>
-                  {segments[2] && !division && pending
-                    ? "Chargement…"
-                    : territory?.names.fr}
-                </h1>
-                {territory?.names.local &&
-                  normalize(territory.names.local) !==
-                    normalize(territory.names.fr) && (
-                    <p className="local-name">{territory.names.local}</p>
-                  )}
+              <div className="territory-identity">
+                <span
+                  className="territory-flag"
+                  role="img"
+                  aria-label={`Drapeau de ${country.names.fr}`}
+                >
+                  {flag(country.iso2)}
+                </span>
+                <div>
+                  <p className="overline">
+                    {division
+                      ? `${country.names.fr} · ${division.administrativeType}`
+                      : `${country.continent} · ${country.administrativeType ?? "Territoire"}`}
+                  </p>
+                  <h1>
+                    {segments[2] && !division && pending
+                      ? "Chargement…"
+                      : territory?.names.fr}
+                  </h1>
+                  {territory?.names.local &&
+                    normalize(territory.names.local) !==
+                      normalize(territory.names.fr) && (
+                      <p className="local-name">{territory.names.local}</p>
+                    )}
+                </div>
               </div>
               <div className="territory-reference">
                 <span>{coordinates(territory?.bounds)}</span>
@@ -363,9 +421,9 @@ export default function Atlas({
             <div className="territory-map-frame">
               <AtlasMap
                 countries={countries}
-                country={country}
-                division={division}
-                cities={cities}
+                country={mapCountry}
+                division={mapDivision}
+                cities={preview ? mapCities : cities}
                 onSelect={select}
                 onWorld={() => navigate("/")}
                 resizeKey={Boolean(division)}
@@ -554,9 +612,33 @@ export default function Atlas({
         </article>
       )}
 
+      {preview && (
+        <TerritoryPreview
+          country={preview.country}
+          division={preview.division}
+          countries={countries}
+          data={previewData}
+          loading={Boolean(
+            preview.country.pilot &&
+            !previewData &&
+            previewLoaded?.id !== preview.country.id,
+          )}
+          onClose={() => setPreview(null)}
+          onOpenFull={() =>
+            navigate(territoryHref(preview.country, preview.division))
+          }
+          onSelect={(selectedCountry, selectedDivision) =>
+            setPreview({
+              country: selectedCountry,
+              division: selectedDivision,
+            })
+          }
+        />
+      )}
+
       <footer className="statusbar">
         <span>
-          <i /> GEOLIRA · ÉDITION 03.3.1
+          <i /> GEOLIRA · ÉDITION 03.3.2
         </span>
         <span>Natural Earth · geoBoundaries · Wikidata</span>
         <span>ATLAS DU MONDE</span>

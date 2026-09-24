@@ -13,7 +13,7 @@ const longitudeLines = Array.from(
   { length: 17 },
   (_, index) => -160 + index * 20,
 );
-const latitudeLines = Array.from({ length: 8 }, (_, index) => -60 + index * 20);
+const latitudeLines = Array.from({ length: 7 }, (_, index) => -40 + index * 20);
 const GRATICULE: FeatureCollection<LineString> = {
   type: "FeatureCollection",
   features: [
@@ -22,9 +22,9 @@ const GRATICULE: FeatureCollection<LineString> = {
       properties: { major: false },
       geometry: {
         type: "LineString" as const,
-        coordinates: Array.from({ length: 81 }, (_, index) => [
+        coordinates: Array.from({ length: 68 }, (_, index) => [
           longitude,
-          -80 + index * 2,
+          -54 + index * 2,
         ]),
       },
     })),
@@ -49,6 +49,7 @@ export default function AtlasMap({
   onSelect,
   onWorld,
   resizeKey,
+  worldMode = false,
 }: {
   countries: Country[];
   country?: Country;
@@ -57,6 +58,7 @@ export default function AtlasMap({
   onSelect: (id: string, kind: "country" | "division") => void;
   onWorld: () => void;
   resizeKey: boolean;
+  worldMode?: boolean;
 }) {
   const container = useRef<HTMLDivElement>(null);
   const map = useRef<MapInstance | null>(null);
@@ -157,6 +159,7 @@ export default function AtlasMap({
           id: "country-shore-shadow",
           type: "line",
           source: "world",
+          filter: ["!=", ["get", "id"], "ATA"],
           paint: {
             "line-color": "#526e72",
             "line-opacity": 0.42,
@@ -195,6 +198,7 @@ export default function AtlasMap({
           id: "country-coast-casing",
           type: "line",
           source: "world",
+          filter: ["!=", ["get", "id"], "ATA"],
           paint: {
             "line-color": "#eee8da",
             "line-opacity": 0.72,
@@ -205,6 +209,7 @@ export default function AtlasMap({
           id: "country-lines",
           type: "line",
           source: "world",
+          filter: ["!=", ["get", "id"], "ATA"],
           paint: {
             "line-color": "#65645d",
             "line-opacity": 0.82,
@@ -329,9 +334,18 @@ export default function AtlasMap({
     const source = instance.getSource("divisions") as GeoJSONSource | undefined;
     if (!source || !instance.getLayer("country-selected")) return;
     source.setData(EMPTY);
-    for (const layer of ["country-selected-fill", "country-selected"])
-      if (instance.getLayer(layer))
-        instance.setFilter(layer, ["==", ["get", "id"], country?.id ?? ""]);
+    if (instance.getLayer("country-selected-fill"))
+      instance.setFilter("country-selected-fill", [
+        "==",
+        ["get", "id"],
+        country?.id ?? "",
+      ]);
+    if (instance.getLayer("country-selected"))
+      instance.setFilter("country-selected", [
+        "all",
+        ["==", ["get", "id"], country?.id ?? ""],
+        ["!=", ["get", "id"], "ATA"],
+      ]);
     if (!country?.pilot) return;
     setLoading(true);
     loadJson<FeatureCollection>(`/geo/${country.id}.json`)
@@ -397,13 +411,29 @@ export default function AtlasMap({
     if (!ready || !map.current || country) return;
     const instance = map.current;
     const labels = [...countries]
-      .filter((c) => c.population && c.population > 15000000 && c.id !== "ATA")
+      .filter((c) => c.id !== "ATA")
       .sort((a, b) => (b.population ?? 0) - (a.population ?? 0))
       .map((c) => {
         const el = document.createElement("span");
-        el.className = `country-label${
-          (c.population ?? 0) > 50000000 ? " country-label-major" : ""
-        }`;
+        const population = c.population ?? 0;
+        const priority =
+          population > 50000000
+            ? "major"
+            : population > 10000000
+              ? "medium"
+              : population > 1000000
+                ? "minor"
+                : "micro";
+        const minZoom =
+          priority === "major"
+            ? 0
+            : priority === "medium"
+              ? 1.35
+              : priority === "minor"
+                ? 2.7
+                : 4.2;
+        el.className = `country-label country-label-${priority}`;
+        el.dataset.minZoom = String(minZoom);
         el.textContent = c.names.fr;
         el.setAttribute("aria-hidden", "true");
         const b = c.bounds;
@@ -413,8 +443,13 @@ export default function AtlasMap({
       });
     const placeLabels = () => {
       const occupied: DOMRect[] = [];
+      const zoom = instance.getZoom();
       for (const marker of labels) {
         const el = marker.getElement();
+        if (zoom < Number(el.dataset.minZoom ?? 0)) {
+          el.style.visibility = "hidden";
+          continue;
+        }
         const rect = el.getBoundingClientRect();
         const overlaps = occupied.some(
           (r) =>
@@ -438,7 +473,9 @@ export default function AtlasMap({
     };
   }, [ready, countries, country]);
   return (
-    <div className={`map-shell${country ? "" : " map-shell-world"}`}>
+    <div
+      className={`map-shell${worldMode || !country ? " map-shell-world" : ""}`}
+    >
       <div
         ref={container}
         className="map-canvas"

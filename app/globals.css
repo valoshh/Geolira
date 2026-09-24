@@ -1500,6 +1500,262 @@ p {
   }
 }
 
+/* V3.3.2 — map-first navigation and typographic labels */
+.territory-identity {
+  display: flex;
+  align-items: flex-start;
+  gap: clamp(14px, 2vw, 24px);
+}
+.territory-flag {
+  margin-top: 7px;
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
+  font-size: clamp(24px, 2.4vw, 34px);
+  line-height: 1;
+  filter: saturate(0.82) contrast(0.96);
+}
+
+.country-label {
+  color: #343b38;
+  font-family: var(--sans);
+  font-size: 8px;
+  font-weight: 650;
+  letter-spacing: 0.12em;
+  line-height: 1;
+  text-shadow:
+    -1px -1px 0 #f1ecdf,
+    1px -1px 0 #f1ecdf,
+    -1px 1px 0 #f1ecdf,
+    1px 1px 0 #f1ecdf,
+    0 0 5px #f1ecdfee;
+  text-transform: uppercase;
+}
+.country-label-major {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+}
+.country-label-medium {
+  font-size: 9px;
+}
+.country-label-minor {
+  color: #4c514c;
+  font-size: 8px;
+  letter-spacing: 0.1em;
+}
+.country-label-micro {
+  color: #5a5d57;
+  font-size: 7.5px;
+  letter-spacing: 0.08em;
+}
+
+.territory-preview {
+  position: fixed;
+  top: 132px;
+  right: 24px;
+  z-index: 70;
+  width: min(400px, calc(100vw - 48px));
+  max-height: calc(100dvh - 182px);
+  overflow-y: auto;
+  color: var(--ink);
+  background: #f6f2e9f5;
+  border: 1px solid var(--ink);
+  box-shadow: 14px 16px 0 #25231f24;
+  backdrop-filter: blur(7px);
+  scrollbar-width: thin;
+  scrollbar-color: var(--line) transparent;
+}
+.world-atlas .territory-preview {
+  right: calc(clamp(310px, 22vw, 360px) + 24px);
+}
+.preview-head {
+  display: grid;
+  grid-template-columns: 45px minmax(0, 1fr) 28px;
+  align-items: start;
+  gap: 12px;
+  padding: 20px 20px 17px;
+  border-bottom: 3px solid var(--ink);
+}
+.preview-flag {
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
+  font-size: 30px;
+  line-height: 1;
+  filter: saturate(0.82) contrast(0.96);
+}
+.preview-head p,
+.preview-label,
+.preview-neighbors > span {
+  color: var(--muted);
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+.preview-head h2 {
+  margin-top: 5px;
+  font: 500 28px/0.98 var(--serif);
+  letter-spacing: -0.035em;
+}
+.preview-head > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border: 1px solid var(--line);
+}
+.preview-facts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+  border-bottom: 1px solid var(--ink);
+}
+.preview-facts > div {
+  min-width: 0;
+  min-height: 76px;
+  padding: 13px 15px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.preview-facts > div:nth-child(2n) {
+  border-right: 0;
+}
+.preview-facts > div:nth-child(n + 3) {
+  border-bottom: 0;
+}
+.preview-facts dt {
+  margin-bottom: 9px;
+  color: var(--muted);
+  font-size: 8px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.preview-facts dd {
+  margin: 0;
+  font: 600 18px/1.1 var(--serif);
+  overflow-wrap: anywhere;
+}
+.preview-document {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.preview-document section {
+  min-height: 92px;
+  padding: 14px 16px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.preview-document section:first-child {
+  grid-column: 1 / -1;
+  min-height: 0;
+  border-right: 0;
+}
+.preview-document section:last-child {
+  border-right: 0;
+}
+.preview-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.preview-document ol {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin: 11px 0 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: cities;
+}
+.preview-document li {
+  counter-increment: cities;
+  font: 500 13px/1.25 var(--serif);
+}
+.preview-document li:before {
+  content: "0" counter(cities) " ";
+  color: var(--accent);
+  font: 8px var(--sans);
+}
+.preview-document strong {
+  display: block;
+  margin-top: 10px;
+  font: 500 16px/1.15 var(--serif);
+}
+.preview-document small {
+  display: block;
+  margin-top: 5px;
+  color: var(--accent);
+  font-size: 9px;
+}
+.preview-missing {
+  margin-top: 10px;
+  color: #9a9489;
+  font: 16px var(--serif);
+}
+.preview-neighbors {
+  padding: 14px 16px 16px;
+  border-bottom: 1px solid var(--line);
+}
+.preview-neighbors > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 12px;
+  margin-top: 10px;
+}
+.preview-neighbors button {
+  padding-bottom: 2px;
+  border-bottom: 1px solid var(--line);
+  font: 500 12px var(--serif);
+}
+.preview-full {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px 16px;
+  background: var(--ink);
+  color: var(--paper-light);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.preview-full:hover {
+  color: #fff;
+  background: #37352f;
+}
+
+@media (max-width: 980px) {
+  .world-atlas .territory-preview {
+    right: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .territory-identity {
+    gap: 11px;
+  }
+  .territory-flag {
+    margin-top: 4px;
+    font-size: 22px;
+  }
+  .territory-preview,
+  .world-atlas .territory-preview {
+    top: auto;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    width: auto;
+    max-height: 72dvh;
+    box-shadow: 8px 8px 0 #25231f24;
+  }
+  .preview-head {
+    padding: 16px;
+  }
+  .preview-document ol {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *:before,
@@ -3113,4 +3369,39 @@ p {
   .region-detail-grid .geography-block:first-child {
     border-bottom: 1px solid var(--line);
   }
+}
+
+/* V3.3.2 label precedence over the V3.3 cartographic defaults. */
+.country-label {
+  color: #343b38;
+  font-family: var(--sans);
+  font-size: 8px;
+  font-weight: 650;
+  letter-spacing: 0.12em;
+  line-height: 1;
+  text-shadow:
+    -1px -1px 0 #f1ecdf,
+    1px -1px 0 #f1ecdf,
+    -1px 1px 0 #f1ecdf,
+    1px 1px 0 #f1ecdf,
+    0 0 5px #f1ecdfee;
+  text-transform: uppercase;
+}
+.country-label-major {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+}
+.country-label-medium {
+  font-size: 9px;
+}
+.country-label-minor {
+  color: #4c514c;
+  font-size: 8px;
+  letter-spacing: 0.1em;
+}
+.country-label-micro {
+  color: #5a5d57;
+  font-size: 7.5px;
+  letter-spacing: 0.08em;
 }
