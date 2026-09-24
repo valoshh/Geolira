@@ -93,7 +93,7 @@ export default function Atlas({
   const previewData =
     preview?.country.id === country?.id && data
       ? data
-      : previewLoaded?.id === preview?.country.id
+      : previewLoaded !== null && previewLoaded.id === preview?.country.id
         ? previewLoaded.data
         : undefined;
   const mapCountry = preview?.country ?? country;
