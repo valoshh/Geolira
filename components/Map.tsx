@@ -57,11 +57,15 @@ export default function AtlasMap({
             {
               id: "ocean",
               type: "background",
-              paint: { "background-color": "#cbdadd" },
+              paint: { "background-color": "#bdced0" },
             },
           ],
         },
       });
+      instance.addControl(
+        new maplibregl.ScaleControl({ maxWidth: 110, unit: "metric" }),
+        "bottom-right",
+      );
     } catch {
       setError(
         "La carte nécessite WebGL. Vous pouvez continuer à explorer avec la recherche et les listes.",
@@ -100,43 +104,66 @@ export default function AtlasMap({
             "fill-color": [
               "case",
               ["boolean", ["feature-state", "hover"], false],
-              "#d6b9a6",
+              "#d7aa90",
               [
                 "match",
                 ["get", "color"],
                 0,
-                "#d9d4c7",
+                "#d8d0bc",
                 1,
-                "#d2d0c2",
+                "#c7c9b5",
                 2,
-                "#e0dacd",
+                "#ded4bf",
                 3,
-                "#cdd0c0",
-                "#d7d2c6",
+                "#c4cab7",
+                "#d1cab7",
               ],
             ],
             "fill-opacity": 1,
+            "fill-antialias": true,
+          },
+        });
+        instance.addLayer({
+          id: "country-coast-casing",
+          type: "line",
+          source: "world",
+          paint: {
+            "line-color": "#eee8da",
+            "line-opacity": 0.8,
+            "line-width": ["interpolate", ["linear"], ["zoom"], 0, 1.2, 5, 2],
           },
         });
         instance.addLayer({
           id: "country-lines",
           type: "line",
           source: "world",
-          paint: { "line-color": "#77776f", "line-width": 0.65 },
+          paint: {
+            "line-color": "#65645d",
+            "line-opacity": 0.82,
+            "line-width": [
+              "interpolate",
+              ["linear"],
+              ["zoom"],
+              0,
+              0.42,
+              5,
+              0.82,
+            ],
+          },
         });
         instance.addLayer({
           id: "country-selected-fill",
           type: "fill",
           source: "world",
           filter: ["==", ["get", "id"], ""],
-          paint: { "fill-color": "#c47a63", "fill-opacity": 0.58 },
+          paint: { "fill-color": "#b96952", "fill-opacity": 0.62 },
         });
         instance.addLayer({
           id: "country-selected",
           type: "line",
           source: "world",
           filter: ["==", ["get", "id"], ""],
-          paint: { "line-color": "#8c3529", "line-width": 1.8 },
+          paint: { "line-color": "#77382f", "line-width": 1.9 },
         });
         instance.addSource("divisions", {
           type: "geojson",
@@ -151,10 +178,10 @@ export default function AtlasMap({
             "fill-color": [
               "case",
               ["boolean", ["feature-state", "hover"], false],
-              "#d4aa8d",
-              "#c8ccb7",
+              "#d0a183",
+              "#bec5a9",
             ],
-            "fill-opacity": 0.9,
+            "fill-opacity": 0.82,
           },
         });
         instance.addLayer({
@@ -162,13 +189,18 @@ export default function AtlasMap({
           type: "fill",
           source: "divisions",
           filter: ["==", ["get", "id"], ""],
-          paint: { "fill-color": "#bd5038", "fill-opacity": 0.76 },
+          paint: { "fill-color": "#b9553f", "fill-opacity": 0.74 },
         });
         instance.addLayer({
           id: "division-lines",
           type: "line",
           source: "divisions",
-          paint: { "line-color": "#6f7565", "line-width": 0.8 },
+          paint: {
+            "line-color": "#6c725f",
+            "line-opacity": 0.9,
+            "line-width": 0.72,
+            "line-dasharray": [2.2, 1.4],
+          },
         });
         instance.addLayer({
           id: "division-selected-line",
@@ -275,7 +307,10 @@ export default function AtlasMap({
     if (!ready || !map.current) return;
     const markers = cities.map((city) => {
       const el = document.createElement("button");
-      el.className = "city-marker";
+      const isCapital = city.roles?.some((role) =>
+        ["national-capital", "regional-capital"].includes(role),
+      );
+      el.className = `city-marker${isCapital ? " city-marker-capital" : ""}`;
       el.setAttribute("aria-label", city.name);
       el.textContent = city.name;
       return new maplibregl.Marker({ element: el, anchor: "left" })
@@ -298,7 +333,9 @@ export default function AtlasMap({
       .sort((a, b) => (b.population ?? 0) - (a.population ?? 0))
       .map((c) => {
         const el = document.createElement("span");
-        el.className = "country-label";
+        el.className = `country-label${
+          (c.population ?? 0) > 50000000 ? " country-label-major" : ""
+        }`;
         el.textContent = c.names.fr;
         el.setAttribute("aria-hidden", "true");
         const b = c.bounds;
@@ -313,10 +350,10 @@ export default function AtlasMap({
         const rect = el.getBoundingClientRect();
         const overlaps = occupied.some(
           (r) =>
-            rect.left < r.right + 10 &&
-            rect.right > r.left - 10 &&
-            rect.top < r.bottom + 5 &&
-            rect.bottom > r.top - 5,
+            rect.left < r.right + 14 &&
+            rect.right > r.left - 14 &&
+            rect.top < r.bottom + 7 &&
+            rect.bottom > r.top - 7,
         );
         el.style.visibility = overlaps ? "hidden" : "visible";
         if (!overlaps) occupied.push(rect);
@@ -404,11 +441,20 @@ export default function AtlasMap({
           <span>Cliquer pour explorer</span>
         </div>
       )}
-      <div className="map-legend">
+      <div className={`map-legend${country ? " map-legend-detail" : ""}`}>
         <span className="legend-square" />
-        Frontières politiques
+        {division
+          ? "Région sélectionnée"
+          : country
+            ? "Pays sélectionné"
+            : "Territoires"}
         <span className="legend-line" />
-        Limites administratives
+        {country ? "Limites administratives" : "Frontières nationales"}
+        {!!cities.length && (
+          <>
+            <span className="legend-city" /> Villes principales
+          </>
+        )}
       </div>
       <div className="map-north">
         N<span>↑</span>

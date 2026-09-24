@@ -179,7 +179,7 @@ export default function Atlas({
         </Link>
         <Search entries={searchIndex} onNavigate={navigate} />
         <div className="header-end">
-          <span className="edition">ÉDITION 03.3</span>
+          <span className="edition">ÉDITION 03.3.1</span>
           <button
             className="world-button"
             aria-label="Revenir au monde"
@@ -441,12 +441,14 @@ export default function Atlas({
                       <p>
                         {city.population
                           ? `${formatNumber(city.population)} hab.`
-                          : "Population non disponible"}
+                          : "Population non documentée"}
                       </p>
                     </div>
                   ))
                 ) : (
-                  <p className="empty-data">Donnée non disponible</p>
+                  <p className="empty-data">
+                    Aucune donnée disponible à ce jour
+                  </p>
                 )}
               </div>
             </section>
@@ -463,9 +465,11 @@ export default function Atlas({
                 <div className="geography-block relief-block">
                   <Mountain size={20} strokeWidth={1.35} />
                   <p className="overline">RELIEF</p>
-                  <h3>
-                    {territory?.highestPoint?.name ?? "Donnée non disponible"}
-                  </h3>
+                  {territory?.highestPoint?.name ? (
+                    <h3>{territory.highestPoint.name}</h3>
+                  ) : (
+                    <p className="empty-data">Information non disponible</p>
+                  )}
                   {territory?.highestPoint?.elevationMeters != null && (
                     <strong>
                       {formatNumber(territory.highestPoint.elevationMeters)}
@@ -484,7 +488,9 @@ export default function Atlas({
                       ))}
                     </ul>
                   ) : (
-                    <p className="empty-data">Donnée non disponible</p>
+                    <p className="empty-data">
+                      Aucune donnée disponible à ce jour
+                    </p>
                   )}
                   {!!territory?.lakes?.length && (
                     <p className="lake-note">
@@ -542,7 +548,7 @@ export default function Atlas({
 
       <footer className="statusbar">
         <span>
-          <i /> GEOLIRA · ÉDITION 03.3
+          <i /> GEOLIRA · ÉDITION 03.3.1
         </span>
         <span>Natural Earth · geoBoundaries · Wikidata</span>
         <span>ATLAS DU MONDE</span>

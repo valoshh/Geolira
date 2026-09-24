@@ -37,7 +37,7 @@ function Fact({
       <dd className={value == null ? "missing" : ""}>
         {typeof value === "number"
           ? formatNumber(value)
-          : (value ?? "Non disponible")}
+          : (value ?? "Information non disponible")}
         {value != null && unit && <small>{unit}</small>}
       </dd>
     </div>
@@ -56,7 +56,9 @@ export function KeyFacts({
       ? territory.population / territory.areaKm2
       : undefined;
   return (
-    <dl className="key-facts">
+    <dl
+      className={`key-facts ${divisionCount == null ? "key-facts-compact" : ""}`}
+    >
       <Fact label="Capitale" value={territory.capital} accent />
       <Fact label="Population" value={territory.population} />
       <Fact label="Superficie" value={territory.areaKm2} unit="km²" />
